@@ -1,0 +1,15 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// GLOBAL-> SYSTEM PRESET [COMMODORE64]
+
+// REFERENCE TO PACK-WIDE GLOBAL PRESET
+#reference "../default.slangp"
+
+// CROP/OVERSCAN RESET
+// Core automatic crop/overscan/centering does a better job
+HSM_CROP_OVERSCAN_TOP = "0.000000"
+HSM_CROP_OVERSCAN_BOTTOM = "0.000000"
+HSM_CROP_OVERSCAN_LEFT = "0.000000"
+HSM_CROP_OVERSCAN_RIGHT = "0.000000"

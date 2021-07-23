@@ -1,0 +1,80 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// GLOBAL PRESET | BASIC
+
+// REFERENCE TO HSM_MEGA_BEZEL shader
+#reference ":/shaders/shaders_slang/bezel/Mega_Bezel/Presets/MBZ__3__BASIC-REFLECT.slangp"
+
+
+// TEXTURE IMAGES 
+//-------------------------------------------------------------
+
+// BG IMG | WALLPAPER diffuse texture (default)
+BackgroundImage = "textures/bg.jpg"
+
+// INTRO IMG | Startup animation (default)
+IntroImage = "textures/intro.png"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// INTRO IMG | Startup animation
+// Note: A different texture is applied in [MODEL] presets
+HSM_INTRO_WHEN_TO_SHOW = "1.000000"
+HSM_INTRO_REPEAT_TIME = "240.000000"
+HSM_INTRO_SPEED = "120.000000"
+HSM_INTRO_NOISE_BLEND_MODE = "2.000000"
+HSM_INTRO_SOLID_COLOR_BLEND_MODE = "2.000000"
+HSM_INTRO_LOGO_WAIT = "50.000000"
+HSM_INTRO_LOGO_FADE_IN = "35.000000"
+HSM_INTRO_LOGO_HOLD = "80.000000"
+HSM_INTRO_LOGO_FADE_OUT = "60.000000"
+HSM_INTRO_SOLID_COLOR_HUE = "30.000000"
+HSM_INTRO_SOLID_COLOR_HOLD = "25.000000"
+HSM_INTRO_SOLID_COLOR_FADE_OUT = "35.000000"
+
+
+// DISPLAY SETTINGS [COMMON]
+//-------------------------------------------------------------
+
+// SIMPLIFIED PROFILE SETTINGS
+HSM_STANDARD_BG_SHOW_OVER_SCREEN = "1.000000"
+USE_IMAGE_FOR_PLACEMENT = "1.000000"
+HSM_SNAP_TO_INT_SCALE_TOLERANCE = "0.010000"
+
+// CURVATURE
+// Note: 2D profile performs way better than 3D profile
+//HSM_CURVATURE_MODE = "-1.000000"
+HSM_CURVATURE_MODE = "0.000000"
+HSM_CURVATURE_2D_SCALE_LONG_AXIS = "70.000000"
+HSM_CURVATURE_2D_SCALE_SHORT_AXIS = "80.000000"
+
+// SCREEN VIGNETTE
+// Note: disabled in BASIC
+HSM_SCREEN_VIGNETTE = "0.000000"
+
+// CROP/OVERSCAN RESET
+// Note: Core automatic crop/overscan/centering does a better job
+HSM_CROP_OVERSCAN_TOP = "0.000000"
+HSM_CROP_OVERSCAN_BOTTOM = "0.000000"
+HSM_CROP_OVERSCAN_LEFT = "0.000000"
+HSM_CROP_OVERSCAN_RIGHT = "0.000000"
+
+
+// POSTPROCESSING & OTHER EFFECTS
+//-------------------------------------------------------------
+
+// DECONVERGENCE
+// Note: disabled in BASIC
+GDV_DECONVERGENCE_ON = "0.000000"
+
+// TV PROCESS GTU
+// Note: disabled in BASIC
+GTU_ON = "0.000000"
+
+// SCALEFX RESAMPLING
+// Note: disabled in BASIC
+HSM_SCALEFX_ON = "0.000000"

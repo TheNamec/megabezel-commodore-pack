@@ -1,0 +1,24 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// MODEL-> DISPLAY MULTILAYER PRESET [c1084s-d1, NIGHT]
+
+// REFERENCE TO DISPLAY PRESET
+#reference "ADV-c1084s-d1[day].slangp"
+
+
+// TEXTURE IMAGES 
+//-------------------------------------------------------------
+
+// CABINETGLASS IMG [NIGHT] | player silhouette reflection on display
+CabinetGlassImage = "../../../_common/textures/TubeGlassOverlayImage_Night_3840x2160.png"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// NIGHTLIGHTNING IMAGE [NIGHT] | Used to turn the lighs on in [NIGHT] presets
+HSM_NIGHT_OPACITY = "100.000000"
+HSM_NIGHT_VALUE = "80.000000"
+HSM_NIGHT_DITHERING_SAMPLES = "10.000000"

@@ -1,0 +1,112 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// GLOBAL PRESET | COMMODORE-PACK COMMON SETTINGS
+
+// REFERENCE TO HSM_MEGA_BEZEL shader, GUEST-DrVENOM preset
+// Note: Futureproof for HSM_MEGA_BEZEL files namechanges
+#reference "../../Mega_Bezel/presets/MBZ__1__ADVANCED.slangp"
+
+
+// TEXTURE IMAGES 
+//-------------------------------------------------------------
+
+// BG IMG | Used for WALLPAPER diffuse texture
+BackgroundImage = "textures/bg.jpg"
+
+// CABINETGLASS IMG [DAY] | Used for player silhouette reflection on display
+CabinetGlassImage = "textures/TubeGlassOverlayImage_3840x2160.png"
+
+// NIGHTLIGHTNING IMAGE | Used to turn the lighs on in [NIGHT] presets
+NightLightingImage = "textures/NightLighting_3840x2160.jpg"
+
+// INTRO IMG | Used for startup animation
+IntroImage = "textures/intro.png"
+
+// DECAL IMG | Used for DISPLAY decoration
+DecalImage = "textures/decal.png"
+
+
+// TEXTURE LAYERS ORDERING
+//-------------------------------------------------------------
+// Note: NightLightningImage is applied on top withour ordering
+
+// BG IMG | Used for WALLPAPER diffuse texture
+HSM_BG_IMG_LAYER_ORDER ="0.000000"
+
+// LED IMG | Used for WALLPAPER lightmap texture
+HSM_LED_LAYER_ORDER = "2.000000"
+
+// BEZEL IMG | Used for DISPLAY diffuse texture
+HSM_BZL_IMG_LAYER_ORDER = "4.000000"
+
+// CABINETGLASS IMG [DAY] | Used for player silhouette reflection on display
+HSM_CAB_GLASS_LAYER_ORDER = "7.000000"
+
+// DECAL IMG | Used for DISPLAY lightmap texture in [DISPLAY_MODEL] presets
+// DECAL IMG | Used for DISPLAY decoration in [MEGA_BEZEL] presets
+HSM_DECAL_LAYER_ORDER = "8.000000"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// LED IMG | Used for WALLPAPER lightmap texture
+HSM_LED_OPACITY = "95.000000"
+HSM_LED_EXPLICIT_TEXTURE_ASPECT = "1.000000"
+
+// CABINETGLASS IMG [DAY] | Used for player silhouette reflection on display
+// Note: A different texture is applied in [NIGHT] presets
+HSM_CAB_GLASS_OPACITY = "5.000000"
+HSM_CAB_GLASS_BRIGHTNESS = "5.000000"
+HSM_CAB_GLASS_BLEND_MODE = "2.000000"
+HSM_CAB_GLASS_MASK_MODE = "1.000000"
+HSM_CAB_GLASS_SCALE_MODE = "3.000000"
+
+// INTRO IMG | Used for startup animation
+// Note: A different texture is applied in [MODEL] presets
+HSM_INTRO_WHEN_TO_SHOW = "1.000000"
+HSM_INTRO_REPEAT_TIME = "240.000000"
+HSM_INTRO_SPEED = "120.000000"
+HSM_INTRO_NOISE_BLEND_MODE = "2.000000"
+HSM_INTRO_LOGO_WAIT = "50.000000"
+HSM_INTRO_LOGO_FADE_IN = "35.000000"
+HSM_INTRO_LOGO_HOLD = "80.000000"
+HSM_INTRO_LOGO_FADE_OUT = "60.000000"
+HSM_INTRO_SOLID_COLOR_BLEND_MODE = "2.000000"
+HSM_INTRO_SOLID_COLOR_HUE = "30.000000"
+HSM_INTRO_SOLID_COLOR_HOLD = "25.000000"
+HSM_INTRO_SOLID_COLOR_FADE_OUT = "35.000000"
+HSM_INTRO_SOLID_BLACK_FADE_OUT = "10.000000"
+
+// DECAL IMG | Used for DISPLAY lightmap texture
+HSM_DECAL_OPACITY = "100.000000"
+HSM_DECAL_BLEND_MODE = "2.000000"
+HSM_DECAL_SCALE_MODE = "4.000000"
+HSM_DECAL_TEXTURE_ASPECT_MODE = "1.000000"
+HSM_DECAL_EXPLICIT_TEXTURE_ASPECT = "1.000000"
+HSM_DECAL_SCALE_KEEP_ASPECT = "0.000000"
+
+// BEZEL IMG | Used for DISPLAY diffuse texture
+HSM_BZL_IMG_OPACITY = "100.000000"
+HSM_BZL_IMG_MASK_MODE = "7.000000"
+HSM_BZL_IMG_CUTOUT_MODE = "0.000000"
+HSM_BZL_IMG_TEXTURE_ASPECT_MODE = "1.000000"
+HSM_BZL_IMG_EXPLICIT_TEXTURE_ASPECT = "1.000000"
+HSM_BZL_IMG_SCALE_MODE = "1.000000"
+HSM_BZL_IMG_SCALE_X = "100.000000"
+
+
+// DISPLAY SETTINGS [COMMON]
+//-------------------------------------------------------------
+
+// CURVATURE
+// Note: 2D profile performs way better than 3D profile
+HSM_CURVATURE_MODE = "0.000000"
+HSM_CURVATURE_2D_SCALE_LONG_AXIS = "100.000000"
+HSM_CURVATURE_2D_SCALE_SHORT_AXIS = "100.000000"
+
+// SCREEN VIGNETTE
+HSM_SCREEN_VIGNETTE = "2.000000"
+HSM_SCREEN_VIGNETTE_IN_REFLECTION = "100.000000"
