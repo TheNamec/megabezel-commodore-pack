@@ -1,0 +1,27 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// GLOBAL PRESET | EXTREME
+
+// REFERENCE TO ADVANCED GLOBAL PRESET
+// EXT EXTENDS ADV BY ADDING POSTPROCESSING EFFECTS
+#reference "ADV_global.slangp"
+
+
+// POSTPROCESSING & OTHER EFFECTS
+//-------------------------------------------------------------
+
+// TV PROCESS GTU
+GTU_ON = "1.000000"
+GTU_MODE = "0.000000"
+compositeConnection = "0.000000"
+signalResolution = "512.000000"
+signalResolutionI = "91.000000"
+signalResolutionQ = "91.000000"
+
+// SCALEFX RESAMPLING
+HSM_SCALEFX_ON = "1.000000"
+HSM_DOWNSAMPLE_BLUR_SCANLINE_DIR = "30.000000"
+HSM_CORE_RES_SAMPLING_MULT_OPPOSITE_DIR = "150.000000"
+HSM_DOWNSAMPLE_BLUR_OPPOSITE_DIR = "30.000000"

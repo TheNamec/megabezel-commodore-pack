@@ -1,0 +1,17 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// MODEL+DISPLAY OVERLAY PRESET [c1084, NIGHT]
+
+// REFERENCE TO MODEL PRESET
+#reference "../../../_common/displays/c1084/STD_display-zoom[OVL].slangp"
+
+// TEXTURE IMAGES
+//-------------------------------------------------------------
+
+// INTRO IMG | Startup animation
+IntroImage = "../assets/intro.png"
+
+// BG IMG | WALLPAPER diffuse texture
+BackgroundImage = "../assets/overlay-curved[night].png"
