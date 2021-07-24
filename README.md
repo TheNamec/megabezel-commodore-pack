@@ -30,7 +30,7 @@ THENAMEC MEGA BEZEL: COMMODORE PACK
 >  
 > Official Links:  
 >: Devblog & download https://retrogamingpacks.blogspot.com  
->: Libretro thread https://forums.libretro.com/t/31523/
+>: Libretro thread https://forums.libretro.com/t/31523/  
 >: Github Repository https://github.com/thenamec/megabezel-commodore-pack  
 >: E-mail thenamec@hotmail.com  
 >  
