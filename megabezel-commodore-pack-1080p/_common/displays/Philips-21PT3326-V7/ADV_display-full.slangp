@@ -14,7 +14,7 @@
 //-------------------------------------------------------------
 
 // SCALING
-HSM_NON_INTEGER_SCALE = "65.800000"
+HSM_NON_INTEGER_SCALE = "68.000000"
 
 // POSITION
-HSM_SCREEN_POSITION_Y = "82.000000"
+HSM_SCREEN_POSITION_Y = "50.000000"

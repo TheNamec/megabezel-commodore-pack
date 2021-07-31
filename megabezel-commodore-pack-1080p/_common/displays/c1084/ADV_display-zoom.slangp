@@ -13,10 +13,10 @@
 //-------------------------------------------------------------
 
 // BEZEL IMG | DISPLAY diffuse texture
-BezelImage = "assets/bg.png"
+BezelImage = "assets/bezel.png"
 
 // DECAL IMG | DISPLAY lightmap texture
-DecalImage = "assets/led.png"
+DecalImage = "assets/decal.png"
 
 
 // TEXTURE SETTINGS

@@ -13,29 +13,31 @@
 //-------------------------------------------------------------
 
 // BEZEL IMG | DISPLAY diffuse texture
-BezelImage = "assets/bg.png"
+BezelImage = "assets/bezel.png"
 
 // DECAL IMG | DISPLAY lightmap texture
-DecalImage = "assets/led.png"
+DecalImage = "assets/decal.png"
 
 
 // TEXTURE SETTINGS
 //-------------------------------------------------------------
 
 // BEZEL IMG | DISPLAY diffuse texture
-HSM_BZL_IMG_SCALE = "128.000000"
-HSM_BZL_IMG_SCALE_X = "99.000000"
-HSM_BZL_IMG_POS_Y = "-6.700000"
+HSM_BZL_IMG_EXPLICIT_TEXTURE_ASPECT = "1.270833"
+HSM_BZL_IMG_SCALE_KEEP_ASPECT = "1.000000"
+HSM_BZL_IMG_SCALE = "129.000000"
+HSM_BZL_IMG_SCALE_X = "100.000000"
+HSM_BZL_IMG_POS_Y = "-6.400000"
 
 
 // DISPLAY SETTINGS
 //-------------------------------------------------------------
 
 // SCALING
-HSM_NON_INTEGER_SCALE = "77.000000"
+HSM_NON_INTEGER_SCALE = "74.000000"
 
 // POSITION
-HSM_SCREEN_POSITION_Y = "11.000000"
+HSM_SCREEN_POSITION_Y = "10.000000"
 
 // ASPECT RATIO
 HSM_ASPECT_RATIO_MODE = "1.000000"
