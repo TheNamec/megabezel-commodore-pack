@@ -2,7 +2,7 @@
 // https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
 //-------------------------------------------------------------
 
-// MODEL-> MEGA_BEZEL MULTILAYER PRESET [MEGA_BEZEL-BEIGE, DAY]
+// MODEL-> MEGA_BEZEL MULTILAYER PRESET [MEGA_BEZEL-BEIGE, DAY] | EXTREME
 
 // REFERENCE TO MODEL PRESET
 #reference "../../../_common/displays/mega_bezel-beige/EXT_display.slangp"
@@ -11,14 +11,5 @@
 // TEXTURE IMAGES 
 //-------------------------------------------------------------
 
-// DECAL IMG | DISPLAY decoration
-DecalImage = "../assets/decal.png"
-
-// INTRO IMG | startup animation
-IntroImage = "../assets/intro.png"
-
 // BG IMG | WALLPAPER diffuse texture
-BackgroundImage = "../assets/bg.png"
-
-// LED IMG | WALLPAPER lightmap texture
-LEDImage = "../assets/led.png"
+BackgroundImage = "../assets/bg.jpg"

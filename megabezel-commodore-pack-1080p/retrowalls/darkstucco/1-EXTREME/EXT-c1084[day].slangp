@@ -2,20 +2,14 @@
 // https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
 //-------------------------------------------------------------
 
-// MODEL-> DISPLAY MULTILAYER PRESET [c1084, DAY]
+// MODEL-> DISPLAY MULTILAYER PRESET [c1084, DAY] | EXTREME
 
 // REFERENCE TO DISPLAY PRESET
-#reference "../../../_common/displays/c1084/EXT_display-zoom.slangp"
+#reference "../../../_common/displays/c1084/EXT_display-full.slangp"
 
 
 // TEXTURE IMAGES
 //-------------------------------------------------------------
 
-// INTRO IMG | Startup animation
-IntroImage = "../assets/intro.png"
-
-// LED IMG | WALLPAPER lightmap texture
-LEDImage = "../assets/led.png"
-
 // BG IMG | WALLPAPER diffuse texture
-BackgroundImage = "../assets/bg.png"
+BackgroundImage = "../assets/bg.jpg"

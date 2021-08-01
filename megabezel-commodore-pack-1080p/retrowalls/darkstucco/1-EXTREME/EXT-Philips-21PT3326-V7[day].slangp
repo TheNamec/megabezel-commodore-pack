@@ -2,10 +2,10 @@
 // https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
 //-------------------------------------------------------------
 
-// MODEL-> DISPLAY MULTILAYER PRESET [c1072, DAY] | EXTREME
+// MODEL-> DISPLAY MULTILAYER PRESET [Philips-21PT3326-V7, DAY] | EXTREME
 
 // REFERENCE TO DISPLAY PRESET
-#reference "../../../_common/displays/c1072/EXT_display-full.slangp"
+#reference "../../../_common/displays/Philips-21PT3326-V7/EXT_display-full.slangp"
 
 
 // TEXTURE IMAGES
