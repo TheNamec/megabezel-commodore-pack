@@ -586,7 +586,7 @@ I'd like to thank people who supported me in the project:
 TheNamec Retrogaming Graphic Packs is a fluid project: since the beginning, I tried to add the coolest features that came up to my mind and the requested ones from the retrogaming community.
 If you want to share some ideas with me please refer to my official channels contacts:
 
->: Devblog & download <https://retrogamingpacks.blogspot.com>  
->: Libretro thread <https://forums.libretro.com/t/thenamec-mega-bezel-commodore-pack>  
->: Github Repository <https://github.com/thenamec/megabezel-commodore-pack>  
+>: Devblog & download https://retrogamingpacks.blogspot.com  
+>: Libretro thread https://forums.libretro.com/t/thenamec-mega-bezel-commodore-pack  
+>: Github Repository https://github.com/thenamec/megabezel-commodore-pack  
 >: E-mail thenamec@hotmail.com  
