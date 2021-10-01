@@ -2,10 +2,11 @@
 // https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
 //-------------------------------------------------------------
 
-// MODEL+DISPLAY OVERLAY PRESET [c1084s-d1, DAY]
+// MODEL-> DISPLAY MULTILAYER PRESET [c1084s-d1, DAY]
 
-// REFERENCE TO MODEL PRESET
-#reference "../../../_common/displays/c1084s-d1/STD_display-zoom[OVL].slangp"
+// REFERENCE TO DISPLAY PRESET
+#reference "../../../_common/displays/c1084s-d1/STD_display[zoom].slangp"
+
 
 // TEXTURE IMAGES
 //-------------------------------------------------------------
@@ -13,5 +14,8 @@
 // INTRO IMG | Startup animation
 IntroImage = "../assets/intro.png"
 
-// BG IMG | OVERLAY diffuse texture
-BackgroundImage = "../assets/overlay-curved[day].png"
+// LED IMG | WALLPAPER lightmap texture
+LEDImage = "../assets/led.png"
+
+// BG IMG | WALLPAPER diffuse texture
+BackgroundImage = "../assets/bg.png"

@@ -1,0 +1,19 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// DISPLAY PRESET [c1084, FULL] | STANDARD
+// Full display, small gameplay area
+
+// REFERENCE TO DISPLAY ZOOM PRESET
+#reference "STD_display[zoom].slangp"
+
+
+// DISPLAY SETTINGS
+//-------------------------------------------------------------
+
+// SCALING
+HSM_NON_INTEGER_SCALE = "72.400000"
+
+// POSITION
+HSM_SCREEN_POSITION_Y = "34.000000"

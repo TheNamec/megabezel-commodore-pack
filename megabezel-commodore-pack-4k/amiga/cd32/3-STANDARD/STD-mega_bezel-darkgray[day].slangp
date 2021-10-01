@@ -1,0 +1,24 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// MODEL-> MEGA_BEZEL MULTILAYER PRESET [MEGA_BEZEL-DARKGRAY, DAY]
+
+// REFERENCE TO MODEL PRESET
+#reference "../../../_common/displays/mega_bezel-darkgray/STD_display.slangp"
+
+
+// TEXTURE IMAGES 
+//-------------------------------------------------------------
+
+// DECAL IMG | DISPLAY decoration
+DecalImage = "../assets/decal.png"
+
+// INTRO IMG | startup animation
+IntroImage = "../assets/intro.png"
+
+// BG IMG | WALLPAPER diffuse texture
+BackgroundImage = "../assets/bg.png"
+
+// LED IMG | WALLPAPER lightmap texture
+LEDImage = "../assets/led.png"

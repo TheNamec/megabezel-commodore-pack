@@ -1,6 +1,3 @@
-THENAMEC MEGA BEZEL: COMMODORE PACK
-===================================
-
     ████████╗██╗  ██╗███████╗███╗   ██╗ █████╗ ███╗   ███╗███████╗ ██████╗
     ╚══██╔══╝██║  ██║██╔════╝████╗  ██║██╔══██╗████╗ ████║██╔════╝██╔════╝
        ██║   ███████║█████╗  ██╔██╗ ██║███████║██╔████╔██║█████╗  ██║
@@ -26,499 +23,635 @@ THENAMEC MEGA BEZEL: COMMODORE PACK
     ██║     ██║  ██║╚██████╗██║  ██╗
     ╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
 
-> An original all-in-one graphic pack full with assets and presets for use with **Libretro RetroArch** and **HSM Mega Bezel Reflection Shader**
->  
-> Official Links:  
->: Devblog & download https://retrogamingpacks.blogspot.com  
->: Libretro thread https://forums.libretro.com/t/31523/  
->: Github Repository https://github.com/thenamec/megabezel-commodore-pack  
->: E-mail thenamec@hotmail.com  
->  
-> *Documentation revision: 23/07/2021*
+THENAMEC MEGA BEZEL: COMMODORE PACK
+===================================
   
+Original all-in-one graphic pack full with assets and presets for use with **Libretro RetroArch** and **HSM Mega Bezel Reflection Shader**.  
+
+> Official Links:  
+> 
+>: *Devblog & download* <https://retrogamingpacks.blogspot.com>  
+>: *Libretro thread* <https://forums.libretro.com/t/31523>  
+>: *Github Repository* <https://github.com/thenamec/megabezel-commodore-pack>  
+>: *Facebook Page* <https://www.facebook.com/retrogamingpacks>  
+>: *YouTube Channel* <https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw>  
+>: *E-mail* <thenamec@hotmail.com>  
+> 
+> Latest release at <https://github.com/TheNamec/megabezel-commodore-pack/releases>
+
+Documentation revision: *October 2nd, 2021 - Release Candidate 2*
+
 TABLE OF CONTENTS
 =================
   
 - [THENAMEC MEGA BEZEL: COMMODORE PACK](#thenamec-mega-bezel-commodore-pack)
 - [TABLE OF CONTENTS](#table-of-contents)
-- [[1] WHAT'S IN THE BOX](#1-whats-in-the-box)
-  - [[1.1] INTRO](#11-intro)
-  - [[1.2] RETROGAMING 'COMMODORE' PACK](#12-retrogaming-commodore-pack)
+- [[1] INTRO](#1-intro)
 - [[2] FEATURES](#2-features)
-  - [[2.1] MAIN FEATURES](#21-main-features)
-    - [[2.1.1] ORIGINAL DESIGN FEATURES](#211-original-design-features)
-    - [[2.1.2] HSM MEGA BEZEL REFLECTION SHADER FEATURES](#212-hsm-mega-bezel-reflection-shader-features)
-  - [[2.2] ZERO-CONFIG PRESETS](#22-zero-config-presets)
-  - [[2.3] CLASSIC DISPLAYS](#23-classic-displays)
-    - [[2.3.1] ORIGINAL BEZELS](#231-original-bezels)
-    - [[2.3.2] DISPLAY LEDS](#232-display-leds)
-    - [[2.3.3] DISPLAY LEVELS OF ZOOM](#233-display-levels-of-zoom)
-  - [[2.4] DAY AND NIGHT](#24-day-and-night)
-  - [[2.5] PIMP-MY-RETROGAME](#25-pimp-my-retrogame)
-  - [[2.6] BOOT INTRO](#26-boot-intro)
-- [[3] HOW TO](#3-how-to)
-  - [[3.1] INSTALL](#31-install)
-    - [[3.1.1] SOFTWARE REQUIREMENTS](#311-software-requirements)
-    - [[3.1.2] HARDWARE REQUIREMENTS](#312-hardware-requirements)
-    - [[3.1.3] INSTALLATION](#313-installation)
-  - [[3.2] USE PRESETS (BASIC)](#32-use-presets-basic)
-  - [[3.3] CUSTOMIZE PRESETS (ADVANCED)](#33-customize-presets-advanced)
-    - [[3.3.1] BEFORE YOU START (IMPORTANT!)](#331-before-you-start-important)
-    - [[3.3.2] CUSTOMIZE VIA QUICK MENU](#332-customize-via-quick-menu)
-    - [[3.3.3] CUSTOMIZE VIA DESKTOP MENU](#333-customize-via-desktop-menu)
-  - [[3.4] AUTO-LOAD PRESETS (PRO)](#34-auto-load-presets-pro)
-    - [[3.4.1] MANUAL PRESET LOADING](#341-manual-preset-loading)
-    - [[3.4.2] AUTO-LOAD A CORE PRESET](#342-auto-load-a-core-preset)
-    - [[3.4.3] AUTO-LOAD A FOLDER PRESET](#343-auto-load-a-folder-preset)
-    - [[3.4.4] AUTO-LOAD A GAME PRESET](#344-auto-load-a-game-preset)
-  - [[3.5] FAQ](#35-faq)
-- [[4] POLICIES](#4-policies)
-  - [[4.1] TERMS AND CONDITIONS](#41-terms-and-conditions)
-    - [[4.1.1] DISTRIBUTION](#411-distribution)
-    - [[4.1.2] LICENSE](#412-license)
-    - [[4.1.3] REVISION CLAUSE](#413-revision-clause)
-  - [[4.2] DISCLAIMER](#42-disclaimer)
-    - [[4.2.1] THIRD-PARTY ASSETS](#421-third-party-assets)
-    - [[4.2.2] TRADEMARKS AND LOGOS](#422-trademarks-and-logos)
-    - [[4.2.3] LIMITATION OF LIABILITY CLAUSE](#423-limitation-of-liability-clause)
-  - [[4.3] ACKNOWLEDGEMENTS](#43-acknowledgements)
-- [[5] CONTACTS](#5-contacts)
+  - [[2.1] WHAT'S IN THE BOX](#21-whats-in-the-box)
+  - [[2.2] ORIGINAL ILLUSTRATIONS](#22-original-illustrations)
+  - [[2.3] ZERO-CONFIG PRESETS](#23-zero-config-presets)
+  - [[2.4] PERFORMANCE PROFILES](#24-performance-profiles)
+  - [[2.5] MODULAR DISPLAYS](#25-modular-displays)
+  - [[2.6] SCALABLE DISPLAYS](#26-scalable-displays)
+  - [[2.7] AMBIENT LIGHTNING](#27-ambient-lightning)
+  - [[2.8] INTRO SEQUENCES](#28-intro-sequences)
+  - [[2.9] MEGA BEZEL REFLECTION SHADER FRAMEWORK](#29-mega-bezel-reflection-shader-framework)
+- [[3] QUICK START](#3-quick-start)
+  - [[3.1] SOFTWARE REQUIREMENTS](#31-software-requirements)
+  - [[3.2] INSTALLATION](#32-installation)
+    - [STEP 1: INSTALL AND CONFIG RETROARCH FRONTEND](#step-1-install-and-config-retroarch-frontend)
+    - [STEP 2: INSTALL HSM MEGA BEZEL REFLECTION SHADER](#step-2-install-hsm-mega-bezel-reflection-shader)
+    - [STEP 3: INSTALL THENAMEC MEGA BEZEL PACK](#step-3-install-thenamec-mega-bezel-pack)
+    - [STEP 4: (OPTIONAL) INSTALL RETROARCH CORES](#step-4-optional-install-retroarch-cores)
+  - [[3.3] LOAD A PRESET](#33-load-a-preset)
+- [[4] CUSTOMIZATION](#4-customization)
+  - [[4.1] BEFORE YOU START CUSTOMIZING (IMPORTANT!)](#41-before-you-start-customizing-important)
+  - [[4.2] CUSTOMIZE VIA QUICK MENU](#42-customize-via-quick-menu)
+  - [[4.3] CUSTOMIZE VIA DESKTOP MENU](#43-customize-via-desktop-menu)
+  - [[4.4] PRESETS LOADING](#44-presets-loading)
+    - [[4.4.1] MANUAL LOADING](#441-manual-loading)
+    - [[4.4.2] CORE PRESET LOADING](#442-core-preset-loading)
+    - [[4.4.3] FOLDER PRESET LOADING](#443-folder-preset-loading)
+    - [[4.4.4] GAME PRESET LOADING](#444-game-preset-loading)
+  - [[4.5] COMMON CUSTOMIZATIONS](#45-common-customizations)
+    - [[4.5.1] CUSTOMIZE DISPLAY SCALING AND POSITIONING](#451-customize-display-scaling-and-positioning)
+    - [[4.5.2] CUSTOMIZE AMBIENT LIGHTNING](#452-customize-ambient-lightning)
+    - [[4.5.3] FIX OVERSCAN / PILLAR BOXES / BLACK AREAS](#453-fix-overscan--pillar-boxes--black-areas)
+- [[5] FREQUENTLY ASKED QUESTIONS](#5-frequently-asked-questions)
+  - [## How to update Mega Bezel Commodore Pack?](#-how-to-update-mega-bezel-commodore-pack)
+  - [## How to uninstall Mega Bezel Commodore Pack?](#-how-to-uninstall-mega-bezel-commodore-pack)
+  - [## Which CRT shader are presets based upon?](#-which-crt-shader-are-presets-based-upon)
+  - [## How to enable adaptive design?](#-how-to-enable-adaptive-design)
+  - [## Everything looks funky and stretchy! What the hell is going on?](#-everything-looks-funky-and-stretchy-what-the-hell-is-going-on)
+  - [## Can't see any preset in the shaders folder!](#-cant-see-any-preset-in-the-shaders-folder)
+  - [## Vulkan, gl or glcore? Which video driver is better?](#-vulkan-gl-or-glcore-which-video-driver-is-better)
+  - [## Can I make Mega Bezel Commodore Pack work with my ODroid, Raspberry Pi or Single Board Computer?](#-can-i-make-mega-bezel-commodore-pack-work-with-my-odroid-raspberry-pi-or-single-board-computer)
+  - [## Will you add new presets and systems to TheNamec Mega Bezel Commodore Pack?](#-will-you-add-new-presets-and-systems-to-thenamec-mega-bezel-commodore-pack)
+  - [## Will you expand Mega Bezel packs to gaming systems other than Commodore?](#-will-you-expand-mega-bezel-packs-to-gaming-systems-other-than-commodore)
+  - [## Do you accept requests?](#-do-you-accept-requests)
+  - [## Why did you make it only for 4K and 1080p, 16:9?](#-why-did-you-make-it-only-for-4k-and-1080p-169)
+  - [## What did you use to draw the artworks?](#-what-did-you-use-to-draw-the-artworks)
+- [[6] POLICIES](#6-policies)
+  - [[6.1] TERMS AND CONDITIONS](#61-terms-and-conditions)
+    - [[6.1.1] DISTRIBUTION](#611-distribution)
+    - [[6.1.2] LICENSE](#612-license)
+    - [[6.1.3] REVISION CLAUSE](#613-revision-clause)
+  - [[6.2] DISCLAIMER](#62-disclaimer)
+    - [[6.2.1] THIRD-PARTY ASSETS](#621-third-party-assets)
+    - [[6.2.2] TRADEMARKS AND LOGOS](#622-trademarks-and-logos)
+    - [[6.2.3] LIMITATION OF LIABILITY CLAUSE](#623-limitation-of-liability-clause)
+- [[7] ACKNOWLEDGEMENTS](#7-acknowledgements)
+- [[8] CONTACTS](#8-contacts)
   
-  
-📢
-[1] WHAT'S IN THE BOX
-================
+[1] INTRO
+=========
+Emulation is evolving from retro-nostalgia to enhanced retro-gaming, leading to modern ways to enjoy our imperfect memories and bringing back this strange “I’ve been there, but something’s different” feeling.
 
-[1.1] INTRO
------------
+Somebody says modern emulation is missing that ancient connection between the gamer and the original hardware: to me, gameplay is the king but... when it comes to the systems of my youth, retro nostalgia kicks in.
 
-Emulation is evolving from retro-nostalgia to enhanced retrogaming, leading to modern ways to enjoy our imperfect memories and bringing back this strange “I’ve been there, but something’s different” feeling.
+I'm an Italian graphic artist and this is my love letter to Commodore devices: a special graphic pack for use with RetroArch and HSM Mega Bezel Reflection Shader.
 
-Someone says emulation is missing that ancient connection between the gamer and the original hardware: to me, gameplay is the king but... when it comes to the systems of my youth, retro nostalgia kicks in.
+[2] FEATURES   
+============
 
-I'm an italian graphic artist and this is my love letter to Commodore devices: a special graphic pack for use with RetroArch and HSM Mega Bezel Reflection Shader.
-  
-[1.2] RETROGAMING 'COMMODORE' PACK
-----------------------------------
+**TheNamec Mega Bezel Commodore Pack** is a collection of addons for Libretro Retroarch focusing on the most famous Commodore gaming hardware, based on original illustrations and quick-start presets.
 
-This pack focuses on a selection of famous Commodore hardware, including OVERLAYS assets and model specific SHADER presets for:
+[2.1] WHAT'S IN THE BOX
+-----------------------
 
-- Commodore Amiga: A500, A500 Plus, A600, A600HD, A1200, Amiga CD32
-- Floppy/Disk drives: A1010
-- Monitors: C1702, C1084, C1084S-D1, C1084S-D2 CDTV Black Edition
-- Commodore VIC20/VC20: Golden Label, MarkII, Mark3, VIC-1001 Japan *coming soon*
-- Commodore 64: Silver Label, Breadbin, G Series, ALDI, DreanComm *coming soon*
-- Datassette: 1530 C2N, 1530-B C2N, DC120 *coming soon*
-- Pimp-my-retrogame: Floppy Emulator, Datassette Lightning
-  
-💡
-[2] FEATURES
-=================
+Included in current public [**Release Candidate 1 (July 23rd, 2021)**](https://retrogamingpacks.blogspot.com/p/downloads.html):
 
-TheNamec's Mega Bezel Commodore Pack is a free graphic addon that focuses on a selection of famous Commodore hardware and includes per-model original backdrops and ready-to-go presets for a wide range systems.
+- **Commodore Amiga series**: A500, A500 Plus, A600, A600HD, A1200, A1200Synth, Amiga CD32
+- **Classic Monitors**: C1080, C1201 Monochrome, C1702, C1902, C1084, C1084S-D1, C1084S-D2 CDTV Black Edition
+- **CRT TVs**: Bezeltron-001 (Philips 21PT3326-V7)
+- **Procedural Mega Bezels**: Cream, Beige, Darkgray, Black
+- **Floppy/Disk drives**: A1010, multi-floppy data simulator inspired by GoTek devices
+- ~~**Datassette**: 1530 C2N, 1530-B C2N, 1531, DC-120~~ *coming soon*
+- ~~**Commodore VIC20/VC20 series**: Golden Label, MarkII, Mark3, VIC-1001 Japan~~ *coming soon*
+- ~~**Commodore 64 series**: Silver Label, Breadbin, G Series, ALDI, DreanComm~~ *coming soon*
+- ~~**Commodore 264 Series**: Commodore16~~ *coming soon*
 
-Mega Bezel Commodore Pack is compatible with [Libretro RetroArch frontend](#https://www.retroarch.com/?page=platforms) and it's based on [HSM Mega Bezel Reflection Shader](#https://forums.libretro.com/t/hsm-mega-bezel-reflection-shader-feedback-and-updates) developed by HyperSpaceMadness.
-  
-[2.1] MAIN FEATURES
--------------------
+[2.2] ORIGINAL ILLUSTRATIONS
+----------------------------
 
-### [2.1.1] ORIGINAL DESIGN FEATURES
-************************************
+I personally draw my digital illustrations with a particular care for accessibility, usability and originality of concepts and design, while keeping quality at a professional level.
 
-- Vector-based original design rendered at 300dpi
+- Vector-based original illustrations rendered at 300dpi
 - Bicubic sharper resampling from 300dpi to 72dpi for crispy, super-sampling anti-aliased visuals
 - 16:9 aspect ratio, horizontal, optimized for 1080p and 4k resolutions
+- Adaptive support for horizontal ultrawide displays
 - Photorealistic-like hand drawn shading
 - Historically based details taken from actual hardware, advertising and manuals
 - Remixed familiar elements (ever dreamt about integrated data units?)
 - Perceptive dis-proportion between elements and fan-based branding
-- Retro-modded original designs 😉
+- Retro-modding original alternative designs 😉
 
-### [2.1.2] HSM MEGA BEZEL REFLECTION SHADER FEATURES
-*****************************************************
+ Some special "visual mods" are included to enhance retrogaming experience:
 
-- Built upon MBZ GUEST-DrVENOM CRT advanced preset
-- Modular experience: choose from a wide array of displays, bezels and backdrops presets
-- Indipendent 'Display' layers for real-time gaming area scaling and customization
-- Separate 'Leds and Lightning' layers for a flexible "Day/Night" experience
-- 'Light' and 'Dark' native Mega_Bezel_Frame presets complete with per-model decals
-- Per-model and global pack animated intro sequences
-- Chained 'Simple presets' structure for global, per-system, per-model, per-display and day/night lightning customization
-- Post-processing and MDAPT blend dithering
-- Customized per-model and per-system startup intro image
-  
-[2.2] ZERO-CONFIG PRESETS
+- `DATASSETTE LIGHTBULB` nothing is better than an old incandescence bulb that enlightens audiocassette game compilation
+- `EMBEDDED DATA DEVICE` floppy disk drives and datassette are embedded in the chassis for a compact, vintage flavor
+- `AMIGA 1200SYNTH` is an original concept for an advanced Synthwave Amiga, equipped with a dark chassis, backlit keyboard, embedded multi-floppy data simulator and optical disk drive. A little cyber, a little punk.
+
+Note: `AMIGA 1200SYNTH` is also available as a FS-UAE emulator theme, sporting advanced features: blinking LED indicators, functional multi-floppy data simulator, disk presence switches, disk track display, disk access notification, audio indicator and basic curvature and scanlines postprocessing effects. For more info visit <https://github.com/TheNamec/fsuae-amiga-themes> 
+
+[2.3] ZERO-CONFIG PRESETS
 -------------------------
 
-One of the main objectives of Retrogaming Packs is to make the best visual technology in retrogaming accessibile just for everyone: a huge effort was invested in developing modular preconfigurations, called 'Shader Presets' in Libretro jargon, to expose the full potential with near to nothing user-side setup.
+The main objectives of Retrogaming Packs project is to make the best visual technology accessible to everyone: hence a huge effort was invested in developing pre-made configuration files, called 'Shader Presets' in Libretro jargon, to expose the full potential with near to zero user-side setup.
 
-For each system you will get ready-to-go presets for each model variant, including display alternatives and Day&Night lightning solutions to choose from just by loading the configuration.
+For each gaming system you will get ready-to-go presets to choose from just by loading the configuration files, including many display alternatives, day and night ambient lightning, and performance solutions.
 
-[2.3] CLASSIC DISPLAYS
---------------------
+[2.4] PERFORMANCE PROFILES
+--------------------------
 
-### [2.3.1] ORIGINAL BEZELS
-***************************
-Because in reality Commodore displays were widely cross-platform compatible, you are free to combine classic displays with all systems: I myself originally used a C1084 monitor on my Amiga 500, while lots of people used it as an high-end monitor for C64!
+TheNamec Mega Bezel Commodore Pack includes five levels of performance profiles classified as follows:
 
-You can choose your preferred display from an array of fully modelled classic monitors including Commodore 1702, Commodore 1084, Commodore 1084S-D1, Commodore 1084S-D2 CDTV Black Edition and Mega Bezel fallback presets, coming in beige and black variants full with per-system and per-model decals.
+- `1-EXTREME (EXT)` is an enhanced experience sporting superior post-processing passes like ScaleFX smooth resample, fast sharpen and TV process GTU component signal simulation. These passes produce higher quality 2D game artworks, while maintaining authentic CRT texture and a little graininess. The truth is once you taste EXTREME, you can't go back!
+- `2-ADVANCED (ADV)` is a full customizable experience with modular layouts for display scaling and positioning, MDAPT dithering for pseudo-transparencies, glass reflections and dynamic night lightning. This is the way to go to have customization flexibility and performance, with high visual quality and unaltered original artworks.
+- `3-STANDARD (STD)` is a faster alternative to ADVANCED including CRT postprocessing effects like deconvergence, color grading and personalization with display scaling/positioning.
+- `4-BASIC (BAS)` is an 'overlay on steroids' profile featuring basic CRT effects, 2D curvature and, most important, the exclusive bezel reflections.
+- `5-POTATO (POT)` is an insanely performing overlay solution with easy-go CRT masking based on ZFAST shader.
 
-### [2.3.2] DISPLAY LEDS
-************************
-Each display comes with it's own lightning and leds layer for a realistic experience fine tuned for both day and night lightning.
+EXTREME, ADVANCED and STANDARD offer all of the system/displays combinations, meaning you can choose from a wide catalogue of monitors and TVs.
 
-### [2.3.3] DISPLAY LEVELS OF ZOOM
-**********************************
-Thanks to the modular design you can indipendently zoom the screen while backdrops stays in place: system presets are preconfigured to use the zoomed-in view, a fine-tuned sweet spot between gaming area and system graphic backdrop, while display presets are preconfigured for a fullbody view against an elegant, dark wall background.
+BASIC and POTATO use high performance pre-baked overlays, meaning you can choose from fewer display alternatives as these assets would dramatically increase the Mega Bezel Commodore Pack size and are extremely time consuming to produce.
 
-Fallback view maximizes gameplay area by completely hiding display borders and just showing a real-time generated bezel&frame from HSM Mega Bezel Reflection Shader, available with both per-system graphics and dark wall backdrops.
+ℹ️ *Note: remember that if you find my shader presets to be too heavy for your rig, you can toggle unwanted features and save your custom simple-presets.*
 
-You can dinamically customize the level of display zoom at any time via a single parameter, textures layers logic will automatically take care of resizing for the best experience and easiness of use.
+[2.5] MODULAR DISPLAYS
+----------------------
 
-[2.4] DAY AND NIGHT
--------------------
+Because real-life Commodore displays were widely cross-platform compatible, TheNamec Mega Bezel Commodore Pack lets you combine classic displays with all systems: I myself used a C1084 monitor on my Amiga 500 in the days, while lots of people used it as an high-end monitor for C64!
 
-Let your retrogames shine! Day lightning mode makes you enjoy a full lit backdrop showing all accurately rebuilt graphics details.
+You are free to choose your preferred display from an array of fully modelled classic monitors including Monochrome Commodore 1201, Commodore 1702, Commodore 1902, Commodore 1084, Commodore 1084S-D1, Commodore 1084S-D2 CDTV Black Edition, my original BezelTron TV Series and procedural Mega Bezels, coming in light and dark variants with per-system custom decals.
 
-Do you want to turn off the lights? Night lightning mode is easier on your eyes as it simulates a soft, warm lit room full with led lightning from your retrogaming systems.
+[2.6] SCALABLE DISPLAYS
+-----------------------
+
+You can dynamically customize the level of display zoom at any time via a single parameter, textures layers logic will automatically take care of resizing for the best experience and easiness of use.
+
+TheNamec Mega Bezel Commodore Pack comes with different zero-config presets for you to comfortably enjoy the best framing:
+
+- `ZOOM DISPLAY VIEW` is a fine-tuned sweet spot between gaming area and a zoomed-in display, the ideal solution for gaming
+- `MEGA BEZEL VIEW` maximizes gameplay area by hiding display borders and generating real-time bezels and frame
+- `FULL DISPLAY VIEW` shows the entire monitor/TV, resulting in a beautiful retro-scenery with a smaller gaming area
+
+[2.7] AMBIENT LIGHTNING
+-----------------------
+
+Let your retrogames shine! *Day lightning* makes you enjoy a full lit room showing all accurately rebuilt graphics details.
+
+If you prefer to turn off the lights, *Night lightning* is easier on your eyes as it simulates a soft, warm lit room full with LEDs lightning from your retrogaming systems.
 
 System presets come with day and night variants for each display out-of-the-box so you can instantly choose the best solution with zero configuration.
 
-You can try creating your personal 'evening' and 'twilight' custom lightning presets with a single percentage parameter. It's just that easy!
+Each display comes with it's own lightning and LEDs layer for a realistic experience fine tuned for both day and night lightning.
 
-[2.5] PIMP-MY-RETROGAME
------------------------
+ℹ️ *Note: you can customize ambient lightning via a single percentage parameter and create your custom presets. It's just that easy!*
 
-To further enhance retrogaming experience, Retrogaming Packs include carefully vector-drawn data devices from the past and some special retro-mods.
 
-Some of the retro-mods include:
-
-- Datassette: 1530 C2N, 1530-B C2N, DC120, Bulb Lightning
-- Embedded Floppy/Disk drives: A1010
-- Mods: floppy emulator, power cells
-
-[2.6] BOOT INTRO
-----------------
+[2.8] INTRO SEQUENCES
+----------------------
 
 You can enjoy an animated intro sequence, full with old-school statics and pixelated per-system and per-model logos, paired with each preset for a fully immersive retro nostalgia.
 
-*Note: to use this feature you have to use one of the RetroArch auto-loading methods, please refer to the [Save and autoload customized presets](#54-save-and-autoload-customized-presets-pro) paragraph.*
+ℹ️ *Note: to use this feature you have to use one of the RetroArch auto-loading methods, please refer to the [presets loading](#44-presets-loading) section.*
+
+[2.9] MEGA BEZEL REFLECTION SHADER FRAMEWORK
+--------------------------------------------
+
+`Mega Bezel Reflection Shader` is an impressive real-time postprocessing framework by HyperSpaceMadness that simulates the best aspects of CRT technology while mitigating its worst, obsolete defects. The framework integrates tools from Guest-DrVenom, CRT-Geom Deluxe, LCD-GRID, NewPixie, EASY-Mode and ZFAST and has some never-seen-before original features like procedural bezels, real-time reflections, ambient illumination and the unique GLASS visuals.
+
+TheNamec Mega Bezel Commodore pack relies on Mega Bezel Reflection Shader engine for several advanced features and to develop original eye-candy visuals and bullet-proof solutions for the best user experience:
+
+- `PERFORMANCE PROFILES` built upon Mega Bezel Reflection Shader GUEST-DrVENOM and ZFAST presets
+- `ZERO-CONFIG PRESETS` unique effect chain for performance, models, displays and ambient lightning
+- `MODULAR DISPLAYS` a wide array of displays, bezels and backdrops presets
+- `SCALABLE DISPLAYS` real-time gaming area scaling and customization
+- `ADAPTIVE DESIGN` flexible assets and dynamic centering enable for ultra-widescreen ready presets
+- `PROCEDURAL BEZELS` real-time generated bezels and frames with light and dark variants, full with complete with per-model decals
+- `AMBIENT LIGHTNING` a flexible day and night experience
+- `INTRO SEQUENCES` customized per-model and per-system startup intro image
+- `POST-PROCESSING` optimized combinations of ScaleFX upscaling and smoothing, MDAPT blend dithering, color grading, CRT grid/mask and scanlines
+- `LO-FI MONOCHROME` advanced '80s plasma experience with amber, green and white phosphor variants
+
+More info on HyperSpaceMadness `Mega Bezel Reflection Shader` at <https://forums.libretro.com/t/hsm-mega-bezel-reflection-shader-feedback-and-updates>.
+
+[3] QUICK START
+===============
+
+- [[3.1] SOFTWARE REQUIREMENTS](#31-software-requirements)
+- [[3.2] INSTALLATION](#32-installation)
+  - [STEP 1: INSTALL AND CONFIG RETROARCH FRONTEND](#step-1-install-and-config-retroarch-frontend)
+  - [STEP 2: INSTALL HSM MEGA BEZEL REFLECTION SHADER](#step-2-install-hsm-mega-bezel-reflection-shader)
+  - [STEP 3: INSTALL THENAMEC MEGA BEZEL PACK](#step-3-install-thenamec-mega-bezel-pack)
+  - [STEP 4: (OPTIONAL) INSTALL RETROARCH CORES](#step-4-optional-install-retroarch-cores)
+- [[3.3] LOAD A PRESET](#33-load-a-preset)
   
+**TheNamec Mega Bezel Packs** are designed to be easy to pick up for everyone, being them RetroArch newcomers or skilled users.
 
-⚙️
-[3] HOW TO
-================
+Follow the step-by-step [installation](#32-installation) instructions for a trouble-less quick start.
 
-TheNamec's Mega Bezel Retrogaming packs are designed to be easy to pick up for everyone, being them RetroArch newcomers or skilled users: please read this guide carefully for a quick start.
+Please carefully read [requirements](#31-software-requirements), [before you start](#41-before-you-start-important) and [frequently asked questions](#5-frequently-asked-questions) sections before asking for support.
 
-Please refer to the FAQ before asking for support.
 
   
-[3.1] INSTALL
--------------
-
-### [3.1.1] SOFTWARE REQUIREMENTS
-*********************************
-To enjoy Mega Bezel Retrogaming Packs you need to install:
-
-- [RetroArch v1.9.1 or later](#https://www.retroarch.com/?page=platforms)
-- [HSM Mega Bezel Reflection Shader](#https://forums.libretro.com/t/hsm-mega-bezel-reflection-shader-feedback-and-updates)
-- [TheNamec Mega Bezel Commodore Pack](#https://retrogamingpacks.blogspot.com/p/downloads.html)
-
-Optional: in order to play AMIGA, COMMODORE64 and VIC20/VC20 games you need to install RetroArch emulation modules called 'cores', named as follows:
-
-- [Commodore - Amiga (PUAE)](#https://docs.libretro.com/library/puae/#core-options)
-- [Commodore - C64 (VICE x64, fast), Commodore - C64 (VICE x64sc, accurate)](#https://docs.libretro.com/library/vice/#c64-fastaccurate-specific)
-- [Commodore - VIC-20 (VICE xvic)](#https://docs.libretro.com/library/vice/#vic-20-specific)
-
-Cores installation is easily done from within RetroArch:
-
-> - Install and launch RetroArch
-> - Main menu -> Online updater -> Core Downloader
-> - Select your core of choice
-> - RetroArch will download and install the core automatically
-
-*Note: AMIGA emulation requires copyrighted BIOS files with specific MD5 checksums. Please refer to [PUAE Core Docs](#https://docs.libretro.com/library/puae/#bios) for more info and remember: Google is your friend* 🔍
+[3.1] SOFTWARE REQUIREMENTS
+---------------------------
   
-### [3.1.2] HARDWARE REQUIREMENTS
-*********************************
-TheNamec Mega Bezel Commodore Pack was developed on a Ryzen5 3600 @ 4.2Ghz, 16 GB of RAM, GTX 1660 Super @ 1080p: with this configuration I get flawless 60 frames per seconds and never experienced slowdowdowns. I agree this is a nice mid-tier rig, so I'm quite curious to know how it performs on older machines. One thing I'm sure: in the present form, you will not be able to use my Retrogaming Packs on mobile devices and Raspberry Pi.
+To enjoy **TheNamec Mega Bezel Packs** you need to install:
 
-Commodore systems emulation isn't demanding, as we are talking about 8 and 16 bit machines with 2D graphics and low resolutions: point is, TheNamec Mega Bezel Commodore Pack aims for an high quality presentation and it's built upon one of the most complex and  advanced presets from the HSM Mega Bezel Reflection Shader arsenal, called **MBZ_ADVANCED_GUEST-DrVENOM**.
+- [RetroArch v1.9.8 or later](https://www.retroarch.com/?page=platforms)
+- [HSM Mega Bezel Reflection Shader V0.9.022_2021-09-05 or later](https://forums.libretro.com/t/hsm-mega-bezel-reflection-shader-feedback-and-updates)
+- [TheNamec Retrogaming Packs](https://retrogamingpacks.blogspot.com/p/downloads.html)
 
-HSM Mega Bezel Reflection Shader advanced presets can be taxing on both CPU and graphics card as it renders multiple chained passes doing a lot of real time computation for graphic layers, CRT simulation and post-processing color-correction and effects.
+RetroArch requires specific plugins called `cores` to play AMIGA, COMMODORE64 and VIC20/VC20 games:
 
-To further boost the experience, I chose to activate post-processing and I was pretty astonished by results, in particular [MDAPT - Merge Dithering And Pseudo Transparency](#https://forums.libretro.com/t/mdapt-gdapt-dithering-treatment-updated-06-06-14/375) was particularly good in simulating pseudo transparencies from checkered assets like out bad CRT did in the good old days: those effects are really cool, but they make requirements a little higher.
+- [Commodore - Amiga (PUAE)](https://docs.libretro.com/library/puae/#core-options)
+- [Commodore - C64 (VICE x64, fast), Commodore - C64 (VICE x64sc, accurate)](https://docs.libretro.com/library/vice/#c64-fastaccurate-specific)
+- [Commodore - VIC-20 (VICE xvic)](https://docs.libretro.com/library/vice/#vic-20-specific)
 
-HyperSpaceMadness is working hard at improving his shader performance by implementing baking solutions and reducing the number of rendering passes while mantaining delightful visuals: by the way, if you find the shader to be too heavy for your rig, you are free to deactivate unwanted features by creating you customized preset.
+[3.2] INSTALLATION
+------------------
 
-*Note: in the future I may evaluate to build a 'lite edition' of my pack using pre-baked assets trading flexibility for performance, but right now I'm more focused about creating new presets than taking care of multiple pack editions.* 😁
+### STEP 1: INSTALL AND CONFIG RETROARCH FRONTEND
+*************************************************
 
-### [3.1.3] INSTALLATION
-************************
-
-Please carefully read [requirements](#3-requirements) and [before you start](#41-before-you-start-important-️) sections.
-Refer to the [F.A.Q.](#6-frequently-asked-questions) before asking for support.
-
-
-1) INSTALL RETROARCH FRONTEND
-
-- Download latest release from [RetroArch official site](#https://www.retroarch.com/?page=platforms) (RetroArch v.1.9.1 or later required)
-- Install according to your Operative System
+> 1) Download latest release from [RetroArch official site](https://www.retroarch.com/?page=platforms) (v.1.9.8 or later required)
+> 2) Install according to your Operative System
 
 IMPORTANT: configure RetroArch for use with HSM Mega Bezel Reflection Shader:
-> - Main Menu -> Settings -> Video -> Output set 'Video' to 'vulkan' or any slang compatible video driver (vulkan, gl, glcore, metal, Direct3D, WiiU)
-> - Main Menu -> Settings -> Video -> Scaling set 'Integer Scale' to OFF and 'Aspect Ratio' to your display format (i.e. 16:9)
-> - Main Menu -> settings -> Config set 'Save config on exit' to On
-> - Main Menu -> Restart RetroArch
-> - Main Menu -> settings -> Config set 'Save config on exit' to Off
+> 3) Main Menu -> Settings -> Video -> Output set `Video` to `Vulkan` (best performance)
+> 4) Main Menu -> Settings -> Video -> Scaling set `Integer Scale` to `OFF` 
+> 5) Main Menu -> Settings -> Video -> Scaling set `Aspect Ratio` to `FULL`
+> 6) Main Menu -> settings -> Config set `Save config on exit` to `ON`
+> 7) Main Menu -> Restart RetroArch
+> 8) (after restart) Main Menu -> settings -> Config set back `Save config on exit` to `OFF`
 
-*Note: refer to Official [Libretro Docs](#https://docs.libretro.com/) 'For users/Getting Started' sections for detailed frontend and cores step-by-step instructions specific for each supported OS.*
+ℹ️ *Note: refer to Official Libretro Docs for updated [Frontend Installation](https://docs.libretro.com/) and  [Cores Installation](https://docs.libretro.com/guides/download-cores/) step-by-step instructions for each supported OS.*
   
+### STEP 2: INSTALL HSM MEGA BEZEL REFLECTION SHADER
+****************************************************
 
-2) INSTALL HSM MEGA BEZEL REFLECTION SHADER
+> 1) Download latest release from [HSM Mega Bezel Reflection Shader](https://forums.libretro.com/t/hsm-mega-bezel-reflection-shader-feedback-and-updates) (V0.9.022_2021-09-05 or later required)
+> 2) Copy shader folder from the archive to RetroArch root
+> 3) You're done!
+  
+### STEP 3: INSTALL THENAMEC MEGA BEZEL PACK
+********************************************
 
-- Dowload latest release from [HSM Mega Bezel Reflection Shader @ Libretro Forums](#https://forums.libretro.com/t/hsm-mega-bezel-reflection-shader-feedback-and-updates)
-- Copy folders from the archive to RetroArch root
-- You're done!
+> 1) Download latest release from [TheNamec Retrogaming Packs](https://retrogamingpacks.blogspot.com/p/downloads.html) (Release Candidate 2 or later required)
+> 2) Copy the pack folder from the archive to RetroArch root
+> 3) You're done!
   
-  
-3) INSTALL THENAMEC MEGA BEZEL COMMODORE PACK
+### STEP 4: (OPTIONAL) INSTALL RETROARCH CORES
+**********************************************
 
-- Download latest release from [TheNamec Retrogaming Graphic Packs](#https://retrogamingpacks.blogspot.com/p/downloads.html)
-- Copy folders 'overlays' and 'shaders' from the archive to RetroArch root
-- You're done!
-  
-  
-4) INSTALL RETROARCH CORES (OPTIONAL)
-Cores installation is easily done from within RetroArch.
+Cores installation is easily done from within RetroArch interface.
 
 Launch RetroArch and use Core Downloader to automatically install recommended cores: *PUAE* for Amiga, *VICE_x64* for Commodore64 and *VICE_xvic* for VIC20/VC20:
 
+> - Install and launch RetroArch
 > - Main menu -> Online updater -> Core Downloader
-> - Select your core of choice (PUAE, VICE x64, VICE xvic)
+> - Select your core of choice (PUAE, VICE_x64 and VICE_xvic)
 > - RetroArch will download and install the core automatically
 
-*Note: you can use Mega Bezel Retrogaming Packs with any core, but it would be quite sacrilegious to play a Super Mario Bros NES title with a Commodore64 graphics preset, [isn't it](#https://www.youtube.com/watch?v=6jIrR9Iqq4Q)?* 👾
+ℹ️ *Note: AMIGA emulation requires copyrighted BIOS files with specific MD5 checksums. Please refer to [PUAE Core Docs](https://docs.libretro.com/library/puae/#bios) for more info and remember: Google is your friend* 🔍
+
+ℹ️ *Note: you can use Mega Bezel Retrogaming Packs with any core, but it would be quite sacrilegious to play a Super Mario Bros NES title with a Commodore64 graphics preset, isn't it?* 👾
   
+[3.3] LOAD A PRESET
+-------------------
 
-
-[3.2] USE PRESETS (BASIC)
------------------------------
-
-You can use one of my pre-made presets for an hassle-free experience:
+You can easily load a pre-made preset for an hassle-free experience:
 
 > - Launch a game
-> - Quick Menu -> Shaders -> Load Shader Preset -> shaders_slang -> bezel -> megabezel-commodore-pack -> choose a platform -> choose a preset
+> - Quick Menu -> Shaders -> Load Shader Preset -> shaders_slang -> bezel -> thenamec -> choose a platform -> choose a preset
 > - Wait a couple seconds for the preset to load and... bam! You're done.
-> - Quick Menu -> Resume and enjoy the experience
-
-*Note: unless you save a custom preset, you will have to manually reload the graphic preset every time you close the game or quit RetroArch! To avoid this, read the 'Customize presets (advanced)' section.*
-
+> - Quick Menu -> Resume and enjoy enhanced gaming
   
-[3.3] CUSTOMIZE PRESETS (ADVANCED)
-----------------------------------
+[4] CUSTOMIZATION
+=================
 
-Common retrogamer needs leading to presets customization include:
+  - [[4.1] BEFORE YOU START CUSTOMIZING (IMPORTANT!)](#41-before-you-start-customizing-important)
+  - [[4.2] CUSTOMIZE VIA QUICK MENU](#42-customize-via-quick-menu)
+  - [[4.3] CUSTOMIZE VIA DESKTOP MENU](#43-customize-via-desktop-menu)
+  - [[4.4] PRESETS LOADING](#44-presets-loading)
+    - [[4.4.1] MANUAL LOADING](#441-manual-loading)
+    - [[4.4.2] CORE PRESET LOADING](#442-core-preset-loading)
+    - [[4.4.3] FOLDER PRESET LOADING](#443-folder-preset-loading)
+    - [[4.4.4] GAME PRESET LOADING](#444-game-preset-loading)
+  - [[4.5] COMMON CUSTOMIZATIONS](#45-common-customizations)
+    - [[4.5.1] CUSTOMIZE DISPLAY SCALING AND POSITIONING](#451-customize-display-scaling-and-positioning)
+    - [[4.5.2] CUSTOMIZE AMBIENT LIGHTNING](#452-customize-ambient-lightning)
+    - [[4.5.3] FIX OVERSCAN / PILLAR BOXES / BLACK AREAS](#453-fix-overscan--pillar-boxes--black-areas)
+  
+Common presets customizations for game-tailored experience include:
 
-- Fixing per-game overscan and centering. PAL/NTSC adaptions, damn you! 👿
+- Fixing overscan and centering for each game. PAL/NTSC adaptions, damn you!
 - Fiddling with display scaling, position and aspect ratio
-- Tuning Nightmode lightning and reflection settings
-- Invest countless hours in visual configuration instead of happily playing a retrogame
+- Tuning ambient lightning and reflection settings
+- Invest countless hours in visual configuration instead of happily gaming 
 
-RetroArch is a swiss-knife for customization so go on with the reading!
-  
-  
-⚠️
-### [3.3.1] BEFORE YOU START (IMPORTANT!) 
-*****************************************
-Fist of all, activate the 'Simple Preset' feature to automatically save a custom preset containing parameters values, thus preserving default shader preset.
+RetroArch really is a swiss-knife for customization, so go on with the reading!
 
-Enable 'Simple Presets':
 
-> - Quick Menu -> Shaders -> Save set 'Simple Presets' to ON
+[4.1] BEFORE YOU START CUSTOMIZING (IMPORTANT!) 
+-----------------------------------------------
 
-*Note: If you don't enable 'Simple Preset', your customizations may destroy the original presets and bad things may happen. Or maybe not. I wouldn't risk it* 😰
+⚠️ First of all, activate the `Simple Preset` feature to automatically save a custom preset containing parameters values, thus preserving default shader preset.
+
+Enable `Simple Presets`:
+> - Quick Menu -> Shaders -> Save set `Simple Presets` to `ON`
+
+ℹ️ *Note: If you don't enable `Simple Preset`, your customizations may destroy the original presets and bad things may happen. Or maybe not. I wouldn't risk it* 😰
   
-  
-### [3.3.2] CUSTOMIZE VIA QUICK MENU
-************************************
+[4.2] CUSTOMIZE VIA QUICK MENU
+------------------------------
+
+`Quick menu` lets you customize via gamepad by increasing/decreasing values for shader parameters. It's ok for trivial changes, but can fell a little slow for complex activities and requires switching between the `quick menu` and gameplay are to see the changes.
 
 Adjust shader parameters:
+> 1) Quick Menu -> Shaders -> Shader Parameters -> Parameters
+> 2) Adjust settings to your preference
+> 3) Quick Menu -> Resume and enjoy your customized game
 
-> - Load a game (you better choose one without time limits😉)
-> - Quick Menu -> Shaders -> Load Shader Preset and choose a preset
-> - Quick Menu -> Shaders -> Shader Parameters -> Parameters
-> - Adjust settings to your preference
-> - Quick Menu -> Resume and enjoy your customized game
+To save your settings:
+> 4) Quick Menu -> Shaders -> Save -> Choose one option
+
+To determine which saving option is the better for you, please refer to the [presets loading](#44-presets-loading) paragraph.
+
+ℹ️ *Note: unless you save your custom settings, you will lose all of them when you close the game or quit RetroArch!* 
+  
+  
+[4.3] CUSTOMIZE VIA DESKTOP MENU
+--------------------------------
+
+`Desktop menu` lets you customize shader parameters via sliders and input boxes with mouse and keyboard. You can use side-by-side distinct game window and parameters panel and see the changes in real-time. `Desktop Menu` is the ideal tool to quickly learn parameters effects and to develop deep customizations.
+
+Load a game, you better choose one without time limits: 😉
+
+> 1) Exit full screen by pressing `f` key
+> 2) Windows-> select `Toggle Desktop Menu`
+> 3) Desktop Menu window opens up, View-> select `Shaders`
+> 4) Shaders Panel opens up, press 'Load' button, choose `Load`
+> 5) Navigate to the shader you want to customize, select it and press `Open` button
+> 6) Use the Shaders panel to customize settings, you can view the results applied to the game in real time in the RetroArch main window
 
 To save your settings:
 
-> - Quick Menu -> Shaders -> Save -> Choose one option
+> 7) In Shaders Panel, press `Save` button and choose one option
+> 8) Re-enable full screen by selecting Retroarch main window and pressing `f` key
 
-To determine wich saving option is the better for you, please refer to the [Save and autoload customized presets](#54-save-and-autoload-customized-presets-pro) section.
+To determine which saving option is the better for you, please refer to the [presets loading](#44-presets-loading) paragraph.
 
-*Note: unless you save your custom settings, you will lose all of them when you close the game or quit RetroArch!*
+ℹ️ *Note: unless you save your custom settings, you will lose all of them when you close the game or quit RetroArch!* 
+
+[4.4] PRESETS LOADING
+---------------------
+
+For use with multi-system cores (a single core emulates more than one system), you have different choices to save and load your presets: do some experimentation and find the one that best fits your needs!
   
-  
-### [3.3.3] CUSTOMIZE VIA DESKTOP MENU
-**************************************
+### [4.4.1] MANUAL LOADING
+**************************
 
-Adjust shader parameters:
-
-> - Load a game (you better choose one without time limits😉)
-> - Exit fullscreen by pressing 'f' key
-> - Windows-> select 'Toggle Desktop Menu'
-> - Desktop Menu window opens up, View-> select Shaders
-> - Shaders Panel opens up, press 'Load' button, choose 'Load'
-> - Navigate to the shader you want to customize, select and press 'Open' button
-> - Use the Shaders panel to customize settings, you can view the results applied to the game in real time in the RetroArch main window
-
-To save your settings:
-
-> - In Shaders Panel, press 'Save' button and choose one option
-> - Re-enable fullscreen by selecting Retroarch main window and pressing 'f' key
-
-To determine wich saving option is the better for you, please refer to the [Save and autoload customized presets](#54-save-and-autoload-customized-presets-pro) section.
-  
-  
-[3.4] AUTO-LOAD PRESETS (PRO)
------------------------------
-
-For use with multi-system cores (a single core emulates more than one model), you have different choices to save and load your presets: do some experimentation and find the one that best fits your needs!
-
-Note: for a more in-depth reading about RetroArch customizable configurations refer to official Libretro Docs: [Shaders](#https://docs.libretro.com/guides/shaders/) and [Overrides](#https://docs.libretro.com/guides/overrides/) features.
-  
-  
-### [3.4.1] MANUAL PRESET LOADING
-*********************************
-> I'd like to manually load a preset each time I launch a game
+> I'd like to manually load a preset each time you launch a game
 
 - PRO: you are free to load whatever shader preset you like, regardless of game, core or path
 - CON: you have to reload the shader preset each time you start a content
 
 To save your settings:
-
 > - Quick Menu -> Shaders -> Save -> Save Shader preset as... -> give a name and save
 > - (Next time you boot a game) Quick Menu -> Shaders -> Load Shader Preset -> choose a preset
 
-*Note: Custom preset are saved in the '/shaders' path*
+ℹ️ *Note: Custom preset are saved in the `/shaders` folder.*
   
   
-### [3.4.2] AUTO-LOAD A CORE PRESET
-***********************************
-> I'd like to autoload the same preset each time I use a specific core (i.e. PUAE)
+### [4.4.2] CORE PRESET LOADING
+*******************************
+
+> I'd like to autoload presets each time you use a specific core (i.e. `PUAE core`)
 
 - PRO: RetroArch will load the same preset for all games using a specific core
-- CON: You can use ONE graphic pack per-core, meaning you can't have AMIGA500 and AMIGA1200 at the same time (see 'folder' and 'game' presets)
+- CON: You can use ONE graphic pack for each core, meaning you can't have AMIGA 500 and AMIGA 1200 at the same time as they both work with PUAE core (see [folder preset loading](#443-folder-preset-loading) and [game preset loading](#444-game-preset-loading)).
 
 To save your settings:
-
 > - Quick Menu -> Shaders -> Save -> Save Core preset
 
-*Note: Custom core preset are saved in the '/config/%CoreName%' path in a %CoreName%.slangp file*
+ℹ️ *Note: Custom core preset are saved in the `/config/%CoreName%` folder in a `%CoreName%.slangp` file.*
   
   
-### [3.4.3] AUTO-LOAD A FOLDER PRESET
-*************************************
-> I'd like to autoload the same preset for all games from a specific folder (i.e. 'roms/Commodore - Amiga')
+### [4.4.3] FOLDER PRESET LOADING
+*********************************
 
-- PRO: RetroArch will load the same preset for ALL the games in a specific folder. Usually this is the sweet spot to use more than one graphic pack on a multi-system core (i.e. for PUAE core I use three distinct folders for Amiga500 floppies, Amiga1200 hard drives and AmigaCD32 disks to apply separate A500, A1200 and AmigaCD32 presets)
-- CON: You can't have game-specific shader adjustments, most commons being overscan tuning (unless you use save separate core settings or go on with per-game presets)
+> I'd like to autoload the same preset for all games from a specific folder (i.e. `roms/Commodore - Amiga`)
+
+- PRO: RetroArch will load the same preset for ALL the games in a specific folder. Usually this is the sweet spot to use more than one graphic pack on a multi-system core (i.e. for PUAE core I use three distinct folders for Amiga 500 floppies, Amiga 1200 hard drives and Amiga CD32 disks to apply separate AMIGA 500, AMIGA 1200 and AMIGA CD32 presets)
+- CON: You can't have game-specific shader adjustments, most commons being overscan tuning (unless you use save separate core settings or go on with per-game presets, see [game preset loading](#444-game-preset-loading)).
 
 To save your settings:
-
 > - Quick Menu -> Shaders -> Save -> Save Content Directory preset
 
-*Note: Custom directory preset are saved in the '/config/%CoreName%' path in a %FolderName%.slangp file*
+ℹ️ *Note: Custom directory preset are saved in the `/config/%CoreName%` folder in a `%FolderName%.slangp` file.*
   
   
-### [3.4.4] AUTO-LOAD A GAME PRESET
-***********************************
-> I'd like to autoload a specific preset for my favourite game
+### [4.4.4] GAME PRESET LOADING
+*******************************
+
+> I'd like to autoload a specific preset for a single game
 
 - PRO: RetroArch will load a specific preset each time you boot a specific game. This way you can tune the shader settings to perfection, including position and overscan, for each game. You can also choose different graphic packs for each game.
-- CON: You'll have to do this for every-single-game-you-love 💕.
+- CON: You'll have to do this for every-single-game-you-love.
 
 To save your settings:
-
 > - Quick Menu -> Shaders -> Save -> Game preset
 
-*Note: Custom game preset are saved in the '/config/%CoreName%' path in a %GameName%.slangp file*
+ℹ️ *Note: Custom game preset are saved in the `/config/%CoreName%` folder in a `%GameName%.slangp` file.*
+
+[4.5] COMMON CUSTOMIZATIONS
+---------------------------
+
+This section contains some step-by-step examples of some of the most used customizations. For more information about shader parameters, please refer to the HSM Mega Bezel Reflection Shaders documentation.
+
+### [4.5.1] CUSTOMIZE DISPLAY SCALING AND POSITIONING
+*****************************************************
+
+You can scale and position display and gameplay area (EXT and ADV profile only).
+
+> 1) Quick Menu -> Shaders -> Shader Parameters
+> 2) Go to the `SCALING` section
+> 3) Use `NON-INTEGER SCALE %` to set display dimension
+> 4) Go to the `POSITION OFFSET` section
+> 5) Use `POSITION X` and `POSITION Y` parameters to set display position
+> 6) Quick Menu -> Resume and enjoy your customized game
+
+To save your custom settings:
+
+> 7) Quick Menu -> Shaders -> Save -> Save Shader preset as... -> give a name and save
+> 8) (Next time you boot a game) Quick Menu -> Shaders -> Load Shader Preset -> choose a preset
+
+ℹ️ *Note: Custom preset are saved in the `/shaders` folder.*
+
+### [4.5.2] CUSTOMIZE AMBIENT LIGHTNING
+***************************************
+
+You can tune the lightning level to obtain the best contrast between gaming area and backdrop:
+
+> 1) Quick Menu -> Shaders -> Shader Parameters
+> 2) Go to the `NIGHT LIGHTNING` section
+> 3) Use `OPACITY` value to set the amount of darkness
+> 4) Quick Menu -> Resume and enjoy your customized game
+
+To save your custom settings:
+
+> 5) Quick Menu -> Shaders -> Save -> Save Shader preset as... -> give a name and save
+> 6) (Next time you boot a game) Quick Menu -> Shaders -> Load Shader Preset -> choose a preset
+
+ℹ️ *Note: Custom preset are saved in the `/shaders` folder.*
+
+### [4.5.3] FIX OVERSCAN / PILLAR BOXES / BLACK AREAS
+*****************************************************
+
+You can make your old games go full screen by cutting away black areas:
+
+> 1) Quick Menu -> Shaders -> Shader Parameters
+> 2) Go to the `CROPPING` section
+> 3) Set `CROP MODE` to `CROP ANY`
+> 4) Use `CROP TOP %`, `CROP BOTTOM %`, `CROP LEFT %` and `CROP RIGHT %` parameters to cut away pixels, image will adapt accordingly (try to keep a nice aspect ratio!)
+> 5) Quick Menu -> Resume and enjoy your customized game
+
+To save your game-specific settings:
+
+> 6) Quick Menu -> Shaders -> Save -> Game preset
+
+ℹ️ *Note: Custom game preset are saved in the `/config/%CoreName%` folder in a `%GameName%.slangp` file.*
   
+[5] FREQUENTLY ASKED QUESTIONS
+==============================
   
-[3.5] FAQ
----------
+- [How to update Mega Bezel Commodore Pack?](#how-to-update-mega-bezel-commodore-pack)  
+- [How to uninstall Mega Bezel Commodore Pack?](#how-to-uninstall-mega-bezel-commodore-pack)
+- [Which CRT shader are presets based upon?](#which-crt-shader-are-presets-based-upon)
+- [Everything looks funky and stretchy! What the hell is going on?](#everything-looks-funky-and-stretchy-what-the-hell-is-going-on)
+- [Can't see any preset in the shaders folder!](#cant-see-any-preset-in-the-shaders-folder)
+- [Vulkan, gl or glcore? Which video driver is better?](#Vulkan-gl-or-glcore-which-video-driver-is-better)
+- [Will you add new presets and systems to Mega Bezel Commodore Pack?](#will-you-add-new-presets-and-systems-to-mega-bezel-commodore-pack)
+- [Will you develop packs for systems other than Commodore?](#will-you-develop-packs-for-systems-other-than-commodore)
+- [Do you accept requests?](#do-you-accept-requests)
+- [Why did you make it only for 4K and 1080p, 16:9?](#why-did-you-make-it-only-for-4k-and-1080p-169)
+- [What did you use to draw the artworks?](#what-did-you-use-to-draw-the-artworks)
   
-> How to uninstall HSM Commodore Pack?
+## How to update Mega Bezel Commodore Pack?
+---
 
-Delete 'overlays/thenamec' and 'shaders/shaders_slang/bezel/thenamec' folders
+* I strongly recommend deleting any previously installed version of the pack before updating.
+* Copy `shaders` folders from the Mega Bezel Commodore Pack archive you RetroArch root.
 
-> How to update HSM Commodore Pack?
+## How to uninstall Mega Bezel Commodore Pack?
+---
 
-Copy 'overlays' and 'shaders' folders from the archive you downloaded to RetroArch root
-
-> Which CRT shader are the presets based upon?
-
-Guest-DrVenom
-
-> Everything looks funky and stretchy! What the hell is going on?
-
-Remember to set up RetroArch for use with HSM Mega Bezel, look at the 'Before you start' section
-
-> Can't see any preset in the shaders/shaders_slang/bezel/thenamec folder!
-
-You have to choose a slang compatible video driver in your RetroArch settings, look at the 'Before you start' section
-
-> Vulkan, gl or glcore? Which video driver is better?
-
-As always, vulkan performs better on AMD GPUs, while GL/GLCORE is more general purpose.
-Any .slang capable driver will be fine, including: vulkan, gl, glcore, metal, Direct3D, WiiU
-
-> Will you add new presets and systems to HSM Commodore Pack?
-
-Only time will tell 😇
-
-> Will you develop packs for systems other than Commodore?
-
-Duimon made an incredible effort with his [HUGE graphic project](#https://forums.libretro.com/t/duimon-hsm-reflection-shader-graphics-feedback-and-updates/), give it a shot
-
-> Do you accept requests?
-
-Maybe. Do you have obscure Commodore devices you think I should add to the HSM Commodore Pack?
-
-> Why did you make it for 4K, 16:9? Where's 8K? Where's 16:10?
-
-Being pure vectors artwork, I can virtually upscale it to infinite resolutions and dimensions. If only I had infinite RAM. Right now 4K is a good compromise of file size, performance and quality. Actually I don't have a 16:10 display for testing... 🤷‍♂️
-
-> What did you use to draw the artworks?
-
-An experimental vector drawing application and a Logi G-502 mouse. No fancy graphic tablets were harmed during the process.
-
-> What's HSM Mega Bezel shader?
-
-HSM Mega Bezel Reflection Shader is an impressive project trying to mimic the best aspects of obsolete technology while reducing/erasing its worst defects: a real time all-in-one CRT engine powered by popular shaders like Guest-DrVenom, Royale, CRT-Geom Deluxe, LCD-GRID and NewPixie. More info at https://forums.libretro.com/t/hsm-mega-bezel-reflection-shader-feedback-and-updates
+* Delete `shaders/thenamec/mega-bezel-commodore-pack-1080p` folder.
+* Delete `shaders/thenamec/mega-bezel-commodore-pack-4k` folder.
   
-  
-⚖️  
-[4] POLICIES
-============
+## Which CRT shader are presets based upon?
+---
 
-[4.1] TERMS AND CONDITIONS
+* `ZFAST` for POTATO performance profile and `Guest-DrVenom` for everything else.
+* `GDV` and `EASYMODE` alternatives are included for POTATO, just edit `_common/POT_global.slangp` accordingly.
+
+## How to enable adaptive design?
+---
+
+* RetroArch v1.9.8 minimum required
+* HSM Mega Bezel Reflection Shader V 0.9.022_2021-09-05 minimum required
+* In RetroArch, Settings -> Video -> Scaling -> Aspect ratio set to ‘full’
+
+## Everything looks funky and stretchy! What the hell is going on?
+---
+
+* In RetroArch, Settings -> Video -> Scaling -> Aspect ratio set to ‘full’
+* In RetroArch, Quick Menu -> Shaders -> Save set 'Simple Presets' to ON
+* Maybe you need to update RetroArch or HSM Mega Bezel Reflection Shader, look at minimum [software requirements](#31-software-requirements).
+* Maybe you need a fresh start, look at the [installation](#32-installation) section.
+
+## Can't see any preset in the shaders folder!
+---
+
+* You have to choose a `slangp` compatible video driver in your RetroArch settings
+* Recommended video driver is `Vulkan`
+* look at the 'Before you start' section
+
+## Vulkan, gl or glcore? Which video driver is better?
+---
+
+* As always, `Vulkan` is the king for performance, while `gl` and `glcore` are general purpose.
+* Any .slang capable driver will be fine, including: `Vulkan`, `gl`, `glcore`, `metal`, `Direct3D`, `WiiU`
+* Really, it's better for you to use `Vulkan`. If your device doesn't support it, probably you need to update to something more performant.
+
+## Can I make Mega Bezel Commodore Pack work with my ODroid, Raspberry Pi or Single Board Computer?
+---
+
+* Short answer: not yet.
+* Long answer: Mega Bezel Reflection Shader enhancements can be intensive for GPU, so the lack of adequate drivers and computing firepower can have a dramatic impact on performance, compromising the gaming experience.
+* Framework developer HyperSpaceMadness is experimenting with potato shaders and assets pre-baking solutions: stay tuned for news!
+
+## Will you add new presets and systems to TheNamec Mega Bezel Commodore Pack?
+---
+
+* Currently I'm focusing on expanding displays and systems catalogue
+* Next steps are Commodore 64 series and VIC20/VC20 series 💪
+* Maybe something cool from the Commodore 264 series 🦾
+* I'm pretty torn about soulless pc-looking Amiga series: A1000, A2000, A3000, A4000. To me these really lack that cool Commodore charm...
+
+## Will you expand Mega Bezel packs to gaming systems other than Commodore?
+---
+* Only time will tell 😇 Free time and motivation are the key elements!
+* Duimon made an incredible effort with his Mega Bezel graphic project <https://forums.libretro.com/t/28146>
+* Soqueroeu designed a pack of console-themed original TV Sets <https://forums.libretro.com/t/34301>
+* Orionsangel focuses on game-themed arcade cabinets <https://forums.libretro.com/t/10604>
+
+## Do you accept requests?
+---
+
+* Maybe yes. Do you have obscure Commodore devices you think I should add to the Mega Bezel Commodore Pack?
+
+## Why did you make it only for 4K and 1080p, 16:9?
+---
+
+* My assets being pure vectors artwork, I can virtually upscale it to infinite resolutions and dimensions... if I only had infinite RAM!
+* Right now 4K and 1080p are a good compromise of file size, performance and quality.
+* Support for adaptive design make TheNamec Mega Bezel Commodore Pack compatible for ultrawide and other-than-16:9 displays.
+  
+## What did you use to draw the artworks?
+---
+
+* A sperimental vector drawing application.
+* A beated-up Logitech G-502 mouse.
+* No fancy graphic tablets were harmed during the process.
+* Little to no raster post-production, except for 4K to 1080p supersampling.
+
+ 
+[6] POLICIES 
+========================
+
+[6.1] TERMS AND CONDITIONS
 --------------------------
   
-### [4.1.1] DISTRIBUTION
+### [6.1.1] DISTRIBUTION
 ************************
-TheNamec Retrogaming Packs can be downloaded from the [official website](#https://retrogamingpacks.blogspot.com/).
-TheNamec Retrogaming Packs and all its related assets and codes are free for personal use: if you paid for it, you have been scammed
+
+TheNamec Retrogaming Packs can be downloaded from the **official website** <https://retrogamingpacks.blogspot.com> and **Github Repository** <https://github.com/thenamec/megabezel-commodore-pack>.
+
+TheNamec Retrogaming Packs and all its related assets and codes are free for personal use: if you paid for it, you have been scammed. 🤬
   
   
-### [4.1.2] LICENSE
+### [6.1.2] LICENSE
 *******************
+
 All the assets, including documentation and code, are published under the 'Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)' Creative Commons license.
 
-Extract from ['CC BY-NC-SA 4.0' Commons Deed](#https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en):
-
+Extract from 'CC BY-NC-SA 4.0' Commons Deed <https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en>: 
 
 > You are free to:
 > - Share — copy and redistribute the material in any medium or format
@@ -527,32 +660,53 @@ Extract from ['CC BY-NC-SA 4.0' Commons Deed](#https://creativecommons.org/licen
 > The licensor cannot revoke these freedoms as long as you follow the license terms.
 > 
 > Under the following terms:
->
 > - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 > - NonCommercial — You may not use the material for commercial purposes.
 > - ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 > - No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-For further reading check the ['CC BY-NC-SA 4.0' legal code](#https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
-
-
+For further reading about the 'CC BY-NC-SA 4.0' legal code:
+<https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en>
   
-### [4.1.3] REVISION CLAUSE
+  
+### [6.1.3] REVISION CLAUSE
 ***************************
-The author may at any time revise these Terms and Conditions by updating this documentary.
-You are bound by the most current Terms and Conditions every time you visit the [official website](#https://retrogamingpacks.blogspot.com/), therefore you should periodically review these Terms and Conditions to which you are bound.
+
+The author may at any time revise these Terms and Conditions by updating this documentation.
+The users are bound by the most current Terms and Conditions every time they visit **official website** <https://retrogamingpacks.blogspot.com/> or **Github Repository** <https://github.com/thenamec/megabezel-commodore-pack>, therefore the user should periodically review these Terms and Conditions to which they are bound.
   
    
-[4.2] DISCLAIMER
+[6.2] DISCLAIMER 
 ----------------
   
-### [4.2.1] THIRD-PARTY ASSETS
+### [6.2.1] THIRD-PARTY ASSETS
 ******************************
-This product contains 'NightLightning', 'TubeGlassOverlayImage' and 'TubeGlassOverlayImage_Night' textures developed by Duimon for HSM Mega Bezel Reflection Shader for technical reasons.
+
+This product includes 'TubeGlassOverlayImage' and 'TubeGlassOverlayImage_Night' textures developed by HSM Mega Bezel Reflection Shader.
+
+I'd like to thank *Unsplash* community photographers for providing backdrops source materials:
+
+- Annie Spratt <https://unsplash.com/@anniespratt>
+- Bernard Hermant <https://unsplash.com/@bernardhermant>
+- Diego Passadori <https://unsplash.com/@dipassadori>
+- gryffyn m <https://unsplash.com/@botanicalnature>
+- jeremy zero <https://unsplash.com/@jeremy0>
+- Michael Dziedzic <https://unsplash.com/@lazycreekimages>
+- Mitchell Luo <https://unsplash.com/@mitchel3uo>
+- Mockaroon <https://unsplash.com/@mockaroon>
   
+Extract from 'Unsplash License' <https://unsplash.com/license> :
+
+> Unsplash photos are made to be used freely. Our license reflects that.
+>  
+> - All photos can be downloaded and used for free
+> - Commercial and non-commercial purposes
+> - No permission needed
   
-### [4.2.2] TRADEMARKS AND LOGOS
+
+### [6.2.2] TRADEMARKS AND LOGOS
 ********************************
+
 All trademarks are included under the concept of 'nominative fair use' for informational, documentary and educational purposes and refer to the trademark owner’s goods and services associated with these marks. 
 
 Commodore brand, including the 'C=', the 'C-flag logo', '64 and rainbow lines logo' and 'VIC20 and VC20 logo alternatives', is a registered trademark owned by Commodore Business Machines LTD.
@@ -563,14 +717,14 @@ All other Trademarks and logos or registered Trademarks and logos used or mentio
 
 All Trademarks and logos used or mentioned belong to their respective owners.
   
-  
-### [4.2.3] LIMITATION OF LIABILITY CLAUSE
+### [6.2.3] LIMITATION OF LIABILITY CLAUSE
 ******************************************
+
 Under no circumstances will the author be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from your use of or inability to use this software or any websites linked to it.
 
+[7] ACKNOWLEDGEMENTS 
+====================
 
-[4.3] ACKNOWLEDGEMENTS 
-----------------------
 I'd like to thank people who supported me in the project:
 
 - My father Rocco, for introducing me in Commodore computers gaming at the age of four
@@ -578,15 +732,20 @@ I'd like to thank people who supported me in the project:
 - HyperSpaceMadness for his impressive shader and support
 - Duimon for the inspiration and for setting excellent design quality standards
   
+[8] CONTACTS 
+==============
   
-💌  
-[5] CONTACTS
-============
-  
-TheNamec Retrogaming Graphic Packs is a fluid project: since the beginning, I tried to add the coolest features that came up to my mind and the requested ones from the retrogaming community.
-If you want to share some ideas with me please refer to my official channels contacts:
+TheNamec Retrogaming Packs is a fluid project: since the beginning, I tried to add the coolest features that came up to my mind and the requested ones from the retrogaming community.  
 
->: Devblog & download https://retrogamingpacks.blogspot.com  
->: Libretro thread https://forums.libretro.com/t/thenamec-mega-bezel-commodore-pack  
->: Github Repository https://github.com/thenamec/megabezel-commodore-pack  
->: E-mail thenamec@hotmail.com  
+If you want to share some ideas with me please refer to the project network:
+
+> Official Links:  
+> 
+>: *Devblog & download* <https://retrogamingpacks.blogspot.com>  
+>: *Libretro thread* <https://forums.libretro.com/t/31523>  
+>: *Github Repository* <https://github.com/thenamec/megabezel-commodore-pack>  
+>: *Facebook Page* <https://www.facebook.com/retrogamingpacks>  
+>: *YouTube Channel* <https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw>  
+>: *E-mail* <thenamec@hotmail.com>  
+> 
+> Latest release at <https://github.com/TheNamec/megabezel-commodore-pack/releases>

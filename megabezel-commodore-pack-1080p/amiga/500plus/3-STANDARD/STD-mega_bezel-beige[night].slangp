@@ -11,8 +11,8 @@
 // TEXTURE IMAGES 
 //-------------------------------------------------------------
 
-// CABINETGLASS IMG [NIGHT] | player silhouette reflection on display
-// CabinetGlassImage = "../../../_common/textures/TubeGlassOverlayImage_Night_3840x2160.png"
+// AMBIENT LIGHTNING IMAGE [NIGHT] | Room illumination
+NightLightingImage = "../../../_common/textures/ambient-night.jpg"
 
 
 // TEXTURE SETTINGS
@@ -20,7 +20,10 @@
 
 // NIGHTLIGHTNING IMAGE [NIGHT] | Used to turn the lighs on in [NIGHT] presets
 HSM_NIGHT_OPACITY = "100.000000"
+HSM_NIGHT_SCALE = "110.000000"
+HSM_NIGHT_SATURATION = "100.000000"
 HSM_NIGHT_VALUE = "80.000000"
+HSM_NIGHT_DITHERING_SAMPLES = "0.000000"
 
 // BEZEL & FRAME COLOR
 HSM_BZL_COLOR_VALUE = "92.000000"

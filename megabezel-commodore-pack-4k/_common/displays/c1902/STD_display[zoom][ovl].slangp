@@ -1,0 +1,33 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// DISPLAY PRESET [c1084s-d1, ZOOM] | STANDARD, OVERLAY
+// Big gameplay area, some display details
+
+// REFERENCE TO STANDARD DISPLAY PRESET
+// STD OVERLAY disables bezel/frame & multilayers
+#reference "STD_display[zoom].slangp"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// PROCEDURAL BEZEL
+HSM_BZL_OPACITY = "0.000000"
+HSM_BZL_BLEND_MODE = "0.000000"
+
+// PROCEDURAL FRAME
+HSM_FRM_OPACITY = "0.000000"
+
+// LED IMG | WALLPAPER lightmap texture
+HSM_LED_OPACITY = "0.000000"
+HSM_LED_BLEND_MODE = "0.000000"
+
+// DECAL IMG | DISPLAY decoration
+HSM_DECAL_OPACITY = "0.000000"
+HSM_DECAL_BLEND_MODE = "0.000000"
+
+// TOP LAYER | Extra decoration
+HSM_TOP_OPACITY = "0.000000"
+HSM_TOP_BLEND_MODE = "0.000000"

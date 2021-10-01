@@ -5,7 +5,7 @@
 // MODEL+DISPLAY OVERLAY PRESET [c1084, DAY]
 
 // REFERENCE TO MODEL PRESET
-#reference "../../../_common/displays/c1084/POT_display-zoom.slangp"
+#reference "../../../_common/displays/c1084/POT_display[zoom].slangp"
 
 
 // TEXTURE IMAGES
@@ -15,4 +15,4 @@
 IntroImage = "../assets/intro.png"
 
 // BG IMG | OVERLAY diffuse texture
-BackgroundImage = "../assets/overlay-flat[night].png"
+BackgroundImage = "../assets/overlay-square[night].png"

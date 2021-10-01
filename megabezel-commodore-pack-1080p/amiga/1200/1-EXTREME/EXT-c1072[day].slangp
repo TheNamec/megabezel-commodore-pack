@@ -5,7 +5,7 @@
 // MODEL-> DISPLAY MULTILAYER PRESET [c1072, DAY]
 
 // REFERENCE TO DISPLAY PRESET
-#reference "../../../_common/displays/c1072/EXT_display-zoom.slangp"
+#reference "../../../_common/displays/c1072/EXT_display[zoom].slangp"
 
 
 // TEXTURE IMAGES

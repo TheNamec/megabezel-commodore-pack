@@ -1,0 +1,124 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// DISPLAY PRESET [c1201, FULL, MONO] | EXTREME
+// Full display, small gameplay area
+
+// REFERENCE TO DISPLAY PRESET
+#reference "EXT_display[full].slangp"
+
+
+// POSTPROCESSING & FX | MONOCHROME
+// Note: common settings for lo-fi monochrome
+//-------------------------------------------------------------
+
+// INTERLACING
+HSM_INTERLACE_TRIGGER_RES = "150.000000"
+HSM_INTERLACE_EFFECT_SMOOTHNESS_INTERS = "20.000000"
+HSM_INTERLACE_SCANLINE_EFFECT = "0.000000"
+
+// FAKE SCANLINES
+HSM_FAKE_SCANLINE_OPACITY = "10.000000"
+HSM_FAKE_SCANLINE_RES = "480.000000"
+HSM_POST_CRT_BRIGHTNESS = "200.000000"
+
+// CRT BRIGHTNESS & GAMMA
+HSM_POST_CRT_BRIGHTNESS = "140.000000"
+
+// MONOCHROME
+// Note: (1) WHITE, (2) AMBER, (3) GREEN
+HSM_MONOCHROME_MODE = "2.000000"
+HSM_MONOCHROME_GAMMA = "1.000000"
+HSM_MONOCHROME_SATURATION = "100.000000"
+
+
+// COLOR CORRECTION - GRADE
+//-------------------------------------------------------------
+g_grade_on = "1.000000"
+
+// GAMMA
+g_gamma_in = "1.800000"
+g_gamma_out = "1.800000"
+g_crtgamut = "3.000000"
+
+// VIGNETTE
+g_vignette = "1.000000"
+g_vstr = "10.000000"
+g_vpower = "4.000000"
+
+// COLOR TEMP & HUE
+wp_temperature = "5200.000000"
+g_sat = "-0.000000"
+g_vibr = "0.000000"
+
+// BRIGHTNESS & CONTRAST
+g_lum_fix = "0.000000"
+g_lum = "1.000000"
+g_cntrst = "1.000000"
+g_mid = "0.900000"
+
+
+// TV PROCESS GTU
+//-------------------------------------------------------------
+GTU_ON = "1.000000"
+compositeConnection = "0.000000"
+signalResolution = "240.000000"
+signalResolutionI = "93.000000"
+signalResolutionQ = "93.000000"
+
+
+// GUEST DR.VENOM ADVANCED
+//-------------------------------------------------------------
+
+// AFTERGLOW
+GDV_AFTERGLOW_THRESHOLD = "30.000000"
+PR = "0.320000"
+PG = "0.320000"
+PB = "0.320000"
+AS = "0.280000"
+sat = "0.280000"
+BP = "10.000000"
+
+// COLOR TWEAKS
+CS = "0.000000"
+CP = "-1.000000"
+TNTC = "4.000000"
+WP = "100.000000"
+wp_saturation = "0.000000"
+pre_bb = "0.600000"
+
+// GLOW
+glow = "0.150000"
+SIGMA_H = "1.800000"
+SIGMA_V = "1.800000"
+halation = "0.205000"
+
+// BLOOM & HALATION
+bloom = "0.800000"
+halation = "0.600000"
+SIZEHB = "6.000000"
+SIGMA_HB = "1.000000"
+SIZEVB = "6.000000"
+SIGMA_VB = "0.950000"
+
+// BRIGHTNESS SETTINGS
+gamma_c = "1.000000"
+brightboost = "9.00000"
+brightboost1 = "2.00000"
+
+// CRT GRILLE
+shadowMask = "-1.000000"
+maskstr = "0.000000"
+
+// DECONVERGENCE
+GDV_DECONVERGENCE_ON = "1.000000"
+dctypex = "0.050000"
+dctypey = "0.050000"
+deconrr = "-1.000000"
+deconrry = "-1.000000"
+deconrg = "-1.000000"
+deconrgy = "-1.000000"
+decons = "3.000000"
+deconsmooth = "1.000000"
+addnoised = "0.000000"

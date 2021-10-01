@@ -1,0 +1,28 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// DISPLAY PRESET [c1201, ZOOM] | POTATO
+// Big gameplay area, some display details
+
+// REFERENCE TO GLOBAL PRESET
+#reference "../../POT_global.slangp"
+
+
+// DISPLAY SETTINGS
+//-------------------------------------------------------------
+
+// SCALING
+HSM_NON_INTEGER_SCALE = "62.400000"
+
+// POSITION
+HSM_SCREEN_POSITION_Y = "49.000000"
+
+// ASPECT RATIO
+HSM_ASPECT_RATIO_MODE = "1.000000"
+HSM_ASPECT_RATIO_EXPLICIT = "1.330000"
+
+// SCREEN BLACK EDGE
+HSM_SCREEN_CORNER_RADIUS = "10.000000"
+HSM_SCREEN_EDGE_SHARPNESS = "40.000000"
+HSM_TUBE_BLACK_EDGE_THICKNESS = "55.000000"

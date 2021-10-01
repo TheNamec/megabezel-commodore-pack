@@ -5,7 +5,8 @@
 // MODEL-> MEGA_BEZEL MULTILAYER PRESET [MEGA_BEZEL-BLACK, DAY]
 
 // REFERENCE TO DISPLAY PRESET
-#reference "../../../_common/displays/mega_bezel-black/STD_display.slangp"
+// A1200SYNTH exception: led on background requires advanced profile
+#reference "../../../_common/displays/mega_bezel-black/ADV_display.slangp"
 
 
 // TEXTURE IMAGES 

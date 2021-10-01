@@ -1,0 +1,18 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// DISPLAY PRESET [c1201, ZOOM, MONO, AMBER] | STANDARD
+// Big gameplay area, some display details
+
+// REFERENCE TO MONO PRESET
+#reference "STD_display[zoom][mono].slangp"
+
+
+// GUEST DR.VENOM ADVANCED
+//-------------------------------------------------------------
+
+// LUT - (1) WHITE, (2) AMBER, (3) GREEN
+HSM_MONOCHROME_GAMMA = "2.400000"
+HSM_MONOCHROME_HUE_OFFSET = "-18.000000"
+HSM_MONOCHROME_SATURATION = "100.000000"

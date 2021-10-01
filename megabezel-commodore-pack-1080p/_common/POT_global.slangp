@@ -4,25 +4,56 @@
 
 // GLOBAL PRESET | POTATO
 
-// REFERENCE TO HSM_MEGA_BEZEL shader
-#reference ":/shaders/shaders_slang/bezel/Mega_Bezel/Presets/MBZ__4__BASIC.slangp"
+// [POTATO] FEATURES SET:
+// ---------------------------
+// - BACKGROUND / OVERLAY   ✓
+// - DEVICE REFLECTIONS     ✗
+// - DECONVERGENCE          ✗
+// - 2D CURVATURE           ✗
+// - DEVICE SCALE / MOVE    ✗
+// - BACKGROUND LED         ✗
+// - DEVICE DECAL / LED     ✗
+// - AMBIENT LIGHTNING      ✗
+// - ADAPTIVE DESIGN        ✗
+// - MDAPT (2)              ✗
+// - CABINET GLASS          ✗
+// - TV PROCESS GTU         ✗
+// - SCALEFX RESAMPLE       ✗
+// - FAST SHARPEN           ✗
+
+
+// REFERENCE TO [HSM_MEGA_BEZEL] shader
+// Note for performance: ZFAST > GDV > EASYMODE
+
+// [MBRS POTATO] PROFILE REFERENCE
+// #reference ":/shaders/shaders_slang/bezel/Mega_Bezel/Presets/MBZ__5__POTATO.slangp"
+
+// [ZFAST] PROFILE REFERENCE (default)
+#reference ":/shaders/shaders_slang/bezel/Mega_Bezel/Presets/Base_CRT_Presets/MBZ__5__POTATO__ZFAST.slangp"
+
+// [GDV] PROFILE REFERENCE 
+// #reference ":/shaders/shaders_slang/bezel/Mega_Bezel/Presets/MBZ__5__POTATO.slangp"
+
+// [EASYMODE] PROFILE REFERENCE 
+// #reference ":/shaders/shaders_slang/bezel/Mega_Bezel/Presets/Base_CRT_Presets/MBZ__5__POTATO__EASYMODE.slangp"
 
 
 // TEXTURE IMAGES 
 //-------------------------------------------------------------
 
 // BG IMG | WALLPAPER diffuse texture (default)
+// Note: different texture is applied in [MODEL] presets
 BackgroundImage = "textures/bg.jpg"
 
 // INTRO IMG | Startup animation (default)
+// Note: different texture is applied in [MODEL] presets
 IntroImage = "textures/intro.png"
 
 
 // TEXTURE SETTINGS
 //-------------------------------------------------------------
 
-// INTRO IMG | Startup animation
-// Note: A different texture is applied in [MODEL] presets
+// INTRO IMG
 HSM_INTRO_WHEN_TO_SHOW = "1.000000"
 HSM_INTRO_REPEAT_TIME = "240.000000"
 HSM_INTRO_SPEED = "120.000000"
@@ -42,8 +73,6 @@ HSM_INTRO_SOLID_COLOR_FADE_OUT = "35.000000"
 
 // SIMPLIFIED PROFILE SETTINGS
 HSM_STANDARD_BG_SHOW_OVER_SCREEN = "1.000000"
-USE_IMAGE_FOR_PLACEMENT = "1.000000"
-HSM_SNAP_TO_INT_SCALE_TOLERANCE = "0.010000"
 
 // CURVATURE
 // Note: Disabled in POTATO
@@ -61,17 +90,35 @@ HSM_CROP_OVERSCAN_LEFT = "0.000000"
 HSM_CROP_OVERSCAN_RIGHT = "0.000000"
 
 
-// POSTPROCESSING & OTHER EFFECTS
+// POSTPROCESSING & FX
 //-------------------------------------------------------------
 
-// DECONVERGENCE
-// Note: disabled in POTATO
-GDV_DECONVERGENCE_ON = "0.000000"
+// [ZFAST] PROFILE (default)
+//-------------------------------------------------------------
+BLURSCALEX = "1.000000"
+LOWLUMSCAN = "4.000000"
+HILUMSCAN = "6.000000"
+BRIGHTBOOST = "1.500000"
+MASK_DARK = "0.200000"
+MASK_FADE = "0.500000"
 
-// TV PROCESS GTU
-// Note: disabled in POTATO
-GTU_ON = "0.000000"
 
-// SCALEFX RESAMPLING
-// Note: disabled in POTATO
-HSM_SCALEFX_ON = "0.000000"
+// [MBRS POTATO] & [GDV] PROFILES
+//-------------------------------------------------------------
+
+// COLOR TWEAKS
+CS = "1.000000"
+CP = "4.000000"
+TNTC = "4.000000"
+pre_bb = "1.060000"
+
+// CRT MASK OPTIONS
+shadowMask = "7.000000"
+
+
+// [EASYMODE] PROFILE
+//-------------------------------------------------------------
+ESM_SCANLINE_STRENGTH_MIN = "0.500000"
+ESM_SCANLINE_STRENGTH_MAX = "1.000000"
+ESM_SCANLINE_BEAM_MAX = "2.499999"
+ESM_MASK_TYPE = "2.000000"

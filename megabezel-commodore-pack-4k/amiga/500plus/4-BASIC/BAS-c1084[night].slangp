@@ -5,7 +5,7 @@
 // MODEL+DISPLAY OVERLAY PRESET [c1084, NIGHT]
 
 // REFERENCE TO MODEL PRESET
-#reference "../../../_common/displays/c1084/BAS_display-zoom.slangp"
+#reference "../../../_common/displays/c1084/BAS_display[zoom].slangp"
 
 
 // TEXTURE IMAGES

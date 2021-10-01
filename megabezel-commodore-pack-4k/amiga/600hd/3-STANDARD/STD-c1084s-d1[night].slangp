@@ -2,16 +2,25 @@
 // https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
 //-------------------------------------------------------------
 
-// MODEL+DISPLAY OVERLAY PRESET [c1084s-d1, NIGHT]
+// MODEL-> DISPLAY MULTILAYER PRESET [c1084s-d1, NIGHT]
 
-// REFERENCE TO MODEL PRESET
-#reference "../../../_common/displays/c1084s-d1/STD_display-zoom[OVL].slangp"
+// REFERENCE TO DISPLAY PRESET
+#reference "STD-c1084s-d1[day].slangp"
 
-// TEXTURE IMAGES
+
+// TEXTURE IMAGES 
 //-------------------------------------------------------------
 
-// INTRO IMG | Startup animation
-IntroImage = "../assets/intro.png"
+// AMBIENT LIGHTNING IMAGE [NIGHT] | Room illumination
+NightLightingImage = "../../../_common/textures/ambient-night.jpg"
 
-// BG IMG | OVERLAY diffuse texture
-BackgroundImage = "../assets/overlay-curved[night].png"
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// NIGHTLIGHTNING IMAGE [NIGHT] | Used to turn the lighs on in [NIGHT] presets
+HSM_NIGHT_OPACITY = "100.000000"
+HSM_NIGHT_SCALE = "110.000000"
+HSM_NIGHT_SATURATION = "100.000000"
+HSM_NIGHT_VALUE = "80.000000"
+HSM_NIGHT_DITHERING_SAMPLES = "0.000000"

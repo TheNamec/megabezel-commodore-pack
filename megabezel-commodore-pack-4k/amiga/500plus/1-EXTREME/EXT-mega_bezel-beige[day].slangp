@@ -4,7 +4,7 @@
 
 // MODEL-> MEGA_BEZEL MULTILAYER PRESET [MEGA_BEZEL-BEIGE, DAY]
 
-// REFERENCE TO MODEL PRESET
+// REFERENCE TO DISPLAY PRESET
 #reference "../../../_common/displays/mega_bezel-beige/EXT_display.slangp"
 
 
