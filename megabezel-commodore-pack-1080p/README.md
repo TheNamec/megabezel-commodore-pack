@@ -120,7 +120,7 @@ I'm an Italian graphic artist and this is my love letter to Commodore devices: a
 [2.1] WHAT'S IN THE BOX
 -----------------------
 
-Included in current public [**Release Candidate 1 (July 23rd, 2021)**](https://retrogamingpacks.blogspot.com/p/downloads.html):
+Included in current public [**Release Candidate 2 (October 2nd, 2021)**](https://retrogamingpacks.blogspot.com/p/downloads.html):
 
 - **Commodore Amiga series**: A500, A500 Plus, A600, A600HD, A1200, A1200Synth, Amiga CD32
 - **Classic Monitors**: C1080, C1201 Monochrome, C1702, C1902, C1084, C1084S-D1, C1084S-D2 CDTV Black Edition
@@ -153,7 +153,7 @@ I personally draw my digital illustrations with a particular care for accessibil
 - `EMBEDDED DATA DEVICE` floppy disk drives and datassette are embedded in the chassis for a compact, vintage flavor
 - `AMIGA 1200SYNTH` is an original concept for an advanced Synthwave Amiga, equipped with a dark chassis, backlit keyboard, embedded multi-floppy data simulator and optical disk drive. A little cyber, a little punk.
 
-Note: `AMIGA 1200SYNTH` is also available as a FS-UAE emulator theme, sporting advanced features: blinking LED indicators, functional multi-floppy data simulator, disk presence switches, disk track display, disk access notification, audio indicator and basic curvature and scanlines postprocessing effects. For more info visit <https://github.com/TheNamec/fsuae-amiga-themes> 
+Note: `AMIGA 1200SYNTH` will soon be available as a FS-UAE emulator theme, sporting advanced features: blinking LED indicators, functional multi-floppy data simulator, disk presence switches, disk track display, disk access notification, audio indicator and basic curvature and scanlines postprocessing effects. For more info visit <https://github.com/TheNamec/fsuae-amiga-themes> 
 
 [2.3] ZERO-CONFIG PRESETS
 -------------------------
