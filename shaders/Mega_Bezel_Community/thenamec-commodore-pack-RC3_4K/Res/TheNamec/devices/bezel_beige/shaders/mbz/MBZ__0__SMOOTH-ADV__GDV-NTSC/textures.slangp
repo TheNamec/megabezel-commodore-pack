@@ -1,0 +1,48 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// REFERENCE TO DEVICE PRESET FRAGMENT
+#reference "link.slangp"
+
+
+// TEXTURE IMAGES
+//-------------------------------------------------------------
+
+// DEVICE IMG | Bezel decoration texture
+DeviceImage = "../../../assets/bezel.png"
+
+// DECAL IMG | Bezel light texture
+DecalImage = "../../../assets/decal.png"
+
+
+// TEXTURE LAYERS ORDERING
+//-------------------------------------------------------------
+//HSM_FRM_LAYER_ORDER = "4.000000"
+HSM_CRT_LAYER_ORDER = "4.000000"
+HSM_DEVICE_LAYER_ORDER = "8.000000"
+HSM_DECAL_LAYER_ORDER = "9.000000"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// DEVICE IMG | Bezel diffuse texture
+HSM_DEVICE_OPACITY = "100.000000"
+HSM_DEVICE_BLEND_MODE = "1.000000"
+HSM_DEVICE_SOURCE_MATTE_TYPE = "2.000000"
+HSM_DEVICE_SCALE_FULL_WITH_ZOOM = "1.000000"
+HSM_DEVICE_COPY_INHERITED_COORD = "0.000000"
+HSM_DEVICE_SCALE_MODE = "2.000000"
+HSM_DEVICE_TEXTURE_ASPECT_MODE = "4.000000"
+HSM_DEVICE_SCALE_KEEP_ASPECT = "0.000000"
+HSM_DEVICE_SCALE = "98.200000"
+HSM_DEVICE_POS_Y = "-0.100000"
+
+// DECAL IMG | Bezel lightning texture
+HSM_DECAL_SCALE_MODE = "2.000000"
+HSM_DECAL_SCALE_FULL_WITH_ZOOM = "1.000000"
+HSM_DECAL_TEXTURE_ASPECT_MODE = "4.000000"
+HSM_DECAL_SCALE_KEEP_ASPECT = "0.000000"
+HSM_DECAL_SCALE = "98.200000"
+HSM_DECAL_POS_Y = "-0.100000"

@@ -1,0 +1,21 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+// SCENARIO PRESET
+
+// REFERENCE TO DISPLAY PRESET
+#reference "../../../../../res/TheNamec/devices/commodore_1084s-d1/shaders/mbz/MBZ__0__SMOOTH-ADV__GDV-NTSC/curved/scale_near.slangp"
+
+
+// TEXTURE IMAGES
+//-------------------------------------------------------------
+
+// INTRO IMG | Startup animation
+IntroImage = "../../../../../res/TheNamec/scenes/commodore_vic20/mark3/assets/intro.png"
+
+// BG IMG | WALLPAPER diffuse texture
+BackgroundImage = "../../../../../res/TheNamec/scenes/commodore_vic20/mark3/assets/bg.png"
+
+// LED IMG | WALLPAPER lightning texture
+LEDImage = "../../../../../res/TheNamec/scenes/commodore_vic20/mark3/assets/led.png"

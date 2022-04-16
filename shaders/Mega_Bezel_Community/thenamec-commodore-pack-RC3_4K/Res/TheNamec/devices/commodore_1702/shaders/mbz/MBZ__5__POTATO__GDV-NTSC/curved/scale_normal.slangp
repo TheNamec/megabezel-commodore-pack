@@ -1,0 +1,16 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// REFERENCE TO DEVICE PRESET FRAGMENT
+#reference "tweaks.slangp"
+
+
+// SCALING AND POTITIONING
+//-------------------------------------------------------------
+
+// SCALING
+HSM_NON_INTEGER_SCALE = "66.000000"
+
+// POSITION
+HSM_SCREEN_POSITION_Y = "85.000000"

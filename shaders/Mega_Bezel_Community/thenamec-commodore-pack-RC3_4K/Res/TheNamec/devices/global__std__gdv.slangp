@@ -1,0 +1,123 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// GLOBAL PRESET | [GDV STANDARD]
+#reference "../../../../../shaders_slang/bezel/Mega_Bezel/Presets/Base_CRT_Presets/MBZ__3__STD__GDV-NTSC.slangp"
+
+
+// TEXTURE IMAGES 
+//-------------------------------------------------------------
+
+// INTRO IMG | Startup animation
+IntroImage = "../../../../../res/TheNamec/scenarios/commodore_amiga/500/assets/intro.png"
+
+// BG IMG | WALLPAPER diffuse texture (default)
+BackgroundImage = "../textures/bg.jpg"
+
+// AMBIENT LIGHTNING IMAGE [DAY] | Room illumination (default)
+// Note: A different texture is applied in [NIGHT] presets
+NightLightingImage = "../textures/ambient-day.jpg"
+
+// INTRO IMG | Startup animation (default)
+// Note: A different texture is applied in [SCENARIO] presets
+IntroImage = "../textures/intro.png"
+
+// DECAL IMG | DISPLAY decoration (default)
+// Note: DISPLAY lightmap texture in multilayer presets
+DecalImage = "../textures/decal.png"
+
+
+// TEXTURE LAYERS ORDERING
+//-------------------------------------------------------------
+
+// BG IMG
+HSM_BG_IMG_LAYER_ORDER ="0.000000"
+
+// LED IMG
+HSM_LED_LAYER_ORDER = "2.000000"
+
+// DEVICE IMG
+HSM_DEVICE_LAYER_ORDER = "4.000000"
+
+// CABINETGLASS IMG [DAY]
+HSM_CAB_GLASS_LAYER_ORDER = "7.000000"
+
+// DECAL IMG
+HSM_DECAL_LAYER_ORDER = "8.000000"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// LED IMG
+HSM_LED_OPACITY = "95.000000"
+HSM_LED_EXPLICIT_TEXTURE_ASPECT = "1.000000"
+
+// AMBIENT LIGHTNING IMAGE [DAY]
+HSM_AMBIENT_LIGHTING_OPACITY = "30.000000"
+HSM_AMBIENT_LIGHTING_SCALE = "110.000000"
+HSM_AMBIENT_LIGHTING_SATURATION = "45.000000"
+HSM_AMBIENT_LIGHTING_VALUE = "125.000000"
+HSM_AMBIENT_LIGHTING_DITHERING_SAMPLES = "0.000000"
+
+// DECAL IMG
+HSM_DECAL_OPACITY = "100.000000"
+HSM_DECAL_BLEND_MODE = "2.000000"
+HSM_DECAL_SCALE_MODE = "4.000000"
+HSM_DECAL_TEXTURE_ASPECT_MODE = "1.000000"
+HSM_DECAL_EXPLICIT_TEXTURE_ASPECT = "1.000000"
+HSM_DECAL_SCALE_KEEP_ASPECT = "0.000000"
+
+// DEVICE IMG
+HSM_DEVICE_OPACITY = "100.000000"
+HSM_DEVICE_MASK_MODE = "7.000000"
+HSM_DEVICE_CUTOUT_MODE = "0.000000"
+HSM_DEVICE_TEXTURE_ASPECT_MODE = "1.000000"
+HSM_DEVICE_EXPLICIT_TEXTURE_ASPECT = "1.000000"
+HSM_DEVICE_SCALE_MODE = "2.000000"
+HSM_DEVICE_SCALE_KEEP_ASPECT = "0.000000"
+HSM_DEVICE_SCALE_X = "100.000000"
+
+// INTRO IMG
+HSM_INTRO_WHEN_TO_SHOW = "1.000000"
+HSM_INTRO_REPEAT_TIME = "240.000000"
+HSM_INTRO_SPEED = "120.000000"
+HSM_INTRO_NOISE_BLEND_MODE = "2.000000"
+HSM_INTRO_SOLID_COLOR_BLEND_MODE = "2.000000"
+HSM_INTRO_LOGO_WAIT = "50.000000"
+HSM_INTRO_LOGO_FADE_IN = "35.000000"
+HSM_INTRO_LOGO_HOLD = "80.000000"
+HSM_INTRO_LOGO_FADE_OUT = "60.000000"
+HSM_INTRO_SOLID_COLOR_HUE = "30.000000"
+HSM_INTRO_SOLID_COLOR_HOLD = "25.000000"
+HSM_INTRO_SOLID_COLOR_FADE_OUT = "35.000000"
+
+// HORIZONTAL SPLIT
+// Note: adaptive behaviour for BG and LED layers
+HSM_BG_SCALE_KEEP_ASPECT = "0.000000"
+HSM_BG_FILL_MODE = "1.000000"
+HSM_LED_SCALE_KEEP_ASPECT = "0.000000"
+HSM_LED_FILL_MODE = "1.000000"
+
+
+// DISPLAY SETTINGS [COMMON]
+//-------------------------------------------------------------
+
+// CURVATURE (default)
+HSM_CURVATURE_2D_SCALE_LONG_AXIS = "70.000000"
+HSM_CURVATURE_2D_SCALE_SHORT_AXIS = "80.000000"
+
+// SCREEN VIGNETTE
+HSM_SCREEN_VIGNETTE = "2.000000"
+HSM_SCREEN_VIGNETTE_IN_REFLECTION = "100.000000"
+
+// CROP/OVERSCAN RESET
+// Note: Core automatic crop/overscan/centering does a better job
+HSM_CROP_OVERSCAN_TOP = "0.000000"
+HSM_CROP_OVERSCAN_BOTTOM = "0.000000"
+HSM_CROP_OVERSCAN_LEFT = "0.000000"
+HSM_CROP_OVERSCAN_RIGHT = "0.000000"
+
+// MDAPT DE-DITHERING FILTER
+MDAPT_MODE = "0.000000"

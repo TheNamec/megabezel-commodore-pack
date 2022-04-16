@@ -1,0 +1,21 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+// SCENARIO PRESET
+
+// REFERENCE TO DISPLAY PRESET
+#reference "../../../../../res/TheNamec/devices/commodore_1084s-d2/shaders/mbz/MBZ__1__ADV__GDV/flat/scale_near.slangp"
+
+
+// TEXTURE IMAGES
+//-------------------------------------------------------------
+
+// INTRO IMG | Startup animation
+IntroImage = "../../../../../res/TheNamec/scenes/commodore_amiga/500plus/assets/intro.png"
+
+// BG IMG | WALLPAPER diffuse texture
+BackgroundImage = "../../../../../res/TheNamec/scenes/commodore_amiga/500plus/assets/bg.png"
+
+// LED IMG | WALLPAPER lightning texture
+LEDImage = "../../../../../res/TheNamec/scenes/commodore_amiga/500plus/assets/led.png"

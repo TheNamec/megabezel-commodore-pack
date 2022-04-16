@@ -1,0 +1,27 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+// SCENARIO PRESET
+
+// REFERENCE TO DISPLAY PRESET
+#reference "../../../../../res/TheNamec/devices/bezel_cream/shaders/mbz/MBZ__0__SMOOTH-ADV__GDV-NTSC/curved/scale_near.slangp"
+
+
+// TEXTURE IMAGES
+//-------------------------------------------------------------
+
+// INTRO IMG | Startup animation
+IntroImage = "../../../../../res/TheNamec/scenes/commodore_amiga/1200synth/assets/intro.png"
+
+// DEVICE IMG | DEVICE diffuse texture
+DeviceImage = "../../../../../res/TheNamec/scenes/commodore_amiga/1200synth/assets/device.png"
+
+// DECAL IMG | DEVICE lightning texture (1200synth+megabezels)
+DecalImage = "../../../../../res/TheNamec/scenes/commodore_amiga/1200synth/assets/decal.png"
+
+// BG IMG | WALLPAPER diffuse texture
+BackgroundImage = "../../../../../res/TheNamec/scenes/commodore_amiga/1200synth/assets/bg.png"
+
+// LED IMG | WALLPAPER lightning texture
+LEDImage = "../../../../../res/TheNamec/scenes/commodore_amiga/1200synth/assets/led.png"
