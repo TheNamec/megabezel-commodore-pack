@@ -39,7 +39,7 @@ Original all-in-one graphic pack full with assets and presets for use with **Lib
 > 
 > Latest release at <https://github.com/TheNamec/megabezel-commodore-pack/releases>
 
-Documentation revision: *April 10th, 2022 - Release Candidate 3*
+Documentation revision: *May 1st, 2022 - Release Candidate 3*
 
 TABLE OF CONTENTS
 =================
@@ -123,7 +123,7 @@ I'm an Italian graphic artist and this is my love letter to Commodore devices: a
 [2.1] WHAT'S IN THE BOX
 -----------------------
 
-Content packages included in latest [**Release Candidate 3 (April 10th, 2022)**](https://retrogamingpacks.blogspot.com/p/downloads.html):
+Content packages included in latest [**Release Candidate 3.1 (May 1st, 2022)**](https://retrogamingpacks.blogspot.com/p/downloads.html):
 
 SYSTEMS & VARIATIONS
 - **Commodore Amiga series**: A1000, A500, A500 Plus, A600, A600HD, A1200, A1200Synth, Amiga CD32
@@ -188,6 +188,7 @@ Each Retrogaming Pack includes ready-to-go configuration files (presets) with a 
 - Display framing with levels of zoom
 - Day and night ambient lightning
 - NTSC signal vs crystal clear RGB
+- CRT masking simulation for slot-mask and aperture-grille (trinitron)
 - Performance solutions
 
 [2.4] PERFORMANCE SOLUTIONS
@@ -707,6 +708,10 @@ The author may at any time revise these Terms and Conditions by updating this do
 ******************************
 
 This product includes 'TubeGlassOverlayImage' and 'TubeGlassOverlayImage_Night' textures developed by HSM Mega Bezel Reflection Shader.
+
+This product includes both original and customized pixel shaders from scene contributors:
+- `CRT-TECH SLOT-MASK COMMODORE` is based off 'CRT-A2080-HiResSmartResShader' by Guest.R & Rincewind <https://blog.johnnovak.net/2022/04/15/achieving-period-correct-graphics-in-personal-computer-emulators-part-1-the-amiga/>
+- `CRT-TECH APERTURE-GRILLE SHARP` is based off 'CyberLab Death-to-Pixels' by Cyber <https://forums.libretro.com/t/35606>
 
 I'd like to thank *Unsplash* community photographers for providing backdrops source materials:
 

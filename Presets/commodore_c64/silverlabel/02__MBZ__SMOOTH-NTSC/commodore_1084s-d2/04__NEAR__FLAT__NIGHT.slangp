@@ -1,0 +1,38 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+// SCENARIO PRESET
+
+// REFERENCE TO DISPLAY PRESET
+#reference "../../../../../res/TheNamec/devices/commodore_1084s-d2/shaders/mbz/MBZ__0__SMOOTH-ADV__GDV-NTSC/flat/scale_near.slangp"
+
+
+// TEXTURE IMAGES 
+//-------------------------------------------------------------
+
+// INTRO IMG | Startup animation
+IntroImage = "../../../../../res/TheNamec/scenes/commodore_c64/silverlabel/assets/intro.png"
+
+// BG IMG | WALLPAPER diffuse texture
+BackgroundImage = "../../../../../res/TheNamec/scenes/commodore_c64/silverlabel/assets/bg.png"
+
+// LED IMG | WALLPAPER lightning texture
+LEDImage = "../../../../../res/TheNamec/scenes/commodore_c64/silverlabel/assets/led.png"
+
+// AMBIENT LIGHTNING IMAGE [NIGHT] | Room illumination
+NightLightingImage = "../../../../../res/TheNamec/textures/ambient-night.jpg"
+
+// CABINETGLASS IMG [NIGHT] | player silhouette reflection on display
+TubeStaticReflectionImage = "../../../../../res/TheNamec/textures/TubeGlassOverlayImage_Night_3840x2160.png"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// AMBIENT LIGHTNING IMAGE [NIGHT] | Used to turn the lighs on in [NIGHT] presets
+HSM_AMBIENT_LIGHTING_OPACITY = "100.000000"
+HSM_AMBIENT_LIGHTING_SCALE = "110.000000"
+HSM_AMBIENT_LIGHTING_SATURATION = "100.000000"
+HSM_AMBIENT_LIGHTING_VALUE = "80.000000"
+HSM_AMBIENT_LIGHTING_DITHERING_SAMPLES = "0.000000"

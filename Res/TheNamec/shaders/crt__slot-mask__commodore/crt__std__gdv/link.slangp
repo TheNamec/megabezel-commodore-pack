@@ -1,0 +1,6 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// REFERENCE TO GLOBAL PRESET
+#reference "../../global/global__std__gdv.slangp"

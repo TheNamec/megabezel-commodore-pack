@@ -39,9 +39,31 @@ Original all-in-one graphic pack full with assets and presets for use with **Lib
 > 
 > Latest release at <https://github.com/TheNamec/megabezel-commodore-pack/releases>
 
-Documentation revision: *April 10th, 2022*
+Documentation revision: *May 1st, 2022*
 
 # Change Log
+
+## Mega Bezel Commodore Pack RC3.1 (May 1st, 2022)
+----------------------------------------
+
+New release for public testing, added a new pixel shader chain to customize displays CRT visuals.
+BONUS: squashed some minor visual bug.
+
+Software requirements:
+- [**RetroArch v1.9.8**](https://www.retroarch.com/?page=platforms) with aspect ratio set to ‘full’
+- [**HSM_Bezel_Reflection_V_0.9.106_2022-03-24_Rev_1**](https://forums.libretro.com/t/hsm-mega-bezel-reflection-shader-feedback-and-updates)
+
+Features:
+- Added `CRT-TECH CHAIN` to get pixel shaders customization according to actual IRL display technology
+
+Enhancements:
+- Added `CRT-TECH SLOT-MASK COMMODORE` for Commodore displays visuals (based off CRT-A2080-HiResSmartResShader by Guest.R & Rincewind) 
+- Added `CRT-TECH APERTURE-GRILLE SHARP` for procedural bezels visuals (based off Death-to-Pixels by Cyber)
+
+Fixes:
+- Fixed `SCALE PRESETS` for better visual coherence across curved, flat and integer (tnx Ryusan)
+- Fixed `SCENE PRESETS` to fix tube reflections texture (tnx HyperSpaceMadness)
+- Fixed `GITHUB REPO STRUCTURE` to ease out the updating process for advanced users (tnx HyperSpaceMadness)
 
 
 ## Mega Bezel Commodore Pack RC3 (April 16th, 2022)

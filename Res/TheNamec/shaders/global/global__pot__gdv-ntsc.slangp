@@ -1,0 +1,61 @@
+// THENAMEC MEGA BEZEL COMMODORE PACK for LIBRETRO RETROARCH
+// https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+//-------------------------------------------------------------
+
+// GLOBAL PRESET | [GDV-NTSC POTATO]
+#reference "../../../../../../shaders_slang/bezel/Mega_Bezel/Presets/Base_CRT_Presets/MBZ__5__POTATO__GDV-NTSC.slangp"
+
+
+// TEXTURE IMAGES 
+//-------------------------------------------------------------
+
+// INTRO IMG | Startup animation (default)
+IntroImage = "../../textures/intro.png"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// INTRO IMG
+HSM_INTRO_WHEN_TO_SHOW = "1.000000"
+HSM_INTRO_REPEAT_TIME = "240.000000"
+HSM_INTRO_SPEED = "120.000000"
+HSM_INTRO_NOISE_BLEND_MODE = "2.000000"
+HSM_INTRO_SOLID_COLOR_BLEND_MODE = "2.000000"
+HSM_INTRO_LOGO_WAIT = "50.000000"
+HSM_INTRO_LOGO_FADE_IN = "35.000000"
+HSM_INTRO_LOGO_HOLD = "80.000000"
+HSM_INTRO_LOGO_FADE_OUT = "60.000000"
+HSM_INTRO_SOLID_COLOR_HUE = "30.000000"
+HSM_INTRO_SOLID_COLOR_HOLD = "25.000000"
+HSM_INTRO_SOLID_COLOR_FADE_OUT = "35.000000"
+
+
+// DISPLAY SETTINGS [COMMON]
+//-------------------------------------------------------------
+
+// SIMPLIFIED PROFILE SETTINGS
+// Note: Overlay is enabled in POTATO
+HSM_STANDARD_BG_SHOW_OVER_SCREEN = "1.000000"
+
+// CURVATURE
+HSM_CURVATURE_MODE = "0.000000"
+
+// SCREEN VIGNETTE
+HSM_SCREEN_VIGNETTE = "0.000000"
+
+// CROP/OVERSCAN RESET
+// Note: Core automatic crop/overscan/centering does a better job
+HSM_CROP_OVERSCAN_TOP = "0.000000"
+HSM_CROP_OVERSCAN_BOTTOM = "0.000000"
+HSM_CROP_OVERSCAN_LEFT = "0.000000"
+HSM_CROP_OVERSCAN_RIGHT = "0.000000"
+
+// MDAPT DE-DITHERING FILTER
+MDAPT_MODE = "0.000000"
+
+// NTSC
+quality = "0.000000"
+ntsc_scale = "1.150000"
+ntsc_sat = "1.050000"
+ntsc_bright = "1.050000"
