@@ -1,4 +1,4 @@
-![TheNamec Mega Bezel Commodore](res/docs/images/logo_megabezel-commodore.png)
+![TheNamec Mega Bezel Commodore](https://github.com/TheNamec/megabezel-commodore-pack/blob/main/Res/docs/images/logo_megabezel-commodore.png)
 
 THENAMEC MEGA BEZEL : COMMODORE
 ==============================
