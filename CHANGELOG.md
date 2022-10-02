@@ -1,47 +1,78 @@
-    ████████╗██╗  ██╗███████╗███╗   ██╗ █████╗ ███╗   ███╗███████╗ ██████╗
-    ╚══██╔══╝██║  ██║██╔════╝████╗  ██║██╔══██╗████╗ ████║██╔════╝██╔════╝
-       ██║   ███████║█████╗  ██╔██╗ ██║███████║██╔████╔██║█████╗  ██║
-       ██║   ██╔══██║██╔══╝  ██║╚██╗██║██╔══██║██║╚██╔╝██║██╔══╝  ██║
-       ██║   ██║  ██║███████╗██║ ╚████║██║  ██║██║ ╚═╝ ██║███████╗╚██████╗
-       ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝ ╚═════╝
-    ███╗   ███╗███████╗ ██████╗  █████╗     ██████╗ ███████╗███████╗███████╗██╗
-    ████╗ ████║██╔════╝██╔════╝ ██╔══██╗    ██╔══██╗██╔════╝╚══███╔╝██╔════╝██║
-    ██╔████╔██║█████╗  ██║  ███╗███████║    ██████╔╝█████╗    ███╔╝ █████╗  ██║
-    ██║╚██╔╝██║██╔══╝  ██║   ██║██╔══██║    ██╔══██╗██╔══╝   ███╔╝  ██╔══╝  ██║
-    ██║ ╚═╝ ██║███████╗╚██████╔╝██║  ██║    ██████╔╝███████╗███████╗███████╗███████╗
-    ╚═╝     ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚══════╝╚══════╝
-     ██████╗ ██████╗ ███╗   ███╗███╗   ███╗ ██████╗ ██████╗  ██████╗ ██████╗ ███████╗
-    ██╔════╝██╔═══██╗████╗ ████║████╗ ████║██╔═══██╗██╔══██╗██╔═══██╗██╔══██╗██╔════╝
-    ██║     ██║   ██║██╔████╔██║██╔████╔██║██║   ██║██║  ██║██║   ██║██████╔╝█████╗
-    ██║     ██║   ██║██║╚██╔╝██║██║╚██╔╝██║██║   ██║██║  ██║██║   ██║██╔══██╗██╔══╝
-    ╚██████╗╚██████╔╝██║ ╚═╝ ██║██║ ╚═╝ ██║╚██████╔╝██████╔╝╚██████╔╝██║  ██║███████╗
-     ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝
-    ██████╗  █████╗  ██████╗██╗  ██
-    ██╔══██╗██╔══██╗██╔════╝██║ ██╔╝
-    ██████╔╝███████║██║     █████╔╝
-    ██╔═══╝ ██╔══██║██║     ██╔═██╗
-    ██║     ██║  ██║╚██████╗██║  ██╗
-    ╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+![TheNamec Mega Bezel Commodore](res/docs/images/logo_megabezel-commodore.png)
 
-THENAMEC MEGA BEZEL: COMMODORE PACK
-===================================
+THENAMEC MEGA BEZEL : COMMODORE
+==============================
   
-Original all-in-one graphic pack full with assets and presets for use with **Libretro RetroArch** and **HSM Mega Bezel Reflection Shader**.  
+All-in-one overlays and preset pack for **Libretro RetroArch** and **HSM Mega Bezel Reflection Shader**.  
 
-> Official Links:  
-> 
->: *Devblog & download* <https://retrogamingpacks.blogspot.com>  
->: *Libretro thread* <https://forums.libretro.com/t/31523>  
->: *Github Repository* <https://github.com/thenamec/megabezel-commodore-pack>  
->: *Facebook Page* <https://www.facebook.com/retrogamingpacks>  
->: *YouTube Channel* <https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw>  
->: *E-mail* <thenamec@hotmail.com>  
-> 
-> Latest release at <https://github.com/TheNamec/megabezel-commodore-pack/releases>
+Official Links:  
+- *RetrogamingPacks Blog* <https://retrogamingpacks.blogspot.com>  
+- *Libretro thread* <https://forums.libretro.com/t/31523>  
+- *Facebook Page* <https://www.facebook.com/retrogamingpacks>  
+- *YouTube Channel* <https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw>  
+- *E-mail* <thenamec@hotmail.com>  
 
-Documentation revision: *May 1st, 2022*
+Latest releases:
+- *Blog downloads* (https://retrogamingpacks.blogspot.com/p/downloads.html)  
+- *GitHub Repository* <https://github.com/TheNamec/megabezel-commodore-pack/releases>
+
+> Documentation revision  
+> *October 2nd, 2022 - Release Candidate 4*
 
 # Change Log
+
+## Mega Bezel Commodore Pack RC4 (October 2nd, 2022)
+----------------------------------------
+
+New release for public testing, complete overhaul of pixel shader chain based off the new `MEGAREFERENCE SYSTEM`. This enables for complex modular shaders mixing CRT masking, color correction, cables/signal, aspect ratios and my own variations called `NMC SPICED FLAVOURS`.
+
+Minimum software requirements:
+- [**RetroArch v1.11.0**](https://www.retroarch.com/?page=platforms)
+- [**HSM Mega Bezel V_1.4.2_2022-09-27**](https://github.com/HyperspaceMadness/Mega_Bezel/releases)
+
+Content:
+- Added `COMMODORE AMIGA CDTV` scene
+- Added `RETROWALLS DARKSTUCCO` scene
+- Added `RETROWALLS NEONSMOKE` scene
+- Added `NMC SPICED FLAVOURS SHARP` presets: RGB, S-VIDEO, SMOOTH SCALEFX
+- Added `NMC SPICED FLAVOURS SOFT` presets: COMPOSITE, RGB, RGB SMOOTH, SMOOTH SUPER-XBR, UPSCALE DREZ 480p, MONOCHROME, VECTOR, WORN-OUT
+- Added `MBZ VANILLA FLAVOURS SHARP` presets: ADVANCED, LCD-GRID, POTATO, SMOOTH ADV, STANDARD
+- Added `MBZ VANILLA FLAVOURS SOFT` presets: NTSC ADVANCED, NTSC POTATO, NTSC SMOOTH ADV, NTSC STANDARD
+- Updated `PHILIPS 21PT3326-V7` with "fake flat" cabinet glass reflection
+- Updated `README` with tech insights, quick start procedures and customization guides
+
+Features:
+- Added `MEGAREFERENCE SYSTEM` to enable advanced visual customization
+- Added `SHADER CONNECTORS` to base vanilla Mega Bezel shaders
+- Added `FLUIDVISION` for responsive textured displays
+- Added `CRT-MASK VISUAL LAYER` to mimic original displays visual behavior
+- Added `SIGNAL/CONNECTION VISUAL LAYER` to influence visual clarity with special effects
+- Added `COLOR-CORRECTION VISUAL LAYER` to simulate real life CRTs colors
+- Added `SCENE LIGHTNING VISUAL LAYER` for advanced and vanilla day/night ambient lightning
+- Added `DEVICE LIGHTNING VISUAL LAYER` for advanced cabinet glass, tube diffuse, tube reflection static and tube shadow effects
+- Added `GLOBAL OVERRIDE SETTINGS` for users to toggle modular shaders (at their own peril!)
+
+Enhancements:
+- Added `CRT-ASPECT-RATIO AUTO` for automatic aspect ratio detection
+- Added `CRT-ASPECT-RATIO EXPLICIT 1.33` for forced 4:3 aspect ratio
+- Added `CRT-ASPECT-RATIO PIXEL ASPECT RATIO` for core based pixel aspect ratio
+- Added `CRT-CABLES COMPONENT/RGB/SCART` for best quality connection, sharp and crisp image
+- Added `CRT-CABLES S-VIDEO` for top quality connection, clean image
+- Added `CRT-CABLES COMPOSITE` for standard quality connection, some noise
+- Added `CRT-CABLES RF-MODULATOR` for bad quality connection, hum-bar and noise
+- Added `CRT-COLOR-CORRECTION TEMPERATURE` with cold (9300k) and warm (6800k) presets
+- Added `CRT-COLOR-CORRECTION MONOCHROME` with amber, aqua, black&white, blood and green presets
+- Added `CRT-MASK APERTURE-GRILLE BASE` for "-tron" family displays
+- Added `CRT-MASK PLASMA` for monochrome display visuals
+- Added `CRT-MASK SHADOW-MASK PRO` for generic dot-triad professional displays visuals
+- Added `CRT-MASK SLOT-MASK CONSUMER` for generic consumer TV visuals
+- Added `CURVED FAUX bezel` presets for curved bezels on a flat screen
+
+Fixes:
+- Updated `MEGA BEZEL REFLECTION SHADER` presets parameters to latest public MBR shader version
+- Fixed `FILENAME CASING CONVENTION` for Linux users
+- Renamed `NORMAL SCALING` to `FULL DEVICE SCALING`
+
 
 ## Mega Bezel Commodore Pack RC3.1 (May 1st, 2022)
 ----------------------------------------

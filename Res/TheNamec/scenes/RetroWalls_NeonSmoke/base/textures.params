@@ -1,0 +1,12 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TEXTURES SETTINGS
+//-------------------------------------------------------------
+
+//IntroImage = "../assets/intro.png" // INTRO IMG | STARTUP diffuse texture
+DeviceImage = "../../../shaders/base/assets/decal_mega-bezel.png" // DEVICE IMG | DEVICE diffuse texture
+BackgroundImage = "../assets/bg.png" // BG IMG | WALLPAPER diffuse texture
+LEDImage = "../assets/led.png" // LED IMG | WALLPAPER lighmap texture

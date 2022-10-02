@@ -1,0 +1,12 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: DEVICE :: CRT MASK :: SHADOW-MASK PRO
+// Early technology with red, a green, and a blue phosphor "dots" arranged in a triad
+// Enhanced brightness and less artifacts for professional displays like Ikegami
+// https://en.wikipedia.org/wiki/Shadow_mask
+//-------------------------------------------------------------
+
+#reference "tweaks.params"

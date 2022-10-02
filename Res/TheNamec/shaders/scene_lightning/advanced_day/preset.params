@@ -1,0 +1,11 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: SCENE :: LIGHTNING :: ADVANCED DAY
+// Standard sunlight for ambient illumination
+// Variation with customized textures and lightning
+//-------------------------------------------------------------
+
+#reference "textures.params"

@@ -1,0 +1,11 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// DEVICE :: SCALE :: NEAR
+// NEAR scaling makes the device really close to the player face
+// Ideal for monitor-gamers and bigger gameplay area
+//-------------------------------------------------------------
+
+#reference "geometry.params"

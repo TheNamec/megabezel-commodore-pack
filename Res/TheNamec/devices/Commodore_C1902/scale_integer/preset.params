@@ -1,0 +1,11 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] DEVICE :: SCALE :: INTEGER
+// INTEGER scaling lets the core output take control of display size and positioning
+// resulting in the most crisp&clean image quality
+//-------------------------------------------------------------
+
+#reference "geometry.params"

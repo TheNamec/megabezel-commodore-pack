@@ -1,0 +1,19 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TEXTURES ASSETS
+//-------------------------------------------------------------
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// TUBE STATIC REFLECTION
+HSM_TUBE_STATIC_REFLECTION_IMAGE_ON = "1.000000" // (0) Off; (1) On;
+HSM_TUBE_STATIC_REFLECTION_IMAGE_OPACITY = "9.000000"
+HSM_TUBE_STATIC_SHADOW_OPACITY = "25.000000"
+HSM_TUBE_STATIC_DITHER_SAMPLES = "2.000000"
+HSM_TUBE_STATIC_DITHER_DISTANCE = "2.000000"
+HSM_TUBE_STATIC_DITHER_AMOUNT = "1.500000"

@@ -27,6 +27,41 @@
 	color: var(--vscode-editorError-foreground);
 }
 
+/* From extension ms-toolsai.jupyter */
+/* These classnames are inherited from bootstrap, but are present in most notebook renderers */
+
+.alert {
+    width: auto;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.alert > *:last-child {
+    margin-bottom: 0;
+}
+#preview > .alert:last-child {
+    /* Prevent this being set to zero by the default notebook stylesheet */
+    padding-bottom: 1em;
+}
+
+.alert-success {
+    /* Note there is no suitable color available, so we just copy "info" */
+    background-color: var(--theme-info-background);
+    color: var(--theme-info-foreground);
+}
+.alert-info {
+    background-color: var(--theme-info-background);
+    color: var(--theme-info-foreground);
+}
+.alert-warning {
+    background-color: var(--theme-warning-background);
+    color: var(--theme-warning-foreground);
+}
+.alert-danger {
+    background-color: var(--theme-error-background);
+    color: var(--theme-error-foreground);
+}
+
 </style>
         
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
@@ -44,49 +79,86 @@
         
     </head>
     <body class="vscode-body vscode-dark">
-        <pre><code>████████╗██╗  ██╗███████╗███╗   ██╗ █████╗ ███╗   ███╗███████╗ ██████╗
-╚══██╔══╝██║  ██║██╔════╝████╗  ██║██╔══██╗████╗ ████║██╔════╝██╔════╝
-   ██║   ███████║█████╗  ██╔██╗ ██║███████║██╔████╔██║█████╗  ██║
-   ██║   ██╔══██║██╔══╝  ██║╚██╗██║██╔══██║██║╚██╔╝██║██╔══╝  ██║
-   ██║   ██║  ██║███████╗██║ ╚████║██║  ██║██║ ╚═╝ ██║███████╗╚██████╗
-   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝ ╚═════╝
-███╗   ███╗███████╗ ██████╗  █████╗     ██████╗ ███████╗███████╗███████╗██╗
-████╗ ████║██╔════╝██╔════╝ ██╔══██╗    ██╔══██╗██╔════╝╚══███╔╝██╔════╝██║
-██╔████╔██║█████╗  ██║  ███╗███████║    ██████╔╝█████╗    ███╔╝ █████╗  ██║
-██║╚██╔╝██║██╔══╝  ██║   ██║██╔══██║    ██╔══██╗██╔══╝   ███╔╝  ██╔══╝  ██║
-██║ ╚═╝ ██║███████╗╚██████╔╝██║  ██║    ██████╔╝███████╗███████╗███████╗███████╗
-╚═╝     ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚══════╝╚══════╝
- ██████╗ ██████╗ ███╗   ███╗███╗   ███╗ ██████╗ ██████╗  ██████╗ ██████╗ ███████╗
-██╔════╝██╔═══██╗████╗ ████║████╗ ████║██╔═══██╗██╔══██╗██╔═══██╗██╔══██╗██╔════╝
-██║     ██║   ██║██╔████╔██║██╔████╔██║██║   ██║██║  ██║██║   ██║██████╔╝█████╗
-██║     ██║   ██║██║╚██╔╝██║██║╚██╔╝██║██║   ██║██║  ██║██║   ██║██╔══██╗██╔══╝
-╚██████╗╚██████╔╝██║ ╚═╝ ██║██║ ╚═╝ ██║╚██████╔╝██████╔╝╚██████╔╝██║  ██║███████╗
- ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝
-██████╗  █████╗  ██████╗██╗  ██
-██╔══██╗██╔══██╗██╔════╝██║ ██╔╝
-██████╔╝███████║██║     █████╔╝
-██╔═══╝ ██╔══██║██║     ██╔═██╗
-██║     ██║  ██║╚██████╗██║  ██╗
-╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
-</code></pre>
-<h1 id="thenamec-mega-bezel-commodore-pack">THENAMEC MEGA BEZEL: COMMODORE PACK</h1>
-<p>Original all-in-one graphic pack full with assets and presets for use with <strong>Libretro RetroArch</strong> and <strong>HSM Mega Bezel Reflection Shader</strong>.</p>
-<blockquote>
+        <p><img src="file:///d:\CONSOLE\RetroArch\shaders\Mega_Bezel_Packs\megabezel-commodore-pack\res\docs\images\logo_megabezel-commodore.png" alt="TheNamec Mega Bezel Commodore"></p>
+<h1 id="thenamec-mega-bezel--commodore">THENAMEC MEGA BEZEL : COMMODORE</h1>
+<p>All-in-one overlays and preset pack for <strong>Libretro RetroArch</strong> and <strong>HSM Mega Bezel Reflection Shader</strong>.</p>
 <p>Official Links:</p>
-<p>: <em>Devblog &amp; download</em> <a href="https://retrogamingpacks.blogspot.com">https://retrogamingpacks.blogspot.com</a><br>
-: <em>Libretro thread</em> <a href="https://forums.libretro.com/t/31523">https://forums.libretro.com/t/31523</a><br>
-: <em>Github Repository</em> <a href="https://github.com/thenamec/megabezel-commodore-pack">https://github.com/thenamec/megabezel-commodore-pack</a><br>
-: <em>Facebook Page</em> <a href="https://www.facebook.com/retrogamingpacks">https://www.facebook.com/retrogamingpacks</a><br>
-: <em>YouTube Channel</em> <a href="https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw">https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw</a><br>
-: <em>E-mail</em> <a href="mailto:thenamec@hotmail.com">thenamec@hotmail.com</a></p>
-<p>Latest release at <a href="https://github.com/TheNamec/megabezel-commodore-pack/releases">https://github.com/TheNamec/megabezel-commodore-pack/releases</a></p>
+<ul>
+<li><em>RetrogamingPacks Blog</em> <a href="https://retrogamingpacks.blogspot.com">https://retrogamingpacks.blogspot.com</a></li>
+<li><em>Libretro thread</em> <a href="https://forums.libretro.com/t/31523">https://forums.libretro.com/t/31523</a></li>
+<li><em>Facebook Page</em> <a href="https://www.facebook.com/retrogamingpacks">https://www.facebook.com/retrogamingpacks</a></li>
+<li><em>YouTube Channel</em> <a href="https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw">https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw</a></li>
+<li><em>E-mail</em> <a href="mailto:thenamec@hotmail.com">thenamec@hotmail.com</a></li>
+</ul>
+<p>Latest releases:</p>
+<ul>
+<li><em>Blog downloads</em> (<a href="https://retrogamingpacks.blogspot.com/p/downloads.html">https://retrogamingpacks.blogspot.com/p/downloads.html</a>)</li>
+<li><em>GitHub Repository</em> <a href="https://github.com/TheNamec/megabezel-commodore-pack/releases">https://github.com/TheNamec/megabezel-commodore-pack/releases</a></li>
+</ul>
+<blockquote>
+<p>Documentation revision<br>
+<em>October 2nd, 2022 - Release Candidate 4</em></p>
 </blockquote>
-<p>Documentation revision: <em>May 1st, 2022</em></p>
 <h1 id="change-log">Change Log</h1>
+<h2 id="mega-bezel-commodore-pack-rc4-october-2nd-2022">Mega Bezel Commodore Pack RC4 (October 2nd, 2022)</h2>
+<hr>
+<p>New release for public testing, complete overhaul of pixel shader chain based off the new <code>MEGAREFERENCE SYSTEM</code>. This enables for complex modular shaders mixing CRT masking, color correction, cables/signal, aspect ratios and my own variations called <code>NMC SPICED FLAVOURS</code>.</p>
+<p>Minimum software requirements:</p>
+<ul>
+<li><a href="https://www.retroarch.com/?page=platforms"><strong>RetroArch v1.11.0</strong></a></li>
+<li><a href="https://github.com/HyperspaceMadness/Mega_Bezel/releases"><strong>HSM Mega Bezel V_1.4.2_2022-09-27</strong></a></li>
+</ul>
+<p>Content:</p>
+<ul>
+<li>Added <code>COMMODORE AMIGA CDTV</code> scene</li>
+<li>Added <code>RETROWALLS DARKSTUCCO</code> scene</li>
+<li>Added <code>RETROWALLS NEONSMOKE</code> scene</li>
+<li>Added <code>NMC SPICED FLAVOURS SHARP</code> presets: RGB, S-VIDEO, SMOOTH SCALEFX</li>
+<li>Added <code>NMC SPICED FLAVOURS SOFT</code> presets: COMPOSITE, RGB, RGB SMOOTH, SMOOTH SUPER-XBR, UPSCALE DREZ 480p, MONOCHROME, VECTOR, WORN-OUT</li>
+<li>Added <code>MBZ VANILLA FLAVOURS SHARP</code> presets: ADVANCED, LCD-GRID, POTATO, SMOOTH ADV, STANDARD</li>
+<li>Added <code>MBZ VANILLA FLAVOURS SOFT</code> presets: NTSC ADVANCED, NTSC POTATO, NTSC SMOOTH ADV, NTSC STANDARD</li>
+<li>Updated <code>PHILIPS 21PT3326-V7</code> with &quot;fake flat&quot; cabinet glass reflection</li>
+<li>Updated <code>README</code> with tech insights, quick start procedures and customization guides</li>
+</ul>
+<p>Features:</p>
+<ul>
+<li>Added <code>MEGAREFERENCE SYSTEM</code> to enable advanced visual customization</li>
+<li>Added <code>SHADER CONNECTORS</code> to base vanilla Mega Bezel shaders</li>
+<li>Added <code>FLUIDVISION</code> for responsive textured displays</li>
+<li>Added <code>CRT-MASK VISUAL LAYER</code> to mimic original displays visual behavior</li>
+<li>Added <code>SIGNAL/CONNECTION VISUAL LAYER</code> to influence visual clarity with special effects</li>
+<li>Added <code>COLOR-CORRECTION VISUAL LAYER</code> to simulate real life CRTs colors</li>
+<li>Added <code>SCENE LIGHTNING VISUAL LAYER</code> for advanced and vanilla day/night ambient lightning</li>
+<li>Added <code>DEVICE LIGHTNING VISUAL LAYER</code> for advanced cabinet glass, tube diffuse, tube reflection static and tube shadow effects</li>
+<li>Added <code>GLOBAL OVERRIDE SETTINGS</code> for users to toggle modular shaders (at their own peril!)</li>
+</ul>
+<p>Enhancements:</p>
+<ul>
+<li>Added <code>CRT-ASPECT-RATIO AUTO</code> for automatic aspect ratio detection</li>
+<li>Added <code>CRT-ASPECT-RATIO EXPLICIT 1.33</code> for forced 4:3 aspect ratio</li>
+<li>Added <code>CRT-ASPECT-RATIO PIXEL ASPECT RATIO</code> for core based pixel aspect ratio</li>
+<li>Added <code>CRT-CABLES COMPONENT/RGB/SCART</code> for best quality connection, sharp and crisp image</li>
+<li>Added <code>CRT-CABLES S-VIDEO</code> for top quality connection, clean image</li>
+<li>Added <code>CRT-CABLES COMPOSITE</code> for standard quality connection, some noise</li>
+<li>Added <code>CRT-CABLES RF-MODULATOR</code> for bad quality connection, hum-bar and noise</li>
+<li>Added <code>CRT-COLOR-CORRECTION TEMPERATURE</code> with cold (9300k) and warm (6800k) presets</li>
+<li>Added <code>CRT-COLOR-CORRECTION MONOCHROME</code> with amber, aqua, black&amp;white, blood and green presets</li>
+<li>Added <code>CRT-MASK APERTURE-GRILLE BASE</code> for &quot;-tron&quot; family displays</li>
+<li>Added <code>CRT-MASK PLASMA</code> for monochrome display visuals</li>
+<li>Added <code>CRT-MASK SHADOW-MASK PRO</code> for generic dot-triad professional displays visuals</li>
+<li>Added <code>CRT-MASK SLOT-MASK CONSUMER</code> for generic consumer TV visuals</li>
+<li>Added <code>CURVED FAUX bezel</code> presets for curved bezels on a flat screen</li>
+</ul>
+<p>Fixes:</p>
+<ul>
+<li>Updated <code>MEGA BEZEL REFLECTION SHADER</code> presets parameters to latest public MBR shader version</li>
+<li>Fixed <code>FILENAME CASING CONVENTION</code> for Linux users</li>
+<li>Renamed <code>NORMAL SCALING</code> to <code>FULL DEVICE SCALING</code></li>
+</ul>
 <h2 id="mega-bezel-commodore-pack-rc31-may-1st-2022">Mega Bezel Commodore Pack RC3.1 (May 1st, 2022)</h2>
 <hr>
-<p>New release for public testing, added a new pixel shader chain to customize displays visuals.
-BONUS: squashed some minor visual bugs.</p>
+<p>New release for public testing, added a new pixel shader chain to customize displays CRT visuals.
+BONUS: squashed some minor visual bug.</p>
 <p>Software requirements:</p>
 <ul>
 <li><a href="https://www.retroarch.com/?page=platforms"><strong>RetroArch v1.9.8</strong></a> with aspect ratio set to ‘full’</li>

@@ -1,0 +1,12 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: CONNECTOR :: MBZ GDV-NTSC SMOOTH-ADVANCED
+// Mega Bezel Reflection Shader customized global settings
+//-------------------------------------------------------------
+
+#reference "../../../../../../../shaders_slang/bezel/Mega_Bezel/Presets/Base_CRT_Presets/MBZ__0__SMOOTH-ADV__GDV-NTSC.slangp"
+#reference "tweaks.params"
+#reference "../mbz_custom/preset.params" // TheNamec Global Cuistomizations

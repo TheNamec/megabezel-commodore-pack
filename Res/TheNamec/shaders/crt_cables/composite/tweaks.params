@@ -1,0 +1,21 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TWEAKS
+//-------------------------------------------------------------
+
+// GDV - NTSC SIGNAL PROCESSING
+quality = "1.000000" // (0) S-Video, (1) Composite, (2) RF, (-1) Custom
+blendMode = "1.000000"
+ntsc_scale = "1.150000"
+ntsc_sat = "1.050000"
+ntsc_bright = "1.050000"
+
+// GRADE - SIGNAL & COLOR SPACE
+g_signal_type = "1.000000" // (0) RGB; (1) Composite
+
+// GDV - NOISE
+GDV_NOISE_ON = "1.000000"
+addnoised = "0.040000"

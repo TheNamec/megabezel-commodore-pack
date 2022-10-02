@@ -1,0 +1,12 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: DEVICE :: ASPECT-RATIO :: AUTO
+// Mega Bezel determines best aspect ratio based on current game
+// Dynamic bezels and textured devices resize accordingly
+//-------------------------------------------------------------
+
+#reference "geometry.params"
+#reference "textures.params"

@@ -1,0 +1,63 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// PRESET START
+//-------------------------------------------------------------
+
+// SHADER :: CONNECTOR | Interface to Mega Bezel Presets folders
+//-------------------------------------------------------------
+#reference "../../../../res/thenamec/shaders/base/mbz_5_potato_gdv-ntsc/preset.slangp"
+
+
+// SCENE | Room/Cabinet/Background settings
+//-------------------------------------------------------------
+
+// SCENE :: BASE
+#reference "../../../../res/thenamec/scenes/Commodore_VIC1001/base/preset.params" // Basic setup (background and device artworks are separate)
+#reference "../../../../res/thenamec/scenes/Commodore_VIC1001/overlay_curved_day/preset.params" // Overlay for fast/potato presets (merges background and device artworks)
+//#reference "../../../../res/thenamec/scenes/Commodore_VIC1001/overlay_flat_day/preset.params" // Overlay fast/potato presets  (merges background and device artworks)
+
+// SCENE :: LIGHTNING
+// Scene lightning is baked in background image on POTATO presets
+
+
+// DEVICE | Screen/Monitor/CRT/TV settings
+//-------------------------------------------------------------
+
+// DEVICE :: BASE
+// Device overlay is baked in background image on POTATO presets
+
+// DEVICE :: SCALING
+// Device scaling is automatically driven by overlay transparency on POTATO presets
+
+// DEVICE :: CURVATURE
+#reference "../../../../res/thenamec/devices/Commodore_C1201/curvature_curved/preset.params" // Bezels have a curved appearance, spheric distortion (may introduce artifacts)
+//#reference "../../../../res/thenamec/devices/Commodore_C1201/curvature_flat/preset.params" // Bezels have a squared appearance, plain projection (no artifacts)
+//#reference "../../../../res/thenamec/devices/Commodore_C1201/curvature_faux/preset.params" // Bezels have a curved appearance, plain projection (no artifacts)
+
+// DEVICE :: LIGHTNING
+// No device lightning applied to POTATO presets
+// DEVICE :: CRT :: MASK TYPE
+// No CRT masks are applied to base MBZ presets
+
+// DEVICE :: CRT :: COLOR-CORRECTION :: MONOCHROME | Simulates monochromatic phosphors of old displays
+//-------------------------------------------------------------
+#reference "../../../../res/thenamec/shaders/crt_cc/monochrome_amber/preset.params" // MONOCHROME AMBER: orange tinting
+//#reference "../../../../res/thenamec/shaders/crt_cc/monochrome_aqua/preset.params" // MONOCHROME AQUA: turquoise tinting
+//#reference "../../../../res/thenamec/shaders/crt_cc/monochrome_black-white/preset.params" // MONOCHROME BLACK/WHITE: classic white shades
+//#reference "../../../../res/thenamec/shaders/crt_cc/monochrome_blood/preset.params" // MONOCHROME BLOOD: red tinting
+//#reference "../../../../res/thenamec/shaders/crt_cc/monochrome_green/preset.params" // MONOCHROME GREEN: Matrix terminal style
+
+
+// SHADER OVERRIDES | Aspect ratio, device lightning, mask, signal, color-correction
+// User can globally enable/disable advanced FX by manually editing res/overrides.params
+//-------------------------------------------------------------
+
+// SHADER :: OVERRIDES
+//#reference "../../../../res/overrides.params"
+
+
+// PRESET END
+//-------------------------------------------------------------

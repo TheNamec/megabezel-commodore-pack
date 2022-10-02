@@ -1,0 +1,11 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: DEVICE :: CRT COLOR CORRECTION :: MONOCHROME BLACK & WHITE
+// Classic "page white" used in consumer displays with P4 PHOSPHOR
+// https://en.wikipedia.org/wiki/Monochrome_monitor
+//-------------------------------------------------------------
+
+#reference "tweaks.params"

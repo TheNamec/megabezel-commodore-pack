@@ -1,0 +1,14 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: DEVICE :: SIGNAL :: S-VIDEO
+// Really good quality for consumer TVs connection, slight fringe and no artifacts  
+// Also known as SEPARATE VIDEO and Y-C LUMA-CHROMA
+// https://en.wikipedia.org/wiki/S-Video
+//
+// Note: for use with GDV-NTSC shaders only
+//-------------------------------------------------------------
+
+#reference "tweaks.params"

@@ -1,0 +1,40 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TWEAKS
+//-------------------------------------------------------------
+
+// GDV - COLOR TWEAKS
+wp_saturation = "1.000000"
+wp = "0.000000"
+wp_temperature = "9300.000000"
+
+// GRADE - SIGNAL & COLOR SPACE
+g_crtgamut = "2.000000" // (1) NTSC-U; (2) NTSC-J; (3) PAL
+
+// GRADE - BRIGHTNESS & CONTRAST
+g_lum_fix = "1.000000"
+
+// GRADE - WHITE TINT
+wlr = "1.200000"
+wlg = "1.050000"
+wlb = "1.100000"
+
+// GRADE - BLACK TINT
+blr = "0.000000"
+blg = "0.000000"
+blb = "0.000000"
+
+// GRADE - RED TINT
+rg = "0.000000"
+rb = "0.000000"
+
+// GRADE - GREEN TINT
+gr = "0.030000"
+gb = "0.150000"
+
+// GRADE - BLUE TINT
+br = "0.050000"
+bg = "0.150000"

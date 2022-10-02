@@ -1,0 +1,14 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TWEAKS
+//-------------------------------------------------------------
+
+// MDAPT & HYLLIAN DE-DITHERING
+HSM_DEDITHER_MODE = "3.000000" // (0) off; (1) strict; (2) relaxed; (3) hyllian; (4) hyllian+stripes; (5) stripes
+
+// SUPER-XBR BY HYLLIAN
+SUPERXBR_ON = "1.000000" // (0) off; (1) on
+MODE = "2.000000" // (0) normal; (1) details; (2) adaptive

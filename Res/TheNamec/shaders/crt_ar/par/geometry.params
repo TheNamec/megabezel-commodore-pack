@@ -1,0 +1,10 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// GEOMETRY
+//-------------------------------------------------------------
+
+// ASPECT RATIO
+HSM_ASPECT_RATIO_MODE = "5.000000"  // (0) Auto; (1) Explicit; (2) 4:3; (3) 3:2; (4) 16:9; (5) PAR; (6) FULL
