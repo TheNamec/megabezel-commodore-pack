@@ -1,0 +1,21 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TEXTURES ASSETS
+//-------------------------------------------------------------
+
+NightLightingImage = "../assets/ambient-day.jpg" // Ambient illumination
+TubeStaticReflectionImage = "../assets/TubeGlassOverlayImage_3840x2160.png" // Ambient/player reflection on display
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// AMBIENT LIGHTNING | Illumination map on top of every layer
+HSM_AMBIENT_LIGHTING_OPACITY = "30.000000"
+HSM_AMBIENT_LIGHTING_SCALE = "110.000000"
+HSM_AMBIENT_LIGHTING_SATURATION = "45.000000"
+HSM_AMBIENT_LIGHTING_VALUE = "125.000000"
+HSM_AMBIENT_LIGHTING_DITHERING_SAMPLES = "0.000000"

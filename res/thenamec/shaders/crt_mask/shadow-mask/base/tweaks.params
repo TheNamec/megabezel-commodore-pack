@@ -1,0 +1,20 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TWEAKS
+//-------------------------------------------------------------
+
+// CRT BRIGHTNESS & GAMMA
+post_br = "1.350000"
+
+// GDV - COLOR TWEAKS
+CP = "4.000000"
+CS = "0.000000"
+
+// GRADE - BRIGHTNESS & CONTRAST
+g_cntrst = "0.496000"
+
+// GDV - CRT MASK OPTIONS
+shadowMask = "1.000000"

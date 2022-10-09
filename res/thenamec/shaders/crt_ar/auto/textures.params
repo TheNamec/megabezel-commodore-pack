@@ -1,0 +1,24 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TEXTURES
+//-------------------------------------------------------------
+
+// HORIZONTAL SPLIT | Adaptive behaviours
+//-------------------------------------------------------------
+
+// DEVICE/DEVICELED/CABINET GLASS layers adapt to aspect ratio settings
+HSM_DEVICE_SCALE_KEEP_ASPECT = "0.000000" // (0) Inherit from scale aspect; (1) Use texture aspect
+HSM_DEVICE_FILL_MODE = "1.000000"  // (0) Stretch; (1) Split Horizontal
+
+HSM_DEVICELED_FOLLOW_LAYER = "4.000000" // (0) Full; (1) Tube; (2) Bezel; (3) BG; (4) Device;
+HSM_DEVICELED_FOLLOW_MODE = "1.000000" // (0) Follow Scale&Pos; (1) Follow exactly
+HSM_DEVICELED_SCALE_KEEP_ASPECT = "1.000000" // (0) Inherit from scale aspect; (1) Use texture aspect
+HSM_DEVICELED_FILL_MODE = "1.000000"  // (0) Stretch; (1) Split Horizontal
+
+HSM_CAB_GLASS_FOLLOW_LAYER = "4.000000" // (0) Full; (1) Tube; (2) Bezel; (3) BG; (4) Device;
+HSM_CAB_GLASS_FOLLOW_MODE = "1.000000" // (0) Follow Scale&Pos; (1) Follow exactly
+HSM_CAB_GLASS_SCALE_KEEP_ASPECT = "1.000000"  // (0) Inherit from scale aspect; (1) Use texture aspect
+HSM_CAB_GLASS_FILL_MODE = "1.000000" // (0) Stretch; (1) Split Horizontal

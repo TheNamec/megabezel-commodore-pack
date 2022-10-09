@@ -1,0 +1,12 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: DEVICE :: CRT MASK :: APERTURE-GRILLE BASE
+// vertical phosphor stripes commonly found in Trinitron, DiamondTron and SonicTron series
+// Top quality brightness and crystal clear images
+// https://en.wikipedia.org/wiki/Aperture_grille
+//-------------------------------------------------------------
+
+#reference "tweaks.params"

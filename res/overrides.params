@@ -1,0 +1,66 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// SHADER :: OVERRIDES
+//-------------------------------------------------------------
+
+
+// DEVICE | Screen/Monitor/CRT/TV settings
+//-------------------------------------------------------------
+
+// DEVICE :: ASPECT RATIO
+//-------------------------------------------------------------
+#reference "thenamec/shaders/crt_ar/auto/preset.params" // Adapt bezels and devices to content aspect ratio
+//#reference "thenamec/shaders/crt_ar/exp_1.33/preset.params" // Fits contents to 4:3 aspect ratio
+//#reference "thenamec/shaders/crt_ar/par/preset.params" // Adapt bezels and devices to core output aspect ratio
+
+
+// DEVICE :: CRT :: LIGHTNING | Tube reflection, tube surface, top shadow from bezel Tube glass surface
+//-------------------------------------------------------------
+#reference "thenamec/shaders/device_lightning/cab_glass/preset.params"
+#reference "thenamec/shaders/device_lightning/tube_diffuse/preset.params"
+#reference "thenamec/shaders/device_lightning/tube_refl_static/preset.params"
+#reference "thenamec/shaders/device_lightning/tube_shadow/preset.params"
+
+
+// DEVICE :: CRT :: MASK
+//-------------------------------------------------------------
+//#reference "thenamec/shaders/crt_mask/aperture-grille_base/preset.params"
+//#reference "thenamec/shaders/crt_mask/plasma_base/preset.params"
+//#reference "thenamec/shaders/crt_mask/shadow-mask_base/preset.params"
+//#reference "thenamec/shaders/crt_mask/shadow-mask_pro/preset.params"
+//#reference "thenamec/shaders/crt_mask/slot-mask_base/preset.params"
+//#reference "thenamec/shaders/crt_mask/slot-mask_commodore/preset.params"
+//#reference "thenamec/shaders/crt_mask/slot-mask_consumer/preset.params"
+
+
+// DEVICE :: SIGNAL/CONNECTION | Simulates many ways to connect your gaming system to the display
+//-------------------------------------------------------------
+//#reference "thenamec/shaders/crt_cables/component/preset.params" // COMPONENT/RGB/SCART: Best quality connection, sharp and crisp image (GDV+ ONLY)
+//#reference "thenamec/shaders/crt_cables/svideo/preset.params" // S-VIDEO: Top quality connection, clean image (GDV-NTSC ONLY)
+//reference "thenamec/shaders/crt_cables/composite/preset.params" // COMPOSITE: Standard quality connection, some noise (GDV-NTSC ONLY)
+//#reference "thenamec/shaders/crt_cables/rf/preset.params" // RF MODULATOR: Bad quality connection, hum-bar and noise (GDV-NTSC ONLY)
+
+
+// DEVICE :: CRT :: COLOR-CORRECTION :: MONOCHROME | Simulates monochromatic phosphors of old displays
+//-------------------------------------------------------------
+//#reference "thenamec/shaders/crt_cc/monochrome_amber/preset.params" // MONOCHROME AMBER: orange tinting
+//#reference "thenamec/shaders/crt_cc/monochrome_aqua/preset.params" // MONOCHROME AQUA: turquoise tinting
+//#reference "thenamec/shaders/crt_cc/monochrome_black-white/preset.params" // MONOCHROME BLACK/WHITE: classic gray shades
+//#reference "thenamec/shaders/crt_cc/monochrome_blood/preset.params" // MONOCHROME BLOOD: Virtual Boy red tinting
+//#reference "thenamec/shaders/crt_cc/monochrome_green/preset.params" // MONOCHROME GREEN: Matrix terminal style
+
+
+// DEVICE :: CRT :: COLOR-CORRECTION :: TEMPERATURE | Complex color balancing schemes condensed in easy to use kits
+//-------------------------------------------------------------
+#reference "thenamec/shaders/crt_cc/temperature_warm/preset.params" // TEMPERATURE WARM 6800k: best suited for NTSC-U and PAL countries, shifted towards reds, saturated colors
+//#reference "thenamec/shaders/crt_cc/temperature_cold/preset.params" // TEMPERATURE WARM 9300k best suited for NTSC-J countries, shifted towards blues, adds a slightly glacial mood
+
+
+// DEVICE :: CRT :: FLAVOUR :: MODULES
+//-------------------------------------------------------------
+//#reference "thenamec/shaders/crt_spice/gtu/sharp/preset.params"
+//#reference "thenamec/shaders/crt_spice/gtu/soft/preset.params"
+//#reference "thenamec/shaders/crt_spice/_monochrome_soft/preset.params"

@@ -1,0 +1,28 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TWEAKS
+//-------------------------------------------------------------
+
+// INTERLACING
+HSM_INTERLACE_TRIGGER_RES = "150.000000"
+HSM_INTERLACE_EFFECT_SMOOTHNESS_INTERS = "20.000000"
+HSM_INTERLACE_SCANLINE_EFFECT = "0.000000"
+
+// CRT BRIGHTNESS & GAMMA
+post_br = "1.100000"
+
+// GDV - SCANLINE OPTIONS
+gsl = "0.000000"
+scanline1 = "0.000000"
+scanline2 = "1.000000"
+beam_min = "1.300000"
+beam_max = "1.000000"
+
+// GDV - CRT MASK OPTIONS
+shadowMask = "-1.000000"
+slotmask = "0.450000"
+slotmask1 = "0.450000"
+maskstr = "0.000000"

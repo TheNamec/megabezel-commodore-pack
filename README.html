@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MBZ VANILLA FLAVOUR</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+/* From extension vscode.markdown-math */
+@font-face{font-family:KaTeX_AMS;font-style:normal;font-weight:400;src:url(fonts/KaTeX_AMS-Regular.woff2) format("woff2"),url(fonts/KaTeX_AMS-Regular.woff) format("woff"),url(fonts/KaTeX_AMS-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Caligraphic;font-style:normal;font-weight:700;src:url(fonts/KaTeX_Caligraphic-Bold.woff2) format("woff2"),url(fonts/KaTeX_Caligraphic-Bold.woff) format("woff"),url(fonts/KaTeX_Caligraphic-Bold.ttf) format("truetype")}@font-face{font-family:KaTeX_Caligraphic;font-style:normal;font-weight:400;src:url(fonts/KaTeX_Caligraphic-Regular.woff2) format("woff2"),url(fonts/KaTeX_Caligraphic-Regular.woff) format("woff"),url(fonts/KaTeX_Caligraphic-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Fraktur;font-style:normal;font-weight:700;src:url(fonts/KaTeX_Fraktur-Bold.woff2) format("woff2"),url(fonts/KaTeX_Fraktur-Bold.woff) format("woff"),url(fonts/KaTeX_Fraktur-Bold.ttf) format("truetype")}@font-face{font-family:KaTeX_Fraktur;font-style:normal;font-weight:400;src:url(fonts/KaTeX_Fraktur-Regular.woff2) format("woff2"),url(fonts/KaTeX_Fraktur-Regular.woff) format("woff"),url(fonts/KaTeX_Fraktur-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Main;font-style:normal;font-weight:700;src:url(fonts/KaTeX_Main-Bold.woff2) format("woff2"),url(fonts/KaTeX_Main-Bold.woff) format("woff"),url(fonts/KaTeX_Main-Bold.ttf) format("truetype")}@font-face{font-family:KaTeX_Main;font-style:italic;font-weight:700;src:url(fonts/KaTeX_Main-BoldItalic.woff2) format("woff2"),url(fonts/KaTeX_Main-BoldItalic.woff) format("woff"),url(fonts/KaTeX_Main-BoldItalic.ttf) format("truetype")}@font-face{font-family:KaTeX_Main;font-style:italic;font-weight:400;src:url(fonts/KaTeX_Main-Italic.woff2) format("woff2"),url(fonts/KaTeX_Main-Italic.woff) format("woff"),url(fonts/KaTeX_Main-Italic.ttf) format("truetype")}@font-face{font-family:KaTeX_Main;font-style:normal;font-weight:400;src:url(fonts/KaTeX_Main-Regular.woff2) format("woff2"),url(fonts/KaTeX_Main-Regular.woff) format("woff"),url(fonts/KaTeX_Main-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Math;font-style:italic;font-weight:700;src:url(fonts/KaTeX_Math-BoldItalic.woff2) format("woff2"),url(fonts/KaTeX_Math-BoldItalic.woff) format("woff"),url(fonts/KaTeX_Math-BoldItalic.ttf) format("truetype")}@font-face{font-family:KaTeX_Math;font-style:italic;font-weight:400;src:url(fonts/KaTeX_Math-Italic.woff2) format("woff2"),url(fonts/KaTeX_Math-Italic.woff) format("woff"),url(fonts/KaTeX_Math-Italic.ttf) format("truetype")}@font-face{font-family:"KaTeX_SansSerif";font-style:normal;font-weight:700;src:url(fonts/KaTeX_SansSerif-Bold.woff2) format("woff2"),url(fonts/KaTeX_SansSerif-Bold.woff) format("woff"),url(fonts/KaTeX_SansSerif-Bold.ttf) format("truetype")}@font-face{font-family:"KaTeX_SansSerif";font-style:italic;font-weight:400;src:url(fonts/KaTeX_SansSerif-Italic.woff2) format("woff2"),url(fonts/KaTeX_SansSerif-Italic.woff) format("woff"),url(fonts/KaTeX_SansSerif-Italic.ttf) format("truetype")}@font-face{font-family:"KaTeX_SansSerif";font-style:normal;font-weight:400;src:url(fonts/KaTeX_SansSerif-Regular.woff2) format("woff2"),url(fonts/KaTeX_SansSerif-Regular.woff) format("woff"),url(fonts/KaTeX_SansSerif-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Script;font-style:normal;font-weight:400;src:url(fonts/KaTeX_Script-Regular.woff2) format("woff2"),url(fonts/KaTeX_Script-Regular.woff) format("woff"),url(fonts/KaTeX_Script-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Size1;font-style:normal;font-weight:400;src:url(fonts/KaTeX_Size1-Regular.woff2) format("woff2"),url(fonts/KaTeX_Size1-Regular.woff) format("woff"),url(fonts/KaTeX_Size1-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Size2;font-style:normal;font-weight:400;src:url(fonts/KaTeX_Size2-Regular.woff2) format("woff2"),url(fonts/KaTeX_Size2-Regular.woff) format("woff"),url(fonts/KaTeX_Size2-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Size3;font-style:normal;font-weight:400;src:url(fonts/KaTeX_Size3-Regular.woff2) format("woff2"),url(fonts/KaTeX_Size3-Regular.woff) format("woff"),url(fonts/KaTeX_Size3-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Size4;font-style:normal;font-weight:400;src:url(fonts/KaTeX_Size4-Regular.woff2) format("woff2"),url(fonts/KaTeX_Size4-Regular.woff) format("woff"),url(fonts/KaTeX_Size4-Regular.ttf) format("truetype")}@font-face{font-family:KaTeX_Typewriter;font-style:normal;font-weight:400;src:url(fonts/KaTeX_Typewriter-Regular.woff2) format("woff2"),url(fonts/KaTeX_Typewriter-Regular.woff) format("woff"),url(fonts/KaTeX_Typewriter-Regular.ttf) format("truetype")}.katex{text-rendering:auto;font:normal 1.21em KaTeX_Main,Times New Roman,serif;line-height:1.2;text-indent:0}.katex *{-ms-high-contrast-adjust:none!important;border-color:currentColor}.katex .katex-version:after{content:"0.13.24"}.katex .katex-mathml{clip:rect(1px,1px,1px,1px);border:0;height:1px;overflow:hidden;padding:0;position:absolute;width:1px}.katex .katex-html>.newline{display:block}.katex .base{position:relative;white-space:nowrap;width:-webkit-min-content;width:-moz-min-content;width:min-content}.katex .base,.katex .strut{display:inline-block}.katex .textbf{font-weight:700}.katex .textit{font-style:italic}.katex .textrm{font-family:KaTeX_Main}.katex .textsf{font-family:KaTeX_SansSerif}.katex .texttt{font-family:KaTeX_Typewriter}.katex .mathnormal{font-family:KaTeX_Math;font-style:italic}.katex .mathit{font-family:KaTeX_Main;font-style:italic}.katex .mathrm{font-style:normal}.katex .mathbf{font-family:KaTeX_Main;font-weight:700}.katex .boldsymbol{font-family:KaTeX_Math;font-style:italic;font-weight:700}.katex .amsrm,.katex .mathbb,.katex .textbb{font-family:KaTeX_AMS}.katex .mathcal{font-family:KaTeX_Caligraphic}.katex .mathfrak,.katex .textfrak{font-family:KaTeX_Fraktur}.katex .mathtt{font-family:KaTeX_Typewriter}.katex .mathscr,.katex .textscr{font-family:KaTeX_Script}.katex .mathsf,.katex .textsf{font-family:KaTeX_SansSerif}.katex .mathboldsf,.katex .textboldsf{font-family:KaTeX_SansSerif;font-weight:700}.katex .mathitsf,.katex .textitsf{font-family:KaTeX_SansSerif;font-style:italic}.katex .mainrm{font-family:KaTeX_Main;font-style:normal}.katex .vlist-t{border-collapse:collapse;display:inline-table;table-layout:fixed}.katex .vlist-r{display:table-row}.katex .vlist{display:table-cell;position:relative;vertical-align:bottom}.katex .vlist>span{display:block;height:0;position:relative}.katex .vlist>span>span{display:inline-block}.katex .vlist>span>.pstrut{overflow:hidden;width:0}.katex .vlist-t2{margin-right:-2px}.katex .vlist-s{display:table-cell;font-size:1px;min-width:2px;vertical-align:bottom;width:2px}.katex .vbox{align-items:baseline;display:inline-flex;flex-direction:column}.katex .hbox{width:100%}.katex .hbox,.katex .thinbox{display:inline-flex;flex-direction:row}.katex .thinbox{max-width:0;width:0}.katex .msupsub{text-align:left}.katex .mfrac>span>span{text-align:center}.katex .mfrac .frac-line{border-bottom-style:solid;display:inline-block;width:100%}.katex .hdashline,.katex .hline,.katex .mfrac .frac-line,.katex .overline .overline-line,.katex .rule,.katex .underline .underline-line{min-height:1px}.katex .mspace{display:inline-block}.katex .clap,.katex .llap,.katex .rlap{position:relative;width:0}.katex .clap>.inner,.katex .llap>.inner,.katex .rlap>.inner{position:absolute}.katex .clap>.fix,.katex .llap>.fix,.katex .rlap>.fix{display:inline-block}.katex .llap>.inner{right:0}.katex .clap>.inner,.katex .rlap>.inner{left:0}.katex .clap>.inner>span{margin-left:-50%;margin-right:50%}.katex .rule{border:0 solid;display:inline-block;position:relative}.katex .hline,.katex .overline .overline-line,.katex .underline .underline-line{border-bottom-style:solid;display:inline-block;width:100%}.katex .hdashline{border-bottom-style:dashed;display:inline-block;width:100%}.katex .sqrt>.root{margin-left:.27777778em;margin-right:-.55555556em}.katex .fontsize-ensurer.reset-size1.size1,.katex .sizing.reset-size1.size1{font-size:1em}.katex .fontsize-ensurer.reset-size1.size2,.katex .sizing.reset-size1.size2{font-size:1.2em}.katex .fontsize-ensurer.reset-size1.size3,.katex .sizing.reset-size1.size3{font-size:1.4em}.katex .fontsize-ensurer.reset-size1.size4,.katex .sizing.reset-size1.size4{font-size:1.6em}.katex .fontsize-ensurer.reset-size1.size5,.katex .sizing.reset-size1.size5{font-size:1.8em}.katex .fontsize-ensurer.reset-size1.size6,.katex .sizing.reset-size1.size6{font-size:2em}.katex .fontsize-ensurer.reset-size1.size7,.katex .sizing.reset-size1.size7{font-size:2.4em}.katex .fontsize-ensurer.reset-size1.size8,.katex .sizing.reset-size1.size8{font-size:2.88em}.katex .fontsize-ensurer.reset-size1.size9,.katex .sizing.reset-size1.size9{font-size:3.456em}.katex .fontsize-ensurer.reset-size1.size10,.katex .sizing.reset-size1.size10{font-size:4.148em}.katex .fontsize-ensurer.reset-size1.size11,.katex .sizing.reset-size1.size11{font-size:4.976em}.katex .fontsize-ensurer.reset-size2.size1,.katex .sizing.reset-size2.size1{font-size:.83333333em}.katex .fontsize-ensurer.reset-size2.size2,.katex .sizing.reset-size2.size2{font-size:1em}.katex .fontsize-ensurer.reset-size2.size3,.katex .sizing.reset-size2.size3{font-size:1.16666667em}.katex .fontsize-ensurer.reset-size2.size4,.katex .sizing.reset-size2.size4{font-size:1.33333333em}.katex .fontsize-ensurer.reset-size2.size5,.katex .sizing.reset-size2.size5{font-size:1.5em}.katex .fontsize-ensurer.reset-size2.size6,.katex .sizing.reset-size2.size6{font-size:1.66666667em}.katex .fontsize-ensurer.reset-size2.size7,.katex .sizing.reset-size2.size7{font-size:2em}.katex .fontsize-ensurer.reset-size2.size8,.katex .sizing.reset-size2.size8{font-size:2.4em}.katex .fontsize-ensurer.reset-size2.size9,.katex .sizing.reset-size2.size9{font-size:2.88em}.katex .fontsize-ensurer.reset-size2.size10,.katex .sizing.reset-size2.size10{font-size:3.45666667em}.katex .fontsize-ensurer.reset-size2.size11,.katex .sizing.reset-size2.size11{font-size:4.14666667em}.katex .fontsize-ensurer.reset-size3.size1,.katex .sizing.reset-size3.size1{font-size:.71428571em}.katex .fontsize-ensurer.reset-size3.size2,.katex .sizing.reset-size3.size2{font-size:.85714286em}.katex .fontsize-ensurer.reset-size3.size3,.katex .sizing.reset-size3.size3{font-size:1em}.katex .fontsize-ensurer.reset-size3.size4,.katex .sizing.reset-size3.size4{font-size:1.14285714em}.katex .fontsize-ensurer.reset-size3.size5,.katex .sizing.reset-size3.size5{font-size:1.28571429em}.katex .fontsize-ensurer.reset-size3.size6,.katex .sizing.reset-size3.size6{font-size:1.42857143em}.katex .fontsize-ensurer.reset-size3.size7,.katex .sizing.reset-size3.size7{font-size:1.71428571em}.katex .fontsize-ensurer.reset-size3.size8,.katex .sizing.reset-size3.size8{font-size:2.05714286em}.katex .fontsize-ensurer.reset-size3.size9,.katex .sizing.reset-size3.size9{font-size:2.46857143em}.katex .fontsize-ensurer.reset-size3.size10,.katex .sizing.reset-size3.size10{font-size:2.96285714em}.katex .fontsize-ensurer.reset-size3.size11,.katex .sizing.reset-size3.size11{font-size:3.55428571em}.katex .fontsize-ensurer.reset-size4.size1,.katex .sizing.reset-size4.size1{font-size:.625em}.katex .fontsize-ensurer.reset-size4.size2,.katex .sizing.reset-size4.size2{font-size:.75em}.katex .fontsize-ensurer.reset-size4.size3,.katex .sizing.reset-size4.size3{font-size:.875em}.katex .fontsize-ensurer.reset-size4.size4,.katex .sizing.reset-size4.size4{font-size:1em}.katex .fontsize-ensurer.reset-size4.size5,.katex .sizing.reset-size4.size5{font-size:1.125em}.katex .fontsize-ensurer.reset-size4.size6,.katex .sizing.reset-size4.size6{font-size:1.25em}.katex .fontsize-ensurer.reset-size4.size7,.katex .sizing.reset-size4.size7{font-size:1.5em}.katex .fontsize-ensurer.reset-size4.size8,.katex .sizing.reset-size4.size8{font-size:1.8em}.katex .fontsize-ensurer.reset-size4.size9,.katex .sizing.reset-size4.size9{font-size:2.16em}.katex .fontsize-ensurer.reset-size4.size10,.katex .sizing.reset-size4.size10{font-size:2.5925em}.katex .fontsize-ensurer.reset-size4.size11,.katex .sizing.reset-size4.size11{font-size:3.11em}.katex .fontsize-ensurer.reset-size5.size1,.katex .sizing.reset-size5.size1{font-size:.55555556em}.katex .fontsize-ensurer.reset-size5.size2,.katex .sizing.reset-size5.size2{font-size:.66666667em}.katex .fontsize-ensurer.reset-size5.size3,.katex .sizing.reset-size5.size3{font-size:.77777778em}.katex .fontsize-ensurer.reset-size5.size4,.katex .sizing.reset-size5.size4{font-size:.88888889em}.katex .fontsize-ensurer.reset-size5.size5,.katex .sizing.reset-size5.size5{font-size:1em}.katex .fontsize-ensurer.reset-size5.size6,.katex .sizing.reset-size5.size6{font-size:1.11111111em}.katex .fontsize-ensurer.reset-size5.size7,.katex .sizing.reset-size5.size7{font-size:1.33333333em}.katex .fontsize-ensurer.reset-size5.size8,.katex .sizing.reset-size5.size8{font-size:1.6em}.katex .fontsize-ensurer.reset-size5.size9,.katex .sizing.reset-size5.size9{font-size:1.92em}.katex .fontsize-ensurer.reset-size5.size10,.katex .sizing.reset-size5.size10{font-size:2.30444444em}.katex .fontsize-ensurer.reset-size5.size11,.katex .sizing.reset-size5.size11{font-size:2.76444444em}.katex .fontsize-ensurer.reset-size6.size1,.katex .sizing.reset-size6.size1{font-size:.5em}.katex .fontsize-ensurer.reset-size6.size2,.katex .sizing.reset-size6.size2{font-size:.6em}.katex .fontsize-ensurer.reset-size6.size3,.katex .sizing.reset-size6.size3{font-size:.7em}.katex .fontsize-ensurer.reset-size6.size4,.katex .sizing.reset-size6.size4{font-size:.8em}.katex .fontsize-ensurer.reset-size6.size5,.katex .sizing.reset-size6.size5{font-size:.9em}.katex .fontsize-ensurer.reset-size6.size6,.katex .sizing.reset-size6.size6{font-size:1em}.katex .fontsize-ensurer.reset-size6.size7,.katex .sizing.reset-size6.size7{font-size:1.2em}.katex .fontsize-ensurer.reset-size6.size8,.katex .sizing.reset-size6.size8{font-size:1.44em}.katex .fontsize-ensurer.reset-size6.size9,.katex .sizing.reset-size6.size9{font-size:1.728em}.katex .fontsize-ensurer.reset-size6.size10,.katex .sizing.reset-size6.size10{font-size:2.074em}.katex .fontsize-ensurer.reset-size6.size11,.katex .sizing.reset-size6.size11{font-size:2.488em}.katex .fontsize-ensurer.reset-size7.size1,.katex .sizing.reset-size7.size1{font-size:.41666667em}.katex .fontsize-ensurer.reset-size7.size2,.katex .sizing.reset-size7.size2{font-size:.5em}.katex .fontsize-ensurer.reset-size7.size3,.katex .sizing.reset-size7.size3{font-size:.58333333em}.katex .fontsize-ensurer.reset-size7.size4,.katex .sizing.reset-size7.size4{font-size:.66666667em}.katex .fontsize-ensurer.reset-size7.size5,.katex .sizing.reset-size7.size5{font-size:.75em}.katex .fontsize-ensurer.reset-size7.size6,.katex .sizing.reset-size7.size6{font-size:.83333333em}.katex .fontsize-ensurer.reset-size7.size7,.katex .sizing.reset-size7.size7{font-size:1em}.katex .fontsize-ensurer.reset-size7.size8,.katex .sizing.reset-size7.size8{font-size:1.2em}.katex .fontsize-ensurer.reset-size7.size9,.katex .sizing.reset-size7.size9{font-size:1.44em}.katex .fontsize-ensurer.reset-size7.size10,.katex .sizing.reset-size7.size10{font-size:1.72833333em}.katex .fontsize-ensurer.reset-size7.size11,.katex .sizing.reset-size7.size11{font-size:2.07333333em}.katex .fontsize-ensurer.reset-size8.size1,.katex .sizing.reset-size8.size1{font-size:.34722222em}.katex .fontsize-ensurer.reset-size8.size2,.katex .sizing.reset-size8.size2{font-size:.41666667em}.katex .fontsize-ensurer.reset-size8.size3,.katex .sizing.reset-size8.size3{font-size:.48611111em}.katex .fontsize-ensurer.reset-size8.size4,.katex .sizing.reset-size8.size4{font-size:.55555556em}.katex .fontsize-ensurer.reset-size8.size5,.katex .sizing.reset-size8.size5{font-size:.625em}.katex .fontsize-ensurer.reset-size8.size6,.katex .sizing.reset-size8.size6{font-size:.69444444em}.katex .fontsize-ensurer.reset-size8.size7,.katex .sizing.reset-size8.size7{font-size:.83333333em}.katex .fontsize-ensurer.reset-size8.size8,.katex .sizing.reset-size8.size8{font-size:1em}.katex .fontsize-ensurer.reset-size8.size9,.katex .sizing.reset-size8.size9{font-size:1.2em}.katex .fontsize-ensurer.reset-size8.size10,.katex .sizing.reset-size8.size10{font-size:1.44027778em}.katex .fontsize-ensurer.reset-size8.size11,.katex .sizing.reset-size8.size11{font-size:1.72777778em}.katex .fontsize-ensurer.reset-size9.size1,.katex .sizing.reset-size9.size1{font-size:.28935185em}.katex .fontsize-ensurer.reset-size9.size2,.katex .sizing.reset-size9.size2{font-size:.34722222em}.katex .fontsize-ensurer.reset-size9.size3,.katex .sizing.reset-size9.size3{font-size:.40509259em}.katex .fontsize-ensurer.reset-size9.size4,.katex .sizing.reset-size9.size4{font-size:.46296296em}.katex .fontsize-ensurer.reset-size9.size5,.katex .sizing.reset-size9.size5{font-size:.52083333em}.katex .fontsize-ensurer.reset-size9.size6,.katex .sizing.reset-size9.size6{font-size:.5787037em}.katex .fontsize-ensurer.reset-size9.size7,.katex .sizing.reset-size9.size7{font-size:.69444444em}.katex .fontsize-ensurer.reset-size9.size8,.katex .sizing.reset-size9.size8{font-size:.83333333em}.katex .fontsize-ensurer.reset-size9.size9,.katex .sizing.reset-size9.size9{font-size:1em}.katex .fontsize-ensurer.reset-size9.size10,.katex .sizing.reset-size9.size10{font-size:1.20023148em}.katex .fontsize-ensurer.reset-size9.size11,.katex .sizing.reset-size9.size11{font-size:1.43981481em}.katex .fontsize-ensurer.reset-size10.size1,.katex .sizing.reset-size10.size1{font-size:.24108004em}.katex .fontsize-ensurer.reset-size10.size2,.katex .sizing.reset-size10.size2{font-size:.28929605em}.katex .fontsize-ensurer.reset-size10.size3,.katex .sizing.reset-size10.size3{font-size:.33751205em}.katex .fontsize-ensurer.reset-size10.size4,.katex .sizing.reset-size10.size4{font-size:.38572806em}.katex .fontsize-ensurer.reset-size10.size5,.katex .sizing.reset-size10.size5{font-size:.43394407em}.katex .fontsize-ensurer.reset-size10.size6,.katex .sizing.reset-size10.size6{font-size:.48216008em}.katex .fontsize-ensurer.reset-size10.size7,.katex .sizing.reset-size10.size7{font-size:.57859209em}.katex .fontsize-ensurer.reset-size10.size8,.katex .sizing.reset-size10.size8{font-size:.69431051em}.katex .fontsize-ensurer.reset-size10.size9,.katex .sizing.reset-size10.size9{font-size:.83317261em}.katex .fontsize-ensurer.reset-size10.size10,.katex .sizing.reset-size10.size10{font-size:1em}.katex .fontsize-ensurer.reset-size10.size11,.katex .sizing.reset-size10.size11{font-size:1.19961427em}.katex .fontsize-ensurer.reset-size11.size1,.katex .sizing.reset-size11.size1{font-size:.20096463em}.katex .fontsize-ensurer.reset-size11.size2,.katex .sizing.reset-size11.size2{font-size:.24115756em}.katex .fontsize-ensurer.reset-size11.size3,.katex .sizing.reset-size11.size3{font-size:.28135048em}.katex .fontsize-ensurer.reset-size11.size4,.katex .sizing.reset-size11.size4{font-size:.32154341em}.katex .fontsize-ensurer.reset-size11.size5,.katex .sizing.reset-size11.size5{font-size:.36173633em}.katex .fontsize-ensurer.reset-size11.size6,.katex .sizing.reset-size11.size6{font-size:.40192926em}.katex .fontsize-ensurer.reset-size11.size7,.katex .sizing.reset-size11.size7{font-size:.48231511em}.katex .fontsize-ensurer.reset-size11.size8,.katex .sizing.reset-size11.size8{font-size:.57877814em}.katex .fontsize-ensurer.reset-size11.size9,.katex .sizing.reset-size11.size9{font-size:.69453376em}.katex .fontsize-ensurer.reset-size11.size10,.katex .sizing.reset-size11.size10{font-size:.83360129em}.katex .fontsize-ensurer.reset-size11.size11,.katex .sizing.reset-size11.size11{font-size:1em}.katex .delimsizing.size1{font-family:KaTeX_Size1}.katex .delimsizing.size2{font-family:KaTeX_Size2}.katex .delimsizing.size3{font-family:KaTeX_Size3}.katex .delimsizing.size4{font-family:KaTeX_Size4}.katex .delimsizing.mult .delim-size1>span{font-family:KaTeX_Size1}.katex .delimsizing.mult .delim-size4>span{font-family:KaTeX_Size4}.katex .nulldelimiter{display:inline-block;width:.12em}.katex .delimcenter,.katex .op-symbol{position:relative}.katex .op-symbol.small-op{font-family:KaTeX_Size1}.katex .op-symbol.large-op{font-family:KaTeX_Size2}.katex .accent>.vlist-t,.katex .op-limits>.vlist-t{text-align:center}.katex .accent .accent-body{position:relative}.katex .accent .accent-body:not(.accent-full){width:0}.katex .overlay{display:block}.katex .mtable .vertical-separator{display:inline-block;min-width:1px}.katex .mtable .arraycolsep{display:inline-block}.katex .mtable .col-align-c>.vlist-t{text-align:center}.katex .mtable .col-align-l>.vlist-t{text-align:left}.katex .mtable .col-align-r>.vlist-t{text-align:right}.katex .svg-align{text-align:left}.katex svg{fill:currentColor;stroke:currentColor;fill-rule:nonzero;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:block;height:inherit;position:absolute;width:100%}.katex svg path{stroke:none}.katex img{border-style:none;max-height:none;max-width:none;min-height:0;min-width:0}.katex .stretchy{display:block;overflow:hidden;position:relative;width:100%}.katex .stretchy:after,.katex .stretchy:before{content:""}.katex .hide-tail{overflow:hidden;position:relative;width:100%}.katex .halfarrow-left{left:0;overflow:hidden;position:absolute;width:50.2%}.katex .halfarrow-right{overflow:hidden;position:absolute;right:0;width:50.2%}.katex .brace-left{left:0;overflow:hidden;position:absolute;width:25.1%}.katex .brace-center{left:25%;overflow:hidden;position:absolute;width:50%}.katex .brace-right{overflow:hidden;position:absolute;right:0;width:25.1%}.katex .x-arrow-pad{padding:0 .5em}.katex .cd-arrow-pad{padding:0 .55556em 0 .27778em}.katex .mover,.katex .munder,.katex .x-arrow{text-align:center}.katex .boxpad{padding:0 .3em}.katex .fbox,.katex .fcolorbox{border:.04em solid;box-sizing:border-box}.katex .cancel-pad{padding:0 .2em}.katex .cancel-lap{margin-left:-.2em;margin-right:-.2em}.katex .sout{border-bottom-style:solid;border-bottom-width:.08em}.katex .angl{border-right:.049em solid;border-top:.049em solid;box-sizing:border-box;margin-right:.03889em}.katex .anglpad{padding:0 .03889em}.katex .eqn-num:before{content:"(" counter(katexEqnNo) ")";counter-increment:katexEqnNo}.katex .mml-eqn-num:before{content:"(" counter(mmlEqnNo) ")";counter-increment:mmlEqnNo}.katex .mtr-glue{width:50%}.katex .cd-vert-arrow{display:inline-block;position:relative}.katex .cd-label-left{display:inline-block;position:absolute;right:calc(50% + .3em);text-align:left}.katex .cd-label-right{display:inline-block;left:calc(50% + .3em);position:absolute;text-align:right}.katex-display{display:block;margin:1em 0;text-align:center}.katex-display>.katex{display:block;text-align:center;white-space:nowrap}.katex-display>.katex>.katex-html{display:block;position:relative}.katex-display>.katex>.katex-html>.tag{position:absolute;right:0}.katex-display.leqno>.katex>.katex-html>.tag{left:0;right:auto}.katex-display.fleqn>.katex{padding-left:2em;text-align:left}body{counter-reset:katexEqnNo mmlEqnNo}
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.katex-error {
+	color: var(--vscode-editorError-foreground);
+}
+
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-dark">
+        <p><img src="file:///d:\CONSOLE\RetroArch\shaders\Mega_Bezel_Packs\megabezel-commodore-pack\res\docs\images\logo_megabezel-commodore.png" alt="TheNamec Mega Bezel Commodore"></p>
+<h1 id="thenamec-mega-bezel--commodore">THENAMEC MEGA BEZEL : COMMODORE</h1>
+<p>All-in-one overlays and preset pack for <strong>Libretro RetroArch</strong> and <strong>HSM Mega Bezel Reflection Shader</strong>.</p>
+<p>Official Links:</p>
+<ul>
+<li><em>RetrogamingPacks Blog</em> <a href="https://retrogamingpacks.blogspot.com">https://retrogamingpacks.blogspot.com</a></li>
+<li><em>Libretro thread</em> <a href="https://forums.libretro.com/t/31523">https://forums.libretro.com/t/31523</a></li>
+<li><em>Facebook Page</em> <a href="https://www.facebook.com/retrogamingpacks">https://www.facebook.com/retrogamingpacks</a></li>
+<li><em>YouTube Channel</em> <a href="https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw">https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw</a></li>
+<li><em>E-mail</em> <a href="mailto:thenamec@hotmail.com">thenamec@hotmail.com</a></li>
+</ul>
+<p>Latest releases:</p>
+<ul>
+<li><em>Blog downloads</em> (<a href="https://retrogamingpacks.blogspot.com/p/downloads.html">https://retrogamingpacks.blogspot.com/p/downloads.html</a>)</li>
+<li><em>GitHub Repository</em> <a href="https://github.com/TheNamec/megabezel-commodore-pack/releases">https://github.com/TheNamec/megabezel-commodore-pack/releases</a></li>
+</ul>
+<blockquote>
+<p>Documentation revision<br>
+<em>October 9th, 2022 - Release Candidate 4.1</em></p>
+</blockquote>
+<hr>
+<h1 id="table-of-contents">TABLE OF CONTENTS</h1>
+<ul>
+<li><a href="#thenamec-mega-bezel--commodore">THENAMEC MEGA BEZEL : COMMODORE</a></li>
+<li><a href="#table-of-contents">TABLE OF CONTENTS</a></li>
+<li><a href="#overview">OVERVIEW</a>
+<ul>
+<li><a href="#a-note-from-thenamec">A NOTE FROM THENAMEC</a></li>
+<li><a href="#whats-in-the-box">WHAT'S IN THE BOX</a></li>
+</ul>
+</li>
+<li><a href="#features">FEATURES</a>
+<ul>
+<li><a href="#original-artworks">ORIGINAL ARTWORKS</a></li>
+<li><a href="#zero-config-presets">ZERO-CONFIG PRESETS</a></li>
+<li><a href="#connect-scenes-with-devices">CONNECT SCENES WITH DEVICES</a></li>
+<li><a href="#preset-flavours">PRESET FLAVOURS</a>
+<ul>
+<li><a href="#mbz-vanilla-flavour">MBZ VANILLA FLAVOUR</a></li>
+<li><a href="#nmc-spiced-flavour">NMC SPICED FLAVOUR</a></li>
+</ul>
+</li>
+<li><a href="#lightning-system">LIGHTNING SYSTEM</a>
+<ul>
+<li><a href="#device-lightning">DEVICE LIGHTNING</a></li>
+<li><a href="#scene-lightning">SCENE LIGHTNING</a></li>
+</ul>
+</li>
+<li><a href="#device-curvature">DEVICE CURVATURE</a></li>
+<li><a href="#device-distance">DEVICE DISTANCE</a></li>
+<li><a href="#device-crt-mask">DEVICE CRT MASK</a></li>
+<li><a href="#device-signalconnection">DEVICE SIGNAL/CONNECTION</a></li>
+<li><a href="#device-color-correction">DEVICE COLOR-CORRECTION</a>
+<ul>
+<li><a href="#temperature-simulation">TEMPERATURE SIMULATION</a></li>
+<li><a href="#monochrome-simulation">MONOCHROME SIMULATION</a></li>
+</ul>
+</li>
+<li><a href="#presets-performance">PRESETS PERFORMANCE</a></li>
+<li><a href="#custom-intro-sequences">CUSTOM INTRO SEQUENCES</a></li>
+</ul>
+</li>
+<li><a href="#quick-start">QUICK START</a>
+<ul>
+<li><a href="#minimum-requirements---very-important">MINIMUM REQUIREMENTS - VERY IMPORTANT</a></li>
+<li><a href="#installation">INSTALLATION</a>
+<ul>
+<li><a href="#step-1-install-retroarch">STEP 1: INSTALL RETROARCH</a></li>
+<li><a href="#step-2-setup-retroarch-for-mega-bezel---very-important">STEP 2: SETUP RETROARCH FOR MEGA BEZEL - VERY IMPORTANT</a></li>
+<li><a href="#step-3-install-mega-bezel-reflection-shader">STEP 3: INSTALL MEGA BEZEL REFLECTION SHADER</a></li>
+<li><a href="#step-4-install-thenamec-mega-bezel-pack">STEP 4: INSTALL THENAMEC MEGA BEZEL PACK</a></li>
+<li><a href="#step-5-optional-setup-finalburn-neo-core">STEP 5: (OPTIONAL) SETUP FINALBURN NEO CORE</a></li>
+<li><a href="#step-6-optional-install-commodore-cores">STEP 6: (OPTIONAL) INSTALL COMMODORE CORES</a></li>
+</ul>
+</li>
+<li><a href="#loading-presets">LOADING PRESETS</a></li>
+</ul>
+</li>
+<li><a href="#customization">CUSTOMIZATION</a>
+<ul>
+<li><a href="#before-you-start---very-important">BEFORE YOU START - VERY IMPORTANT</a></li>
+<li><a href="#customize-via-quick-menu">CUSTOMIZE VIA QUICK MENU</a></li>
+<li><a href="#customize-via-desktop-menu">CUSTOMIZE VIA DESKTOP MENU</a></li>
+<li><a href="#presets-saveload">PRESETS SAVE/LOAD</a>
+<ul>
+<li><a href="#manual-saveload">MANUAL SAVE/LOAD</a></li>
+<li><a href="#core-preset">CORE PRESET</a></li>
+<li><a href="#content-directory-preset">CONTENT DIRECTORY PRESET</a></li>
+<li><a href="#game-preset">GAME PRESET</a></li>
+</ul>
+</li>
+<li><a href="#common-per-game-customizations">COMMON PER-GAME CUSTOMIZATIONS</a>
+<ul>
+<li><a href="#customize-display-scaling-and-positioning">CUSTOMIZE DISPLAY SCALING AND POSITIONING</a></li>
+<li><a href="#fix-overscan--pillar-boxes--black-areas">FIX OVERSCAN / PILLAR BOXES / BLACK AREAS</a></li>
+<li><a href="#scene-lightning-tuning">SCENE LIGHTNING TUNING</a></li>
+</ul>
+</li>
+<li><a href="#zero-config-presets-overrides">ZERO-CONFIG PRESETS OVERRIDES</a>
+<ul>
+<li><a href="#local-overrides">LOCAL OVERRIDES</a></li>
+<li><a href="#global-overrides">GLOBAL OVERRIDES</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#frequently-asked-questions">FREQUENTLY ASKED QUESTIONS</a>
+<ul>
+<li><a href="#q-how-to-installupdateuninstall-thenamec-mega-bezel-packs">Q: How to install/update/uninstall TheNamec Mega Bezel Packs?</a></li>
+<li><a href="#q-vulkan-glcore-direct3d-which-video-driver-is-better">Q: Vulkan, Glcore, Direct3D? Which video driver is better?</a></li>
+<li><a href="#q-will-mega-bezel-reflection-shader-work-on-odroid-raspberry-pi-or---generally-speaking---single-board-computer">Q: Will Mega Bezel Reflection Shader work on ODroid, Raspberry Pi or - generally speaking - Single Board Computer?</a></li>
+<li><a href="#q-will-mega-bezel-reflection-shader-work-on-my-phonetablet">Q: Will Mega Bezel Reflection Shader work on my phone/tablet?</a></li>
+<li><a href="#q-will-mega-bezel-reflection-shader-work-on-xbox-series-xs">Q: Will Mega Bezel Reflection Shader work on Xbox Series X/S?</a></li>
+<li><a href="#q-so-thenamec-overlays-just-work-on-fullhd-1080p-and-ultrahd-2160p-displays-with-169-aspect-ratio">Q: So TheNamec overlays just work on FullHD 1080p and UltraHD 2160p displays with 16:9 aspect ratio?</a></li>
+<li><a href="#q-cant-see-any-preset-in-the-shaders-folder">Q: Can't see any preset in the shaders folder!</a></li>
+<li><a href="#q-everything-looks-stretchy-and-i-see-black-pillar-boxes-on-sides-what-the-hell">Q: Everything looks stretchy and I see black pillar-boxes on sides! What the hell?</a></li>
+<li><a href="#q-is-thenamec-involved-in-mega-bezel-project">Q: Is TheNamec involved in Mega Bezel Project?</a></li>
+<li><a href="#q-what-did-you-use-to-draw-the-artworks">Q: What did you use to draw the artworks?</a></li>
+<li><a href="#q-which-crt-shader-are-presets-based-upon">Q: Which CRT shader are presets based upon?</a></li>
+<li><a href="#q-will-you-improve-thenamec-mega-bezel-commodore-">Q: Will you improve TheNamec Mega Bezel Commodore ?</a></li>
+<li><a href="#q-will-you-ever-expand-beyond-commodore-systems">Q: Will you ever expand beyond Commodore systems?</a></li>
+<li><a href="#q-will-you-ever-accept-requests">Q: Will you ever accept requests?</a></li>
+</ul>
+</li>
+<li><a href="#policies">POLICIES</a>
+<ul>
+<li><a href="#terms-and-conditions">TERMS AND CONDITIONS</a>
+<ul>
+<li><a href="#distribution">DISTRIBUTION</a></li>
+<li><a href="#some-rights-reserved">SOME RIGHTS RESERVED</a></li>
+<li><a href="#revision-clause">REVISION CLAUSE</a></li>
+</ul>
+</li>
+<li><a href="#disclaimer">DISCLAIMER</a>
+<ul>
+<li><a href="#third-party-assets">THIRD-PARTY ASSETS</a></li>
+<li><a href="#trademarks-and-logos">TRADEMARKS AND LOGOS</a></li>
+<li><a href="#limitation-of-liability-clause">LIMITATION OF LIABILITY CLAUSE</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#acknowledgements">ACKNOWLEDGEMENTS</a>
+<ul>
+<li><a href="#mega-bezel-community">MEGA BEZEL COMMUNITY</a></li>
+<li><a href="#crt-gaming-reddit-community">CRT GAMING REDDIT COMMUNITY</a></li>
+<li><a href="#personal-thanksgiving">PERSONAL THANKSGIVING</a></li>
+</ul>
+</li>
+<li><a href="#contacts">CONTACTS</a></li>
+</ul>
+<h1 id="overview">OVERVIEW</h1>
+<h2 id="a-note-from-thenamec">A NOTE FROM THENAMEC</h2>
+<p>Modern emulation evolves relentlessly. As creators, our ambition is to enhance your Retro Gaming experience beyond simple nostalgia, bringing back dormant memories and that familiar “I’ve been there, eons ago” mood.</p>
+<p><strong>TheNamec Mega Bezel Packs</strong> revise the connection between the gamer and the original hardware: <em><strong>gameplay is the king</strong></em> but... when it comes to subtle details, pixels still enchant me.</p>
+<p>I'm an Italian graphic artist and this is my love letter to the games of my youth: an overlays collection tributing Commodore hardware ranging from early '80s to late '90s.</p>
+<h2 id="whats-in-the-box">WHAT'S IN THE BOX</h2>
+<p>SCENES AND BACKGROUNDS</p>
+<ul>
+<li><strong>Commodore Amiga series</strong>: A1000, A500, A500 Plus, A600, A600HD, A1200, A1200Synth, Amiga CD32, CDTV</li>
+<li><strong>Commodore 64 series</strong>: Silver Label, Breadbin, G Series, ALDI, DreanComm</li>
+<li><strong>Commodore VIC20 series</strong>: Golden Label, Mark2, Mark3, VIC-1001</li>
+<li><strong>Commodore 264 Series</strong>: Commodore16</li>
+</ul>
+<p>DEVICES, DISPLAYS, MONITORS, TV</p>
+<ul>
+<li><strong>Commodore Monitors</strong>: C1080, C1201 Monochrome, C1702, C1902, C1084, C1084S-D1, C1084S-D2 CDTV Black</li>
+<li><strong>Consumer CRT TVs</strong>: Philips 21PT3326-V7</li>
+<li><strong>Dynamic Bezels</strong>: Cream, Beige, Black, Dark-Gray</li>
+</ul>
+<p>OTHER PERIPHERALS</p>
+<ul>
+<li><strong>Disk drives</strong>: Internal Chinon FB-354 (A500/600/1200), External A1010 (A1000), External CD1411 (CDTV)</li>
+<li><strong>CD-ROM</strong>: Proprietary MKE  drive (CD32)</li>
+<li><strong>Drive Simulator</strong>: GoTek-like interface, LCD display, multi-floppy, SD-card and USB  (A1200Synth)</li>
+<li><strong>Datassette</strong>: 1530 C2N, 1530 C2N-B (C64, VIC20)</li>
+<li><strong>Datassette</strong>: DC-120 DreanComm (C64 DreanComm)</li>
+<li><strong>Datassette</strong>: 1531 (C264 series)</li>
+</ul>
+<h1 id="features">FEATURES</h1>
+<p>Here's an rundown of what you can expect from TheNamec Mega Bezel Packs.</p>
+<h2 id="original-artworks">ORIGINAL ARTWORKS</h2>
+<p>I personally draw my digital illustrations with a particular care for accessibility, usability and originality of concepts and design, while keeping quality at a professional level.</p>
+<ul>
+<li>Original vector illustrations based on actual hardware, advertising and manuals</li>
+<li>Remixed elements and screen optimization (ever dreamt about integrated data units?)</li>
+<li>FullHD 1080p and UltraHD 2160p resolutions, 16:9 aspect ratio, horizontal</li>
+<li>Adaptive support for ultrawide displays and alternative aspect ratios, including 16:10 and 4:3</li>
+<li>Bicubic sharper resampling from 300dpi to 72dpi for crispy, super-sampling anti-aliased visuals</li>
+</ul>
+<p>Special &quot;visual mods&quot; are included to enhance retrogaming experience:</p>
+<ul>
+<li><code>DATASSETTE LIGHTBULB</code> incandescent light over your audiocassette</li>
+<li><code>EMBEDDED DATA DEVICE</code> compact, all-in-one design embeds disk drives and datassettes in the chassis</li>
+<li><code>AMIGA 1200SYNTH</code> concept for a futuristic cyberpunk Amiga, equipped with a dark chassis, backlit keyboard, embedded multi-floppy data simulator and optical disk drive</li>
+</ul>
+<p>ℹ️ <em>Note: <code>AMIGA 1200SYNTH</code> is also available in <a href="https://retrogamingpacks.blogspot.com/p/features-fs-uae-amiga-themes.html"><strong>TheNamec FS-UAE Themes</strong></a> pack for FS-UAE emulator, sporting some unique features:Blinking LED indicators, Functional multi-floppy data simulator, Disk presence switches, track display, access notification, Audio indicator, Basic curvature and scanlines postprocessing effects.</em></p>
+<h2 id="zero-config-presets">ZERO-CONFIG PRESETS</h2>
+<p><strong>TheNamec Mega Bezel Packs</strong> vision is to <em><strong>&quot;make enhanced retrogaming accessible to everyone&quot;</strong></em>.</p>
+<p><code>PRESETS</code> fuse many elements to expose the full potential of enhanced retrogaming: artworks for scene and devices, lightning, CRT shader post-processing are just some examples of what's roaring under the hood. A huge effort was invested in designing thousands of <strong>ready-to-go presets that require no user-side setup</strong>.</p>
+<p>The preset catalogue makes you choose the components of your scene step-by-step:</p>
+<ol>
+<li>You choose your <code>SCENE</code> or background</li>
+<li>You add a <code>DEVICE</code> being a Monitor, a TV, or a Dynamic Bezel</li>
+<li>You select a <code>SHADER</code> to determine simulated CRT characteristics and effects (i.e. sharp, soft, smooth)</li>
+<li>Finally set <code>PREFERENCES</code>, down to your personal gaming habits:</li>
+</ol>
+<pre><code><code><div>&gt; 💭 How distant would you (ideally) sit from simulated device?
+</div></code></code></pre>
+<pre><code><code><div>&gt; 💭 Would you like your device to have a flat or curved tube? 
+</div></code></code></pre>
+<pre><code><code><div>&gt; 💭 Is it a &quot;daily&quot; or &quot;nightly&quot; lit scene? 
+</div></code></code></pre>
+<p>Combination of these few elements alone determines a <strong>terrific share of possibilities</strong> for you to explore.</p>
+<h2 id="connect-scenes-with-devices">CONNECT SCENES WITH DEVICES</h2>
+<p>In <strong>TheNamec Mega Bezel Commodore</strong> each scene can be &quot;connected&quot; to each Monitor, TV and Dynamic Bezel available in the preset catalogue, building up incredible variety. Gotta test 'em all to find your perfect combo!</p>
+<p>The concept came from IRL Commodore hardware being widely cross-platform compatible, meaning you can mix devices and systems spanning over 20 years of manufacturing.</p>
+<p>ℹ️ <em>Note: In the days I used a C1084 monitor on Amiga 500, while lots of people used it as an high-end monitor for Commodore64. Nowadays C1702 Monitor is considered among &quot;holy grails&quot; of CRT gaming and can be connected to lots of gaming consoles via S-Video split Luma/Chroma inputs. Commodore was beyond!</em></p>
+<h2 id="preset-flavours">PRESET FLAVOURS</h2>
+<p><code>PRESET FLAVOURS</code> enhance pixel visuals and take care of aging art styles like vectors and low-res illustrations. <strong>TheNamec Mega Bezel Commodore</strong> includes two presets kits:</p>
+<ul>
+<li><code>MBZ VANILLA FLAVOURS</code> for HyperSpaceMadness default Mega Bezel Reflection Shader flavours</li>
+<li><code>NMC SPICED FLAVOURS</code> for TheNamec enhanced flavours with additional visual layers</li>
+</ul>
+<p>Each kit comes with its own variants split in two main families:</p>
+<ul>
+<li><code>SHARP</code> for a modern take on a clear &quot;pixel-art&quot; with visible pixels</li>
+<li><code>SOFT</code> for a more genuine smoothness, as probably meant by original artists working on original hardware.</li>
+</ul>
+<h3 id="mbz-vanilla-flavour">MBZ VANILLA FLAVOUR</h3>
+<hr>
+<p>The kit defaults to the same experience included in Mega Bezel Reflection Shader base presets by HyperSpaceMadness: an ideal, near to perfect bright and clean CRT focused on gameplay.</p>
+<p>Visual layers are disabled, meaning you will get  visuals with no <code>CRT MASK</code>, <code>SIGNAL/CONNECTION</code>, <code>COLOR-CORRECTION</code> and <code>LIGHTNING</code> simulations.</p>
+<table>
+<thead>
+<tr>
+<th>Preset flavour</th>
+<th style="text-align:center">Base Shader</th>
+<th style="text-align:center">Mask</th>
+<th style="text-align:center">Signal</th>
+<th style="text-align:center">Color</th>
+<th style="text-align:center">Lightning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MBZ SHARP ADVANCED</code></td>
+<td style="text-align:center">mbz_1_adv_gdv</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">VANILLA</td>
+</tr>
+<tr>
+<td><code>MBZ SHARP LCD-GRID</code></td>
+<td style="text-align:center">mbz_1_adv_lcd-grid</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">VANILLA</td>
+</tr>
+<tr>
+<td><code>MBZ SHARP POTATO</code></td>
+<td style="text-align:center">mbz_5_potato_gdv</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">VANILLA</td>
+</tr>
+<tr>
+<td><code>MBZ SHARP SMOOTH ADVANCED</code></td>
+<td style="text-align:center">mbz_0_smooth-adv_gdv</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">VANILLA</td>
+</tr>
+<tr>
+<td><code>MBZ SHARP STANDARD</code></td>
+<td style="text-align:center">mbz_3_std_gdv</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">VANILLA</td>
+</tr>
+<tr>
+<td><code>MBZ SOFT NTSC ADVANCED</code></td>
+<td style="text-align:center">mbz_1_adv_gdv-ntsc</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NTSC</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">VANILLA</td>
+</tr>
+<tr>
+<td><code>MBZ SOFT NTSC POTATO</code></td>
+<td style="text-align:center">mbz_5_potato_gdv-ntsc</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NTSC</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">VANILLA</td>
+</tr>
+<tr>
+<td><code>MBZ SOFT NTSC SMOOTH ADVANCED</code></td>
+<td style="text-align:center">mbz_0_smooth-adv_gdv-ntsc</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NTSC</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">VANILLA</td>
+</tr>
+<tr>
+<td><code>MBZ SOFT NTSC STANDARD</code></td>
+<td style="text-align:center">mbz_3_std_gdv-ntsc</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">NTSC</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">VANILLA</td>
+</tr>
+</tbody>
+</table>
+<p>ℹ️ <em>Note: Monochrome devices will stay color-corrected on MBZ VANILLA FLAVOUR presets. NTSC vanilla presets may apply a custom CRT-MASK.</em></p>
+<h3 id="nmc-spiced-flavour">NMC SPICED FLAVOUR</h3>
+<hr>
+<p>This is where things get hot 'n spicy. This kit enables visual layers with advanced <code>CRT MASK</code>, <code>SIGNAL/CONNECTION</code>, <code>COLOR-CORRECTION</code> and <code>LIGHTNING</code> simulations. It's a rad change that introduces lots of effects, resulting in &quot;realistic-like&quot; visuals and lots of additional elements both on-screen and off-screen. It may take a couple of minutes for you to absorb the sensory overload!</p>
+<table>
+<thead>
+<tr>
+<th>Preset flavour</th>
+<th style="text-align:center">Base Shader</th>
+<th style="text-align:center">Mask</th>
+<th style="text-align:center">Signal</th>
+<th style="text-align:center">Color</th>
+<th style="text-align:center">Lightning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NMC SHARP RGB</code></td>
+<td style="text-align:center">mbz_1_adv_gdv</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">RGB</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+<tr>
+<td><code>NMC SHARP S-VIDEO</code></td>
+<td style="text-align:center">mbz_1_adv_gdv-ntsc</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">S-VIDEO</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+<tr>
+<td><code>NMC SHARP SMOOTH SCALEFX</code></td>
+<td style="text-align:center">mbz_0_smooth-adv_gdv</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">RGB</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+<tr>
+<td><code>NMC SOFT COMPOSITE</code></td>
+<td style="text-align:center">mbz_1_adv_gdv-ntsc</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">COMPOSITE</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+<tr>
+<td><code>NMC SOFT RGB</code></td>
+<td style="text-align:center">mbz_1_adv_gdv</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">RGB+GTU</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+<tr>
+<td><code>NMC SOFT RGB SMOOTH</code></td>
+<td style="text-align:center">mbz_0_smooth-adv_gdv</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">RGB+GTU</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+<tr>
+<td><code>NMC SOFT SMOOTH SUPER-XBR</code></td>
+<td style="text-align:center">mbz_1_adv_super-xbr_gdv</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+<tr>
+<td><code>NMC SOFT UPSCALE DREZ 480p</code></td>
+<td style="text-align:center">mbz_1_adv_drez-480p_gdv</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+<tr>
+<td><code>NMC SOFT VECTOR</code></td>
+<td style="text-align:center">mbz_vector-horizontal_std</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">NO</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+<tr>
+<td><code>NMC SOFT WORN-OUT</code></td>
+<td style="text-align:center">mbz_1_adv_gdv-ntsc</td>
+<td style="text-align:center">YES</td>
+<td style="text-align:center">RF-MOD</td>
+<td style="text-align:center">WARM</td>
+<td style="text-align:center">ADVANCED</td>
+</tr>
+</tbody>
+</table>
+<p>Spiced presets focus on signal/connection simulation:</p>
+<ul>
+<li><code>NMC SHARP RGB</code> top quality for computer monitors, idealistic crystal clear</li>
+<li><code>NMC SHARP S-VIDEO</code> really good quality for consumer TVs connection, minor bleeding</li>
+<li><code>NMC SOFT RGB</code> upper class TVs connection, realistic high definition</li>
+<li><code>NMC SOFT COMPOSITE</code> Standard quality for consumer TVs connection, moderate artifacts</li>
+<li><code>NMC SOFT WORN-OUT</code> simulates RF on Channel 3-4, poor quality, visible artifacts, hum bar. Use with caution, a prolonged exposition will end up damaging your retinas.</li>
+</ul>
+<p>Spiced presets also take care of specific art-style scenarios and may work xharms (or disasters) depending on games art types and core settings:</p>
+<ul>
+<li><code>NMC SHARP SMOOTH SCALEFX</code> produces modern hi-res visuals with real-time filters including: ScaleFX smooth resample, fast sharpen, de-dithering and pseudo-transparencies.</li>
+<li><code>NMC SOFT RGB SMOOTH SUPER-XBR</code> adds real-time filter to enhance 2D visuals. Post-processing produces antialiased 2D game artworks, while maintaining authentic CRT texture and a little graininess.</li>
+<li><code>NMC SOFT UPSCALE DREZ 480p</code> works by rendering games at higher-than-native resolution (core settings) and then downscaling back to 480p to obtain a unique crisp/antialiased image. Best suited for early 3D games and 2D/3D mixing games to better blend muddy textures and ultra-sharp polygons.</li>
+<li><code>NMC SOFT VECTOR</code> is specific for those early wireframe games like Lunar, Asteroids, Star Wars and the entire Vectrex library. Kind of a neon look, with bloom, a subtle low refresh flicker and a visible grid on screen. Gel color profile will inject some life in black/white classics.</li>
+</ul>
+<p>ℹ️ <em>Note: DREZ presets requires cores options set to upper-than-480p resolution. When available use Cores Supersampling option, as it may give better performances and visual quality than DREZ shader.</em></p>
+<p>ℹ️ <em>Note: VECTOR presets performs much nicer with HIGH RESOLUTION or ANTIALIASED geometries. Refer to <a href="#step-5-optional-setup-finalburn-neo-core">setup FinalBurn Neo Core</a> section and to documentation for Cores supporting <strong>internal resolution multiplier</strong> feature.</em></p>
+<h2 id="lightning-system">LIGHTNING SYSTEM</h2>
+<p><strong>TheNamec Mega Bezel Commodore</strong> features advanced lightning to give overlays a superior realistic vibe.  Presets come with day and night variants so you can instantly choose the best solution in a snap. Let your retrogames shine!</p>
+<h3 id="device-lightning">DEVICE LIGHTNING</h3>
+<hr>
+<ul>
+<li><code>TUBE DIFFUSE IMAGE</code> adds a realistic dark grayish image of CRT tube behind actual game pixels instead of flat black</li>
+<li><code>TUBE STATIC REFLECTION IMAGE</code> adds a shine on the tube which imitates reflection from the environment</li>
+<li><code>TUBE SHADOW</code> the prominent bezels cast a shadow on tube from top</li>
+<li><code>CABINET GLASS</code> brings extra details to the tube area, like scratches or reflections</li>
+<li><code>DECAL IMAGE</code> becomes a LED lightmap for device details</li>
+</ul>
+<h3 id="scene-lightning">SCENE LIGHTNING</h3>
+<hr>
+<ul>
+<li><code>DAY LIGHTNING</code> makes you enjoy a full lit room showing all accurately rebuilt graphics details</li>
+<li><code>NIGHT LIGHTNING</code> is easier on your eyes as it simulates a soft, warm lit room</li>
+<li><code>LEDs</code> brings lot of light emitting details particularly visible with soft lights</li>
+</ul>
+<p>ℹ️ <em>Note: <a href="#nmc-spiced-flavour"><code>NMC SPICED FLAVOUR</code> presets</a> enables full lightning system automatically. <a href="#mbz-vanilla-flavour"><code>MBZ VANILLA FLAVOUR</code> presets</a> still have Day/Night alternatives, but without extra fancy effects. The latter will feel easier on your eyes.</em></p>
+<h2 id="device-curvature">DEVICE CURVATURE</h2>
+<p>Modern FLAT device, or classic CURVED shapes? A pretty divisive topic in retrogaming community.</p>
+<p>Curvature brings undeniable magic, but also comes with shortcomings like distortion, moirè fringes, scanlines artifacts, and the infamous rainbow effect. FLAT screens were a much desired and expensive top range solution, but missed that vintage feeling. In the end, everything comes to undisputable personal testes. And everchanging mood.</p>
+<p><code>ZERO-CONFIG PRESETS</code> give you three alternatives:</p>
+<pre><code><code><div>&gt; 💭 Do you like your game having a little spherical distortion and wide reflective bezels?
+</div></code></code></pre>
+<ul>
+<li><code>CURVED</code> simulates the typical barrel/spherical distortion from CRT surface. May introduce artifacts.</li>
+</ul>
+<pre><code><code><div>&gt; 💭 You used to play on a flat screen with no distortion and little to no bezels? 
+</div></code></code></pre>
+<ul>
+<li><code>FLAT</code> straightens things out like modern panels, making pixels perfectly orthogonal. No artifacts at all.</li>
+</ul>
+<pre><code><code><div>&gt; 💭 You'd like to have no distortion, yet keep wide bezels with reflections?
+</div></code></code></pre>
+<ul>
+<li><code>FAUX-CURVED</code> mixes curved bezels and wide reflections with plain projection. A win-win balance of vintage and modern gaming.</li>
+</ul>
+<h2 id="device-distance">DEVICE DISTANCE</h2>
+<p>Retrogaming Packs come with zero-config presets for you to enjoy the most comfortable framing: textures layers logic will automatically take care of resizing for the best gaming experience.</p>
+<p><code>ZERO-CONFIG PRESETS</code> give you three alternatives:</p>
+<pre><code><code><div>&gt; 💭 Do you like playing with your nose touching the display, yet you'd like to see a little device?
+</div></code></code></pre>
+<ul>
+<li><code>NEAR</code> is a hand-tuned sweet spot between gaming area and a zoomed-in display. Ideal solution for casual gaming.</li>
+</ul>
+<pre><code><code><div>&gt; 💭 Are you a 'coach gamer' who likes to see the scene from far, fully modeled with details?
+</div></code></code></pre>
+<ul>
+<li><code>FULL DEVICE</code> trades a smaller gaming area for a beautiful simulated gaming setup. Best for nostalgic people.</li>
+</ul>
+<pre><code><code><div>&gt; 💭 You'd like to have biggest possible gaming area with clearest pixels?
+</div></code></code></pre>
+<ul>
+<li><code>INTEGER SCALING</code> automatically adjust zoom to get native pixels and zero artifacts. Suitable for purists.</li>
+</ul>
+<h2 id="device-crt-mask">DEVICE CRT MASK</h2>
+<p>What's a <code>CRT MASK</code>, you say? In real life color CRT displays used a metallic plate with tiny holes to &quot;mask&quot; phosphor cells, making them an easier target for Red, Blue and Green electron cannons. This produced sharper and cleaner images, at expense of a minor loss in brightness. Tiny holes (shadow-mask) where later followed by rectangular openings (slot-masks) and vertical wires (aperture-grille) resulting in ever increasing brightness and clarity.</p>
+<p><strong>TheNamec Mega Bezel Commodore</strong> includes four <code>CRT MASK</code> visual layers:</p>
+<pre><code><code><div>&gt; 💭 Do you like high quality Trinitron, DiamondTron and SonicTron series visuals?
+</div></code></code></pre>
+<ul>
+<li><code>APERTURE-GRILLE</code>: <a href="https://en.wikipedia.org/wiki/Aperture_grille">vertical phosphor stripes</a> top quality brightness and sharpness</li>
+</ul>
+<pre><code><code><div>&gt; 💭 Do you like classic arcade displays and consumer CRT TVs visuals?
+</div></code></code></pre>
+<ul>
+<li><code>SLOT-MASK</code>: staggered grid of red, green and blue phosphors used on most consumer displays</li>
+</ul>
+<pre><code><code><div>&gt; 💭 Do you like elder CRT TVs visuals with poor brightness?
+</div></code></code></pre>
+<ul>
+<li><code>SHADOW-MASK</code>: <a href="https://en.wikipedia.org/wiki/Shadow_mask">red, green and a blue phosphor &quot;dots&quot; arranged in a triad</a></li>
+</ul>
+<pre><code><code><div>&gt; 💭 Do you like old tube glass with visible thick surface and no CRT masking?
+</div></code></code></pre>
+<ul>
+<li><code>PLASMA</code> <a href="https://en.wikipedia.org/wiki/Monochrome_monitor">subtle pattern of monochrome phosphor cells</a>, a pretty unique experience</li>
+</ul>
+<p><code>CRT MASK</code> visual layer respects real life counterparts:</p>
+<table>
+<thead>
+<tr>
+<th>Device model</th>
+<th style="text-align:center">CRT Mask</th>
+<th style="text-align:center">Profile</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Commodore C1080</td>
+<td style="text-align:center"><code>SLOT-MASK</code></td>
+<td style="text-align:center">Commodore</td>
+</tr>
+<tr>
+<td>Commodore C1201</td>
+<td style="text-align:center"><code>PLASMA</code></td>
+<td style="text-align:center">Monochrome amber</td>
+</tr>
+<tr>
+<td>Commodore C1702</td>
+<td style="text-align:center"><code>SLOT-MASK</code></td>
+<td style="text-align:center">Commodore</td>
+</tr>
+<tr>
+<td>Commodore C1902</td>
+<td style="text-align:center"><code>SLOT-MASK</code></td>
+<td style="text-align:center">Commodore</td>
+</tr>
+<tr>
+<td>Commodore C1084</td>
+<td style="text-align:center"><code>SLOT-MASK</code></td>
+<td style="text-align:center">Commodore</td>
+</tr>
+<tr>
+<td>Commodore C1084S-D1</td>
+<td style="text-align:center"><code>SLOT-MASK</code></td>
+<td style="text-align:center">Commodore</td>
+</tr>
+<tr>
+<td>Commodore C1084S-D2</td>
+<td style="text-align:center"><code>SLOT-MASK</code></td>
+<td style="text-align:center">Commodore</td>
+</tr>
+<tr>
+<td>Philips 21PT3326-V7</td>
+<td style="text-align:center"><code>SLOT-MASK</code></td>
+<td style="text-align:center">Consumer</td>
+</tr>
+<tr>
+<td>Dynamic Bezels</td>
+<td style="text-align:center"><code>APERTURE GRILLE</code></td>
+<td style="text-align:center">-</td>
+</tr>
+</tbody>
+</table>
+<p>ℹ️ <em>Note: <a href="#nmc-spiced-flavour"><code>NMC SPICED FLAVOUR</code> presets</a> include <code>CRT MASK</code> visual layer. <a href="#mbz-vanilla-flavour"><code>MBZ VANILLA FLAVOUR</code> presets</a> bypass it.</em></p>
+<h2 id="device-signalconnection">DEVICE SIGNAL/CONNECTION</h2>
+<p>In real life connection between system and display really has a dramatic impact on visual quality: think of all the RGB mods, transcoders and expensive cables we bought to bump up A/V fidelity and reduce interferences.</p>
+<p><strong>TheNamec Mega Bezel Commodore</strong> includes five visual layers for <code>SIGNAL/CONNECTION</code>:</p>
+<ul>
+<li><code>GTU</code>: Gaussian-kernel TV Upscaler simulating blur, bleeding effects and color levels.</li>
+<li><code>RGB/COMPONENT/SCART</code>: Best quality connection, sharp and crisp image</li>
+<li><code>S-VIDEO/YC</code>: Good quality connection, clean image</li>
+<li><code>COMPOSITE/CVBS</code>: Low quality connection, some interferences</li>
+<li><code>RF-MODULATOR/CHANNEL3-4</code>: Worst quality connection, subtle hum-bar and noise</li>
+</ul>
+<p>ℹ️ <em>Note: <a href="#nmc-spiced-flavour"><code>NMC SPICED FLAVOUR</code> presets</a> include <code>SIGNAL/CONNECTION</code> visual layer. <a href="#mbz-vanilla-flavour"><code>MBZ VANILLA FLAVOUR</code> presets</a> bypass it.</em></p>
+<h2 id="device-color-correction">DEVICE COLOR-CORRECTION</h2>
+<p>Maybe I will (not) shock you: <em><strong>we've been emulating games with totally wrong colors for years</strong></em>. Modern LCD/OLED use a LEDs matrix to produce ultra-bright, super-vivid, sometimes over-saturated colors. Old CRTs used cannons to shoot electrons at a phosphor-coated glass screen. Are colors reproduced by such abysmal different technologies the same? Nope. Not at all. Not even similar.</p>
+<p>Is Super Mario Bros sky so violet? Nope, it's blue. Are Sonic brick tiles in Green Hill Zone so orange? Nope again, they're brown. Eyeball original hardware for further proofs and bear in mind some facts:</p>
+<ul>
+<li>Artists originally used professional CRT displays to color videogames graphics</li>
+<li>Videogame graphics were designed to be reproduced on consumer CRT displays</li>
+<li>Europe, USA and Japan used to have non-standardized settings for color temperatures</li>
+<li>Each CRT display behavior changes according to settings, age and hours of activity</li>
+</ul>
+<p>Well, colors are discrete as they're coded in games. Problem is they are not &quot;compensated&quot; by CRT screen. Real-time color-correction to the rescue!</p>
+<h3 id="temperature-simulation">TEMPERATURE SIMULATION</h3>
+<hr>
+<p><strong>TheNamec Mega Bezel Commodore</strong> gives you two choices for white point balancing:</p>
+<pre><code><code><div>&gt; 💭 Do you like to play NTSC-U and PAL games with vivid colors?
+</div></code></code></pre>
+<ul>
+<li><code>TEMPERATURE WARM 6500k</code>: best suited for NTSC-U and PAL countries, white point shifted towards reds, saturated colors</li>
+</ul>
+<pre><code><code><div>&gt; 💭 Do you prefer those obscure NTSC-J only games or want to improve contrast and black depth?
+</div></code></code></pre>
+<ul>
+<li><code>TEMPERATURE COLD 9300k</code>: best suited for NTSC-J countries, white point shifted towards blues, adds a slightly glacial mood</li>
+</ul>
+<p>You can configure <a href="#global-overrides">global overrides</a> to switch all presets to <code>TEMPERATURE COLD 9300k</code> or even totally disable color-correction without having to edit one-by-one.</p>
+<p>ℹ️ <em>Note: all of <a href="#nmc-spiced-flavour"><code>NMC SPICED FLAVOUR</code> presets</a> default to <code>TEMPERATURE WARM 6500k</code> visual layer. <a href="#mbz-vanilla-flavour"><code>MBZ VANILLA FLAVOUR</code> presets</a> bypass color-correction.</em></p>
+<h3 id="monochrome-simulation">MONOCHROME SIMULATION</h3>
+<hr>
+<p>My infamous <a href="https://retrogamingpacks.blogspot.com/2021/09/simulating-monochrome-experience.html">Monochrome Experience quest</a> led to <a href="https://forums.libretro.com/t/new-crt-shader-from-guest-crt-guest-advanced-updates/25444/1518?u=thenamec">almighty Guest.R building a <code>LUMA CONVERSION</code> feature</a> to share some love to firstborn CRTs. <strong>TheNamec Mega Bezel Commodore</strong> includes <em><strong>Commodore C1201</strong></em>, a monochromatic monitor with amber phosphors, and additional switchable profiles:</p>
+<pre><code><code><div>&gt; 💭 Do you want to enjoy one-color gaming like you did on your IBM/Apple/Tandy/Nixdorf monitor or black and white TV?
+</div></code></code></pre>
+<ul>
+<li><code>MONOCHROME AMBER</code>: P3 phosphor, light-orange tinting</li>
+<li><code>MONOCHROME BLACK&amp;WHITE</code>: P4 phosphor, classic gray shades</li>
+<li><code>MONOCHROME GREEN</code>: P1 phosphor, Matrix terminal. <em><strong>Knock, Knock, Neo.</strong></em></li>
+<li><code>MONOCHROME AQUA</code>: P2 phosphor, oscilloscope blue-green tinting</li>
+<li><code>MONOCHROME BLOOD</code>: Virtual Boy edgy red tinting</li>
+</ul>
+<p>ℹ️ <em>Note: <code>MONOCHROME</code> profiles are automatically applied accordingly to device model. You can experiment with additional profiles by customizing presets vwith <a href="#local-overrides">local overrides</a>.</em></p>
+<h2 id="presets-performance">PRESETS PERFORMANCE</h2>
+<p>Mega Bezel is optimized for a nice and consistent performance across SMOOTH-ADVANCED, ADVANCED or STANDARD presets. Nonetheless, POTATO provides accessibility for less powerful machines.</p>
+<p>Here's a quick rundown of base shaders involved in <strong>TheNamec Mega Bezel Commodore</strong>:</p>
+<ul>
+<li><code>ADVANCED (ADV)</code> is a full customizable experience with modular layouts for display scaling and positioning, glass reflections and ambient lightning. This is the way to go to have customization flexibility and performance, with high visual quality and unaltered original artworks</li>
+<li><code>STANDARD (STD)</code> is a faster alternative to ADVANCED and includes CRT postprocessing effects like color grading and display scaling/positioning personalization</li>
+<li><code>POTATO (POT)</code> is an insanely performing overlay solution with easy-go CRT masking based on lighter shaders</li>
+</ul>
+<pre><code><code><div>&gt; 💭 Is the preset you like too heavy for your rig?
+</div></code></code></pre>
+<ul>
+<li>Try toggling unwanted features and save your custom simple-presets</li>
+<li>Just go for a POTATO preset, despite the naming it's incredibly tasty!</li>
+</ul>
+<h2 id="custom-intro-sequences">CUSTOM INTRO SEQUENCES</h2>
+<p>Animated intro sequences will literally turn your device on while game is booting, full with old-school statics and a custom logo paired with each scene for a better immersion in retrogaming mood.</p>
+<p>ℹ️ <em>Note: YOU MUST use RetroArch auto-loading methods to see custom intro sequences, please refer to the <a href="#loading-presets">loading presets</a> section.</em></p>
+<h1 id="quick-start">QUICK START</h1>
+<p><strong>TheNamec Mega Bezel Packs</strong> are designed to be easy to pick up for RetroArch newcomers or veterans.</p>
+<p>Follow the step-by-step <a href="#installation">installation</a> instructions for a trouble-less quick start.</p>
+<p>⚠️ <em>Please, please, PLEASE carefully read <a href="#requirements---very-important-please-read">requirements</a>, <a href="#step-2-setup-retroarch-for-mega-bezel">before you start</a> and <a href="#frequently-asked-questions">frequently asked questions</a> sections before asking for support.</em></p>
+<h2 id="minimum-requirements---very-important">MINIMUM REQUIREMENTS - VERY IMPORTANT</h2>
+<p>To enjoy <strong>TheNamec Mega Bezel Packs</strong> you MUST have:</p>
+<ul>
+<li><a href="https://www.retroarch.com/?page=platforms"><strong>RetroArch v1.11.0</strong></a></li>
+<li><a href="https://github.com/HyperspaceMadness/Mega_Bezel/releases"><strong>HSM Mega Bezel V_1.4.2_2022-09-27</strong></a></li>
+</ul>
+<h2 id="installation">INSTALLATION</h2>
+<h3 id="step-1-install-retroarch">STEP 1: INSTALL RETROARCH</h3>
+<hr>
+<blockquote>
+<ol>
+<li>Install latest RetroArch<br>
+-&gt; Download from <a href="https://www.retroarch.com/?page=platforms">RetroArch official site</a><br>
+-&gt; Install according to your Operative System</li>
+</ol>
+</blockquote>
+<p>ℹ️ *Note: refer to detailed step-by-step instructions from Official Libretro Docs for <a href="https://docs.libretro.com/">Frontend Installation</a> and <a href="https://docs.libretro.com/guides/download-cores/">Cores Installation</a>.</p>
+<h3 id="step-2-setup-retroarch-for-mega-bezel---very-important">STEP 2: SETUP RETROARCH FOR MEGA BEZEL - VERY IMPORTANT</h3>
+<hr>
+<p>IMPORTANT: these settings are required for Mega Bezel to work correctly.</p>
+<p>Do this BEFORE loading your content</p>
+<blockquote>
+<ol>
+<li><em><strong>Configure video driver</strong></em><br>
+Launch RetroArch<br>
+Go to <code>Main Menu / Settings / Video / Output</code><br>
+-&gt; Set <code>Video</code> to <code>Vulkan</code> (best performance) or <code>GLCore</code> (if Vulkan is not available)</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Enable advanced settings</strong></em><br>
+Go to <code>Main Menu / Settings / User Interface</code><br>
+-&gt; Set <code>Show Advanced Settings</code> to <code>ON</code></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li><em><strong>Configure video scaling</strong></em><br>
+Go to <code>Main Menu / Settings / Video / Scaling</code><br>
+-&gt; Set <code>Integer Scale</code> to <code>OFF</code><br>
+-&gt; Set <code>Aspect Ratio</code> to <code>FULL</code></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="4">
+<li><em><strong>Configure video rotation</strong></em><br>
+Go to <code>Main Menu / Settings / Video / Output</code><br>
+-&gt; Set <code>Video Rotation</code> to <code>NORMAL</code></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="5">
+<li><em><strong>Enable save config changes and restart</strong></em><br>
+Go to <code>Main Menu / Settings / Config</code><br>
+-&gt; Set <code>Save config on exit</code> to <code>ON</code><br>
+Go to <code>Main Menu</code><br>
+-&gt; Do <code>Restart RetroArch</code></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="6">
+<li><em><strong>After restart, disable save config changes</strong></em><br>
+Go to <code>Main Menu / Settings / Config</code><br>
+-&gt; Set <code>Save config on exit</code> to <code>OFF</code></li>
+</ol>
+</blockquote>
+<h3 id="step-3-install-mega-bezel-reflection-shader">STEP 3: INSTALL MEGA BEZEL REFLECTION SHADER</h3>
+<hr>
+<p>Mega Bezel Reflection Shader should come already bundled in <code>Retroarch/shaders/shaders_slang/bezel/Mega_Bezel</code>.</p>
+<p>If you can't find it or desire to update to latest version, there are different methods to get it: Online Updater, Manual Installing and GitHub Cloning.</p>
+<p>ONLINE UPDATER (Easy)<br>
+This is a fast and very easy way to install/update stable Mega Bezel releases from inside RetroArch</p>
+<blockquote>
+<ol>
+<li><em><strong>Update via RetroArch Online Updater</strong></em><br>
+Launch RetroArch<br>
+Go to <code>Main Menu / Online Updater</code><br>
+-&gt; Do <code>Update Slang shaders</code><br>
+Wait for downloading... You'll get a notification when complete.<br>
+You're done!</li>
+</ol>
+</blockquote>
+<p>MANUAL INSTALLING (Intermediate)<br>
+This is an alternative way to install/update stable Mega Bezel releases via .ZIP archive</p>
+<blockquote>
+<ol>
+<li><em><strong>Get latest release</strong></em><br>
+Download from <a href="https://github.com/HyperspaceMadness/Mega_Bezel/releases">Mega Bezel GitHub Repo</a></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Setup folders</strong></em><br>
+Navigate to <code>Retroarch/shaders/shaders_slang/</code> folder<br>
+-&gt; If <code>bezel</code> folder is missing create it manually</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li><em><strong>Install shader</strong></em>
+Navigate to <code>Retroarch/shaders/shaders_slang/bezel/</code> folder<br>
+-&gt; Copy <code>Mega_Bezel</code> folder from the downloaded .ZIP archive<br>
+-&gt; Check final path to the Mega bezel being <code>Retroarch/shaders/shaders_slang/bezel/Mega_Bezel</code><br>
+You're done!</li>
+</ol>
+</blockquote>
+<p>GITHUB CLONING (Advanced)<br>
+This is a power-users method to install/update Mega Bezel development code via creating a local clone of Mega Bezel GitHub Repo. Remember Development code may be unstable/untested.</p>
+<blockquote>
+<ol>
+<li><em><strong>Get and install GitHub Desktop latest release</strong></em><br>
+Download from <a href="https://desktop.github.com/">GitHub Desktop official site</a><br>
+Install using default settings</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Setup folders</strong></em><br>
+Navigate to <code>Retroarch/shaders/shaders_slang/</code> folder<br>
+-&gt; If <code>bezel</code> folder is missing create it manually<br>
+Navigate to <code>Retroarch/shaders/shaders_slang/bezel/</code> folder<br>
+-&gt; If <code>Mega_Bezel</code> folder is missing create it manually<br>
+Navigate to <code>Retroarch/shaders/shaders_slang/bezel/Mega_Bezel</code> folder<br>
+-&gt; Verify <code>Mega_Bezel</code> folder to be empty (required for cloning)</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li><em><strong>Install via GitHub Desktop</strong></em><br>
+Run GitHub Desktop<br>
+Open <code>File / Clone repository...</code><br>
+Go to <code>URL</code> tab (rightest one)<br>
+-&gt; In <code>URL or username/repository</code> input <code>HyperspaceMadness/Mega_Bezel</code><br>
+-&gt; In <code>Local path</code> do <strong>choose...</strong> and find your path to <code>RetroArch\shaders\shaders_slang\bezel\Mega_Bezel</code><br>
+-&gt; Do <code>CLONE</code><br>
+Wait for downloading to complete...<br>
+You're done!</li>
+</ol>
+</blockquote>
+<p>For later updates straight from of Mega Bezel GitHub Repo</p>
+<blockquote>
+<ol start="4">
+<li><em><strong>Update via GitHub Desktop</strong></em><br>
+Run GitHub Desktop<br>
+Open <code>Current Repository</code> dropdown (top right)<br>
+-&gt; Choose <code>Mega_Bezel</code><br>
+-&gt; Do <code>Fetch Origin</code><br>
+Wait for downloading to complete...<br>
+You're done!</li>
+</ol>
+</blockquote>
+<h3 id="step-4-install-thenamec-mega-bezel-pack">STEP 4: INSTALL THENAMEC MEGA BEZEL PACK</h3>
+<hr>
+<p>There are two methods to get TheNamec Mega Bezel Packs: Manual Updating and GitHub Cloning.</p>
+<p>MANUAL INSTALLING (Intermediate)
+This is the ordinary way to install/update stable TheNamec Mega Bezel Packs releases via .ZIP file</p>
+<blockquote>
+<ol>
+<li><em><strong>Get latest release</strong></em><br>
+Download from <a href="https://retrogamingpacks.blogspot.com/p/downloads.html">TheNamec Retropacks Blog</a><br>
+(Direct) Download from <a href="https://github.com/TheNamec/megabezel-commodore-pack/releases">TheNamec GitHub Repo</a></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Setup folders</strong></em><br>
+Navigate to <code>Retroarch/shaders/</code> folder<br>
+If <code>Mega_Bezel_Packs</code> folder is missing create it manually</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li><em><strong>Install pack</strong></em><br>
+Navigate to <code>Retroarch/shaders/Mega_Bezel_Packs</code> folder<br>
+Copy <code>TheNamec-Commodore</code>folder from the downloaded .ZIP archive<br>
+Check final path to the Mega bezel being <code>Retroarch/shaders/Mega_Bezel_Packs/TheNamec-Commodore</code><br>
+You're done!</li>
+</ol>
+</blockquote>
+<p>GITHUB CLONING (Advanced)<br>
+This is a power-users method to install/update TheNamec Mega Bezel Packs via creating local clones of TheNamec GitHub Repos</p>
+<blockquote>
+<ol>
+<li><em><strong>Get and install GitHub Desktop latest release</strong></em><br>
+Download from <a href="https://desktop.github.com/">GitHub Desktop official site</a><br>
+Install using default settings</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Setup folders</strong></em><br>
+Navigate to <code>Retroarch/shaders/</code> folder<br>
+-&gt; If <code>Mega_Bezel_Packs</code> folder is missing create it manually<br>
+Navigate to <code>Retroarch/shaders/Mega_Bezel_Packs</code> folder<br>
+-&gt; If <code>TheNamec-Commodore</code> folder is missing create it manually<br>
+Navigate to <code>Retroarch/shaders/Mega_Bezel_Packs/TheNamec-Commodore</code> folder<br>
+-&gt; Verify <code>TheNamec-Commodore</code> folder to be empty (required for cloning)</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li><em><strong>Install via GitHub Desktop</strong></em><br>
+Run GitHub Desktop<br>
+Open <code>File / Clone repository...</code><br>
+Go to <code>URL</code> tab (rightest one)<br>
+-&gt; In <code>URL or username/repository</code> input <code>TheNamec/megabezel-commodore-pack</code><br>
+-&gt; In <code>Local path</code> do <strong>choose...</strong> and find your path to <code>Retroarch/shaders/Mega_Bezel_Packs/TheNamec-Commodore</code><br>
+-&gt; Do <code>CLONE</code><br>
+Wait for downloading to complete...<br>
+You're done!</li>
+</ol>
+</blockquote>
+<p>For later updates straight from of TheNamec GitHub Repos</p>
+<blockquote>
+<ol start="4">
+<li><em><strong>Update via GitHub Desktop</strong></em><br>
+Run GitHub Desktop<br>
+Open <code>Current Repository</code> dropdown (top right)<br>
+-&gt; Choose <code>megabezel-commodore-pack</code><br>
+-&gt; Do <code>Fetch Origin</code><br>
+Wait for downloading to complete...<br>
+You're done!</li>
+</ol>
+</blockquote>
+<p>UNINSTALL THENAMEC MEGA BEZEL PACK</p>
+<blockquote>
+<p><em><strong>Uninstall pack</strong></em><br>
+Navigate to <code>RetroArch/shaders/Mega_Bezel_Packs/</code><br>
+-&gt; Delete <code>TheNamec-Commodore</code> folder</p>
+</blockquote>
+<h3 id="step-5-optional-setup-finalburn-neo-core">STEP 5: (OPTIONAL) SETUP FINALBURN NEO CORE</h3>
+<hr>
+<p>FinalBurn Neo core (arcade) needs special settings to work with Mega Bezels.</p>
+<p>Do this BEFORE loading your content</p>
+<blockquote>
+<ol>
+<li><em><strong>Configure RetroArch options</strong></em><br>
+Go to <code>Main Menu / Settings / Core</code><br>
+-&gt; Set <code>Allow Rotation</code> to <code>OFF</code></li>
+</ol>
+</blockquote>
+<p>Do this AFTER loading your content</p>
+<blockquote>
+<ol start="2">
+<li><em><strong>Configure FinalBurn Neo core options</strong></em><br>
+Go to <code>Quick Menu / Core Options</code><br>
+-&gt; Set <code>Vertical mode</code> to <code>OFF</code></li>
+</ol>
+</blockquote>
+<p>If your game is VERTICAL</p>
+<blockquote>
+<ol start="2">
+<li><em><strong>Configure Mega Bezel shader options</strong></em><br>
+Go to <code>Quick Menu / Shaders / Shader Parameters</code><br>
+-&gt; Set <code>Rotate CRT Tube</code> to <code>1</code></li>
+</ol>
+</blockquote>
+<p>If you game is UPSIDE-DOWN</p>
+<blockquote>
+<ol start="3">
+<li><em><strong>Configure Mega Bezel shader options</strong></em><br>
+Go to <code>Quick Menu / Shaders / Shader Parameters</code><br>
+-&gt; Set <code>Flip Core Image Vertical</code> to <code>1</code><br>
+-&gt; Set <code>Flip Core Image Horizontal</code> to <code>1</code></li>
+</ol>
+</blockquote>
+<p>If your game is VECTOR or WIREFRANE</p>
+<blockquote>
+<ol start="2">
+<li><em><strong>Configure Core High Resolution output</strong></em><br>
+Go to <code>Quick Menu / Options / DIP Switches</code><br>
+-&gt; Set <code>Hires Mode</code> to <code>Yes</code></li>
+</ol>
+</blockquote>
+<h3 id="step-6-optional-install-commodore-cores">STEP 6: (OPTIONAL) INSTALL COMMODORE CORES</h3>
+<hr>
+<p>RetroArch plays AMIGA, COMMODORE64 and VIC20 games via <code>cores</code> i.e. emulator plugins.
+Cores installation is easily done from within RetroArch interface.</p>
+<blockquote>
+<ol>
+<li><em><strong>Install cores via Online Updater</strong></em>
+Run RetroArch<br>
+Go to <code>Main menu / Online updater / Core Downloader</code><br>
+-&gt; Select <a href="https://docs.libretro.com/library/puae/#core-options">Commodore - Amiga (PUAE)</a><br>
+-&gt; Select <a href="https://docs.libretro.com/library/vice/#c64-fastaccurate-specific">Commodore - C64 (VICE x64, fast) or Commodore - C64 (VICE x64sc, accurate)</a><br>
+-&gt; Select <a href="https://docs.libretro.com/library/vice/#vic-20-specific">Commodore - VIC-20 (VICE xvic)</a><br>
+Wait for downloading. You will get notifications when complete...<br>
+You're done!</li>
+</ol>
+</blockquote>
+<p>ℹ️ <em>Note: AMIGA emulation requires copyrighted BIOS files with specific MD5 checksums. Please refer to <a href="https://docs.libretro.com/library/puae/#bios">PUAE Core Docs</a> for more info and keep in mind: Google is your friend</em> 🔍</p>
+<p>ℹ️ <em>Note: you can use TheNamec Mega Bezel Packs with any Core, despite mismatching system and overlay. It would be rather sacrilegious to play a Mario Bros game on a Commodore64 setup, isn't it?</em> 👾</p>
+<h2 id="loading-presets">LOADING PRESETS</h2>
+<p>You can easily load a pre-made preset for an hassle-free experience:</p>
+<blockquote>
+<ol>
+<li><em><strong>First run set-and-forget setup</strong></em>
+Run RetroArch
+Load a content<br>
+Go to <code>Quick Menu / Shaders</code>
+-&gt; Set <code>Video Shaders</code> to <code>ON</code>
+-&gt; Set <code>Remember Last Used Shader Directory</code> to <code>ON</code></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Navigate to shader presets</strong></em><br>
+Go to <code>Quick Menu / Shaders / Load...</code><br>
+Navigate to <code>Retroarch/shaders/Mega_Bezel_Packs/TheNamec-Commodore/Presets</code></li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li><em><strong>Choose a <code>Scene folder</code></strong></em><br>
+This configures backdrop image and lights, i.e. Amiga500 with power and drive LEDs.<br>
+Choose your preferred one.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="4">
+<li><em><strong>Choose a <code>Device folder</code></strong></em><br>
+This configures display image and lights, i.e. C1084 Monitor with function LED.<br>
+You can choose from:
+<ul>
+<li>Dynamic bezels, procedurally generated with automatic aspect ratio</li>
+<li>Monitors and TVs, usually locked at standard 1.33 aspect ratio (4:3)</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="5">
+<li><em><strong>Choose a <code>Shader folder</code></strong></em><br>
+This controls games visuals via pixels post-processing.<br>
+You can select:
+<ul>
+<li>MBZ vanilla presets from HyperSpaceMadness, featuring ideal clean visuals</li>
+<li>NMC spiced presets from TheNamec, featuring CRT masks, advanced lightning and color grading</li>
+<li>SHARP presets are clearer and crispier</li>
+<li>SOFT presets are blurrier and smoother</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="6">
+<li><em><strong>Choose a <code>.slangp Preset</code></strong></em><br>
+Each preset combines variations described in the filename itself using tags.
+For further information check the Features section.
+Read tags as follows:
+<ul>
+<li><strong>Screen Curvature</strong>: Curved, Flat, Faux</li>
+<li><strong>Distance from screen</strong>: Near, Full Device, Integer scaling</li>
+<li><strong>Ambient Lightning</strong>: Day, Night</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="7">
+<li><em><strong>Load the preset (finally!)</strong></em><br>
+Select a <code>.slangp</code> preset<br>
+Wait a couple seconds for the preset to load and... bam! You're done.<br>
+Got to <code>Quick Menu / Resume</code><br>
+Enjoy enhanced gaming!</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="8">
+<li><em><strong>Quick switch between presets (in the current folder)</strong></em><br>
+After loading a shader, you can use hotkeys for rapid scanning
+<ul>
+<li><strong>Next preset</strong>: press <code>M</code> key <em>(default settings)</em></li>
+<li><strong>Previous preset</strong>: press <code>N</code> key <em>(default settings)</em></li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<h1 id="customization">CUSTOMIZATION</h1>
+<p>Mega Bezel really is the definitive swiss-knife when it comes to retrogaming experience customization. You can build tailor-made per-game customizations including:</p>
+<ul>
+<li>Fix overscan and centering for each game. Shame on you, lazy PAL/NTSC adaptions!</li>
+<li>Fiddle with display scaling, position and aspect ratio</li>
+<li>Tuning ambient and device lightning</li>
+<li>Invest countless hours in visual configuration (instead of happily gaming)</li>
+</ul>
+<p>Let's discover how to accomplish these step-by-step.</p>
+<h2 id="before-you-start---very-important">BEFORE YOU START - VERY IMPORTANT</h2>
+<p>Shader Presets are combinations of one or more shaders. For simplicity, consider your customization as separate <code>child presets</code> that reference <code>parent presets</code>, the latters being presets included in TheNamec Mega Bezel Packs. This way your customized presets stay really simple, as they contain just the parameters you changed plus a reference to original preset. RetroArch refers to this mechanism as <code>Simple Preset</code> and introduces two critical advantages:</p>
+<ul>
+<li>Keeps <code>parent presets</code> intact (you really want that, to avoid having to reinstall if something goes wrong!)</li>
+<li>Outputs separate <code>child presets</code> for your customizations (way easier to maintain, fewer parameters)</li>
+</ul>
+<p>ℹ️ <em>Note: For further reading on Simple Preset feature, check <a href="https://docs.libretro.com/guides/shaders/#simple-presets">Libretro Official Docs</a>.</em></p>
+<p>⚠️ <em>YOU MUST ENABLE <code>Simple Preset</code> to keep your customizations from destroying original presets.</em> 😰</p>
+<blockquote>
+<ol>
+<li><em><strong>Enable Simple Presets</strong></em><br>
+Go to <code>Quick Menu / Shaders / Save</code><br>
+-&gt; Set <code>Simple Presets</code> to <code>ON</code></li>
+</ol>
+</blockquote>
+<h2 id="customize-via-quick-menu">CUSTOMIZE VIA QUICK MENU</h2>
+<p><code>Quick menu</code> lets you customize via gamepad by increasing/decreasing values for shader parameters. It's ok for trivial changes, but can fell a little slow for complex activities and requires switching between the <code>quick menu</code> and gameplay are to see the changes.</p>
+<p>ℹ️ <em>Note: unless you save your custom settings, you will lose all of them when you close the game or quit RetroArch!</em></p>
+<blockquote>
+<ol>
+<li><em><strong>First run set-and-forget setup</strong></em>
+Launch RetroArch<br>
+Go to <code>Settings / User Interface / Appearance</code><br>
+-&gt; Set <code>Framebuffer Opacity</code> to around <code>0.300</code> (lower values = less opaque UI background)</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Customize shader parameters via Quick Menu</strong></em>
+Load your content<br>
+Go to <code>Quick Menu / Shaders / Shader Parameters / Parameters</code><br>
+-&gt; Adjust settings to your preference</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li><em><strong>Test customized shader parameters in-game</strong></em><br>
+Go to <code>Quick Menu / Resume</code><br>
+-&gt; Enjoy playing or keep customizing</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="4">
+<li><em><strong>Save customized preset</strong></em><br>
+Go to <code>Quick Menu / Shaders / Save</code><br>
+-&gt; Choose one saving option from pane (refer to <a href="#loading-presets">Loading presets</a> section to determine best option)</li>
+</ol>
+</blockquote>
+<h2 id="customize-via-desktop-menu">CUSTOMIZE VIA DESKTOP MENU</h2>
+<p><code>Desktop menu</code> lets you customize shader parameters via sliders and input boxes with mouse and keyboard. You can use side-by-side distinct game window and parameters panel and see the changes in real-time. <code>Desktop Menu</code> is the ideal tool to quickly learn parameters effects and to develop deep customizations.</p>
+<p>ℹ️ <em>Note: unless you save your custom settings, you will lose all of them when you close the game or quit RetroArch!</em></p>
+<blockquote>
+<ol>
+<li><em><strong>First run set-and-forget setup</strong></em><br>
+Launch RetroArch<br>
+Go to <code>Settings / User Interface</code><br>
+-&gt; Set <code>Desktop Menu</code> to <code>ON</code><br>
+Go to <code>Main Menu</code><br>
+-&gt; Do <code>Restart RetroArch</code> (required)</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Launch Desktop Menu</strong></em><br>
+Load your content (you better choose one without time limits 😉)<br>
+-&gt; Press <code>f</code> key to exit full screen (<em><strong>default settings</strong></em>)<br>
+Go to <code>Window</code> pane<br>
+-&gt; Select <code>Toggle Desktop Menu</code><br>
+Desktop Menu window opens up</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="3">
+<li><em><strong>Load shader via Desktop Menu</strong></em><br>
+Go to <code>View</code> pane<br>
+-&gt; Select <code>Shaders</code><br>
+Shaders Panel opens up<br>
+-&gt; Select <code>Load</code> dropdown, choose <code>Load</code> again from pane<br>
+Navigate to the shader you want to customize<br>
+-&gt; Select shader and do <code>Open</code><br>
+Wait for shader to load<br>
+Shader panel gets populated with parameters</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="4">
+<li><em><strong>Customize and live-test shader parameters via Desktop Menu</strong></em><br>
+Arrange <strong>Shader panel</strong> and **RetroArch content <strong>window</strong> side-by-side so you can easily see both<br>
+Adjust settings to your preference using sliders in Shader Panel<br>
+You can see changes updating in real time in RetroArch main window</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="5">
+<li><em><strong>Save customized preset</strong></em><br>
+Go to Shaders Panel<br>
+-&gt; Select <code>Save</code> dropdown
+-&gt; Choose one saving option from pane (refer to <a href="#loading-presets">Loading presets</a> section to determine best option)</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="6">
+<li><em><strong>Close Desktop Menu</strong></em><br>
+Go to <code>File</code> pane in Desktop Menu<br>
+-&gt; Select <code>Exit</code><br>
+Desktop Menu will close.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="7">
+<li><em><strong>Re-enable full screen</strong></em><br>
+Focus RetroArch main window
+-&gt; Press <code>f</code> key to enter full screen (<em><strong>default settings</strong></em>)</li>
+</ol>
+</blockquote>
+<h2 id="presets-saveload">PRESETS SAVE/LOAD</h2>
+<p>RetroArch gives you different choices for automatically loading shaders so you don't have to manually select presets each time you load content. Do some experimentation and find the one that best fits your needs!</p>
+<ul>
+<li><code>GLOBAL PRESETS</code> are automatically applied in any content for any core</li>
+<li><code>CORE PRESETS</code> are applied in any content for that specific core</li>
+<li><code>CONTENT DIRECTORY PRESETS</code> apply to all content in a certain folder</li>
+<li><code>GAME PRESETS</code> apply just to one game</li>
+</ul>
+<p>ℹ️ <em>Note: Content Directory preset and Game Presets are also core specific. For further reading about RetroArch shaders check <a href="https://docs.libretro.com/guides/shaders/">Libretro Official Docs</a>.</em></p>
+<h3 id="manual-saveload">MANUAL SAVE/LOAD</h3>
+<hr>
+<pre><code><code><div>&gt; 💭  Would you like to manually load a preset each time you launch a game?
+</div></code></code></pre>
+<ul>
+<li>PRO 👍
+<ul>
+<li>You are free to load whatever shader preset you like, regardless of game, core or path</li>
+</ul>
+</li>
+<li>CON 👎
+<ul>
+<li>You have to reload the shader preset each time you start a content</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<ol>
+<li><em><strong>Save your preset</strong></em><br>
+Go to <code>Quick Menu / Shaders / Save</code><br>
+-&gt; Select <code>Save Shader preset as...</code><br>
+-&gt; Input a name and confirm<br>
+Preset is saved. You will get a notification.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Load your preset</strong></em><br>
+Go to <code>Quick Menu / Shaders / Load</code><br>
+-&gt; Navigate to your preset folder<br>
+-&gt; Select a preset and confirm to open<br>
+Preset is saved. You will get a notification.</li>
+</ol>
+</blockquote>
+<p>ℹ️ <em>Note: Custom preset are saved in <code>/shaders</code> folder.</em></p>
+<h3 id="core-preset">CORE PRESET</h3>
+<hr>
+<pre><code><code><div>&gt; 💭 Would you like to autoload presets each time you use a specific core (i.e. `PUAE core`)?
+</div></code></code></pre>
+<ul>
+<li>PRO 👍
+<ul>
+<li>RetroArch will load the same preset for all games using a specific core</li>
+</ul>
+</li>
+<li>CON 👎
+<ul>
+<li>You can use ONE graphic pack for each core</li>
+<li>I.e. PUAE Core, you can't have both AMIGA500 and AMIGA1200 presets autoloading</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<ol>
+<li><em><strong>Save your preset</strong></em><br>
+Go to <code>Quick Menu / Shaders / Save</code><br>
+-&gt; Select <code>Save Core preset</code><br>
+Preset is saved. You will get a notification.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Load your preset</strong></em><br>
+Preset is automatically applied when you load content using a specific core.</li>
+</ol>
+</blockquote>
+<p>ℹ️ <em>Note: Custom core presets are saved in <code>/config/CoreName/CoreName.slangp</code>.</em></p>
+<h3 id="content-directory-preset">CONTENT DIRECTORY PRESET</h3>
+<hr>
+<pre><code><code><div>&gt; 💭 Would you like to autoload the same preset for all games from a specific folder (i.e. `roms/Commodore - Amiga`)?
+</div></code></code></pre>
+<ul>
+<li>PRO 👍
+<ul>
+<li>RetroArch will load the same preset for ALL the games in a specific folder.</li>
+<li>Usually this is the sweet spot to associate a different presets on a multi-system core.</li>
+<li>I.e. PUAE core, three distinct folders for Amiga500, Amiga 1200 and Amiga CD32</li>
+</ul>
+</li>
+<li>CON 👎
+<ul>
+<li>You can't have game-specific shader adjustments, i.e. overscan settings</li>
+<li>You have to use separate core presets</li>
+<li>You have to use separate game presets</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<ol>
+<li><em><strong>Save your preset</strong></em><br>
+Go to <code>Quick Menu / Shaders / Save</code><br>
+-&gt; Select <code>Save Content Directory preset</code><br>
+Preset is saved. You will get a notification.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Load your preset</strong></em><br>
+Preset is automatically applied when you load content from a specific folder.</li>
+</ol>
+</blockquote>
+<p>ℹ️ <em>Note: Custom directory preset are saved in <code>/config/CoreName/FolderName.slangp</code>.</em></p>
+<h3 id="game-preset">GAME PRESET</h3>
+<hr>
+<pre><code><code><div>&gt; 💭 Would you like to autoload a specific preset for a single game?
+</div></code></code></pre>
+<ul>
+<li>PRO 👍
+<ul>
+<li>RetroArch will load a specific preset each time you boot a specific game.</li>
+<li>You can tune the shader settings to perfection, including position and overscan, for each game. - You can choose different presets for each game.</li>
+</ul>
+</li>
+<li>CON 👎
+<ul>
+<li>You'll have to do this for every-single-game-you-love.</li>
+<li>Process is boring and time consuming. Yet oddly satisfying.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<ol>
+<li><em><strong>Save your preset</strong></em><br>
+Go to <code>Quick Menu / Shaders / Save</code><br>
+-&gt; Select <code>Game preset</code><br>
+Preset is saved. You will get a notification.</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Load your preset</strong></em><br>
+Preset is automatically applied when you load content from a specific folder.</li>
+</ol>
+</blockquote>
+<p>ℹ️ <em>Note: Custom game preset are saved in the <code>/config/CoreName/GameName.slangp</code>.</em></p>
+<h2 id="common-per-game-customizations">COMMON PER-GAME CUSTOMIZATIONS</h2>
+<p>This section contains some step-by-step examples of some of the most wanted per-game customizations.</p>
+<p>For the sake of brevity I will assume that you have already done these preliminary steps:</p>
+<blockquote>
+<ol start="0">
+<li><em><strong>Before customizing</strong></em><br>
+Launch RetroArch<br>
+Load your content<br>
+Go to <code>Quick Menu / Shaders / Shader Parameters</code></li>
+</ol>
+</blockquote>
+<p>ℹ️ <em>Note: For more information about Mega Bezel parameters, please refer to the HSM Mega Bezel Reflection Shaders documentation.</em></p>
+<h3 id="customize-display-scaling-and-positioning">CUSTOMIZE DISPLAY SCALING AND POSITIONING</h3>
+<hr>
+<p>You can customize device scaling and positioning (not available for POTATO presets)</p>
+<blockquote>
+<ol>
+<li><em><strong>Customize display scaling</strong></em><br>
+Go to <code>SCALING</code> section<br>
+-&gt; Set <code>NON-INTEGER SCALE %</code> to custom value</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Customize display positioning</strong></em><br>
+Go to <code>POSITION OFFSET</code> section<br>
+-&gt; Set <code>POSITION X</code> and <code>POSITION Y</code> to custom value</li>
+</ol>
+</blockquote>
+<h3 id="fix-overscan--pillar-boxes--black-areas">FIX OVERSCAN / PILLAR BOXES / BLACK AREAS</h3>
+<hr>
+<p>I know, I know. You always hated these huge black areas from old games. Consider these as a trick to overcome performance limitations and to do lazy PAL/NTSC conversions. Finally you can trim black areas to pursue your dream of an ideal <em><strong>full screen</strong></em>: content will adapt accordingly in real-time.</p>
+<p>Remember that <em><strong>Monitors/TVs presets</strong></em> are locked to 4:3, so you have to balance aspect ratio to prevent stretching. You will get the best results with <em><strong>Dynamic Bezels presets</strong></em> as they fluidly adapt to content changes and automatically adapt to keep aspect ratio.</p>
+<p>ℹ️ <em>Note: Overscan tuning greatly changes from game to game, a perfect scenario for custom Game Presets.</em></p>
+<blockquote>
+<ol>
+<li><em><strong>Customize overscan</strong></em><br>
+Go to <code>CROPPING</code> section<br>
+-&gt; Set <code>CROP MODE</code> to <code>CROP ANY</code><br>
+-&gt; Set <code>CROP TOP %</code>, <code>CROP BOTTOM %</code>, <code>CROP LEFT %</code> and <code>CROP RIGHT %</code> to cut away pixels</li>
+</ol>
+</blockquote>
+<p>You can tune the lightning level for best contrast between gaming area and backdrop:</p>
+<h3 id="scene-lightning-tuning">SCENE LIGHTNING TUNING</h3>
+<hr>
+<blockquote>
+<ol>
+<li><em><strong>Customize ambient lightning</strong></em><br>
+Go to <code>NIGHT LIGHTNING</code> section<br>
+-&gt; Set <code>OPACITY</code> value to set the amount of darkness</li>
+</ol>
+</blockquote>
+<h2 id="zero-config-presets-overrides">ZERO-CONFIG PRESETS OVERRIDES</h2>
+<h3 id="local-overrides">LOCAL OVERRIDES</h3>
+<hr>
+<p>ZERO-CONFIG PRESETS are modular, meaning you can enable/disable complex features just by editing single lines in the preset without messing with thousands of parameters.</p>
+<p>This comes really hand to configure preset-level scenarios:</p>
+<ul>
+<li>SCENE LIGHTNING: <code>ADVANCED FX</code> (default), <code>VANILLA</code></li>
+<li>DEVICE COLOR-CORRECTION: <code>TEMPERATURE</code> and <code>MONOCHROME</code> profiles</li>
+</ul>
+<p>Customization is rather simple:</p>
+<ul>
+<li>Lines starting with <code>#REFERENCE</code> are enabled</li>
+<li>Lines starting with <code>DOUBLE SLASH</code> before the <code>#REFERENCE</code> are disabled</li>
+</ul>
+<blockquote>
+<ol>
+<li><em><strong>Open PRESET</strong></em><br>
+Navigate to <code>Retroarch/shaders/Mega_Bezel_Packs/TheNamec-Commodore/Presets/Scene/Device/Shader/Preset.slangp</code><br>
+Open <code>Preset.slangp</code> with your favorite text editor</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Customize LOCAL CONFIGURATION</strong></em><br>
+Add/remove 'DOUBLE SLASH' to enable/disable settings<br>
+Further instructions included in <code>preset.slangp</code><br>
+Save when finished.</li>
+</ol>
+</blockquote>
+<p>Other visual layers switches are included FOR TESTING PURPOSE ONLY:</p>
+<ul>
+<li>SCENE BASE modules</li>
+<li>DEVICE SCALING profiles</li>
+<li>DEVICE CURVATURE profiles</li>
+<li>DEVICE CRT MASK profiles</li>
+<li>DEVICE CRT FLAVOUR modules</li>
+</ul>
+<h3 id="global-overrides">GLOBAL OVERRIDES</h3>
+<hr>
+<p><strong>TheNamec Mega Bezel Commodore</strong> introduces a powerful <code>GLOBAL OVERRIDE</code> feature to manage effects across ALL <code>NMC SPICED FLAVOUR</code> presets without having to customize them one by one.</p>
+<p>This comes really handy to configure general settings:</p>
+<ul>
+<li>DEVICE LIGHTNING: <code>TUBE DIFFUSE</code>, <code>TUBE REFLECTION STATIC</code>, <code>TUBE SHADOW</code>, <code>CABINET GLASS</code></li>
+<li>COLOR-CORRECTION: <code>TEMPERATURE WARM</code> (default), <code>TEMPERATURE COLD</code></li>
+</ul>
+<p>Customization is rather simple:</p>
+<ul>
+<li>Lines starting with <code>#REFERENCE</code> are enabled</li>
+<li>Lines starting with <code>DOUBLE SLASH</code> before the <code>#REFERENCE</code> are disabled</li>
+</ul>
+<blockquote>
+<ol>
+<li><em><strong>Open GLOBAL OVERRIDE</strong></em><br>
+Navigate to <code>Retroarch/shaders/Mega_Bezel_Packs/TheNamec-Commodore/res</code><br>
+Open <code>overrides.params</code> with your favorite text editor</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li><em><strong>Customize GLOBAL OVERRIDE</strong></em><br>
+Add/remove 'DOUBLE SLASH' to enable/disable settings<br>
+Further instructions included in <code>overrides.params</code><br>
+Save when finished.</li>
+</ol>
+</blockquote>
+<p>Other visual layers switches are included FOR TESTING PURPOSE ONLY:</p>
+<ul>
+<li>DEVICE ASPECT RATIO: <code>AUTO</code> (default for Dynamic Bezels), <code>EXPLICIT 1.33</code> (default for monitors and TVs), <code>PAR PIXEL ASPECT RATIO</code></li>
+<li>DEVICE CRT MASK profiles</li>
+<li>DEVICE SIGNAL/CONNECTION profiles</li>
+<li>DEVICE COLOR-CORRECTION monochrome profiles</li>
+<li>DEVICE CRT FLAVOUR modules</li>
+</ul>
+<p>⚠️ <em>WARNING. With great power comes great responsibility! Use global overrides carefully to avoid unexpected results. Backup files to avoid having to reinstall the pack.</em> 😰</p>
+<h1 id="frequently-asked-questions">FREQUENTLY ASKED QUESTIONS</h1>
+<h2 id="q-how-to-installupdateuninstall-thenamec-mega-bezel-packs">Q: How to install/update/uninstall TheNamec Mega Bezel Packs?</h2>
+<ul>
+<li>Please follow Quick Start instructions in the <a href="#step-4-install-thenamec-mega-bezel-pack">Install TheNamec Mega Bezel Pack</a> section.</li>
+</ul>
+<h2 id="q-vulkan-glcore-direct3d-which-video-driver-is-better">Q: Vulkan, Glcore, Direct3D? Which video driver is better?</h2>
+<ul>
+<li><code>Vulkan</code> is the king for performance. Full stop.</li>
+<li><code>Glcore</code> may work, but require longer compilation times at start and suffer bad performance.</li>
+<li><code>Direct3D</code> has extreme compilation times. Like... months.</li>
+<li>Really, <code>Vulkan</code> is the way to go. If your device doesn't support it try using <code>Glcore</code>.</li>
+</ul>
+<h2 id="q-will-mega-bezel-reflection-shader-work-on-odroid-raspberry-pi-or---generally-speaking---single-board-computer">Q: Will Mega Bezel Reflection Shader work on ODroid, Raspberry Pi or - generally speaking - Single Board Computer?</h2>
+<ul>
+<li>Not yet. Mega Bezel can be somewhat intensive on CPU/GPU, the lack of supported drivers and computing firepower will inevitably compromise the gaming experience.</li>
+<li>Developer HyperSpaceMadness is constantly improving performance with optimizations like graphics caching and light shaders variants!</li>
+</ul>
+<h2 id="q-will-mega-bezel-reflection-shader-work-on-my-phonetablet">Q: Will Mega Bezel Reflection Shader work on my phone/tablet?</h2>
+<ul>
+<li>Of course, if you have enough computing firepower. And <code>Vulkan</code> support.</li>
+<li>Your last chance are <code>Potato</code> presets!</li>
+</ul>
+<h2 id="q-will-mega-bezel-reflection-shader-work-on-xbox-series-xs">Q: Will Mega Bezel Reflection Shader work on Xbox Series X/S?</h2>
+<ul>
+<li>Not yet because of <code>Direct3D</code> having really poor performance with the shader.</li>
+</ul>
+<h2 id="q-so-thenamec-overlays-just-work-on-fullhd-1080p-and-ultrahd-2160p-displays-with-169-aspect-ratio">Q: So TheNamec overlays just work on FullHD 1080p and UltraHD 2160p displays with 16:9 aspect ratio?</h2>
+<ul>
+<li>Nope. Presets really should work with any host scenario. <strong>Except for vertical/rotated displays</strong>.</li>
+<li>Responsive design adapts to ultrawide and other-than-16:9 displays, including 16:10 and 4:3.</li>
+<li>To me, FullHD and UltraHD are a good balance of file size, performance and image quality.</li>
+<li>Vector artworks are future proof. I can upscale to infinite resolutions... if I only had infinite RAM!</li>
+</ul>
+<h2 id="q-cant-see-any-preset-in-the-shaders-folder">Q: Can't see any preset in the shaders folder!</h2>
+<ul>
+<li>A video driver is compatible with <code>slangp</code> shader format is strictly required.</li>
+<li>Recommended video driver is <code>Vulkan</code>. Use <code>Glcore</code> if your device doesn't support it.</li>
+<li>Be sure to check the <a href="#step-2-setup-retroarch-for-mega-bezel">Setup RetroArch for Mega Bezel</a> section for further info on driver setting.</li>
+</ul>
+<h2 id="q-everything-looks-stretchy-and-i-see-black-pillar-boxes-on-sides-what-the-hell">Q: Everything looks stretchy and I see black pillar-boxes on sides! What the hell?</h2>
+<ul>
+<li>99% of times this is related to missing RetroArch settings:
+<ul>
+<li><a href="#step-2-setup-retroarch-for-mega-bezel">Check RetroArch settings for Mega Bezel</a></li>
+<li><a href="#step-5-optional-setup-finalburn-neo-core">Check FinalBurn Neo settings for Mega Bezel</a></li>
+</ul>
+</li>
+<li>Some other times it's because of out-of-date or incompatible software:
+<ul>
+<li><a href="#requirements---very-important-please-read">Check software requirements</a></li>
+<li><a href="#step-1-install-retroarch">Update RetroArch to latest version</a></li>
+<li><a href="#step-3-install-mega-bezel-reflection-shader">Update Mega Bezel to latest version</a></li>
+<li><a href="#step-3-install-thenamec-mega-bezel-pack">Update TheNamec Mega Bezel Packs to latest version</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="q-is-thenamec-involved-in-mega-bezel-project">Q: Is TheNamec involved in Mega Bezel Project?</h2>
+<ul>
+<li>Yup yup, I'm a proud member of the collective of artists pushing boundaries for better Bezels since 2020!</li>
+<li>Be sure to check my comrades projects, links in <a href="#mega-bezel-community">Mega Bezel Community</a> section.</li>
+</ul>
+<h2 id="q-what-did-you-use-to-draw-the-artworks">Q: What did you use to draw the artworks?</h2>
+<ul>
+<li>A sperimental vector drawing application.</li>
+<li>A beated-up Logitech G502 mouse.</li>
+<li>No fancy graphic tablets were harmed during the process.</li>
+<li>Little to no raster post-production, except for 2160p to 1080p supersampling.</li>
+</ul>
+<h2 id="q-which-crt-shader-are-presets-based-upon">Q: Which CRT shader are presets based upon?</h2>
+<ul>
+<li><code>crt-guest-advanced</code> and NTSC variants from <a href="https://forums.libretro.com/t/25444">Guest.R</a></li>
+<li><code>lcd-grid</code> from CGCW</li>
+</ul>
+<h2 id="q-will-you-improve-thenamec-mega-bezel-commodore-">Q: Will you improve TheNamec Mega Bezel Commodore ?</h2>
+<ul>
+<li>Adding more Amiga, Commodore 64, VIC20 and Commodore 264 series variations and data units 🦾</li>
+<li>I'm pretty torn about pc-looking A1500, A2000, A3000, A4000... I'll take a look at these as soon as I complete the visual shaders overhaul 🤞</li>
+</ul>
+<h2 id="q-will-you-ever-expand-beyond-commodore-systems">Q: Will you ever expand beyond Commodore systems?</h2>
+<ul>
+<li>Search for <strong>TheNamec Mega Bezel CRT GAMING</strong> pack. Pretty nice devices there!</li>
+<li>Free time and motivation really are key elements! 💪</li>
+</ul>
+<h2 id="q-will-you-ever-accept-requests">Q: Will you ever accept requests?</h2>
+<ul>
+<li>Of course, if the subject is interesting in preserving videogaming history.</li>
+<li>Obscure gaming devices are best candidates. Please propose in my <a href="https://forums.libretro.com/t/31523">Libretro thread</a> and add some photos!</li>
+<li>I might not be interested in illustrating ordinary grandma's TV set of your youth. At least, not for free.</li>
+</ul>
+<h1 id="policies">POLICIES</h1>
+<h2 id="terms-and-conditions">TERMS AND CONDITIONS</h2>
+<h3 id="distribution">DISTRIBUTION</h3>
+<hr>
+<p>TheNamec Mega Bezel Packs can be downloaded from the <strong>official website</strong> <a href="https://retrogamingpacks.blogspot.com">https://retrogamingpacks.blogspot.com</a> and <strong>GitHub Repository</strong> <a href="https://github.com/thenamec/megabezel-commodore-pack">https://github.com/thenamec/megabezel-commodore-pack</a>.</p>
+<p>TheNamec Mega Bezel Packs and all its related assets and codes are free for personal use: if you paid for it, you have been scammed. 🤬</p>
+<h3 id="some-rights-reserved">SOME RIGHTS RESERVED</h3>
+<hr>
+<p>All the graphic assets, presets code and documentation from Retrogaming Packs are published under the <code>Attribution-NonCommercial-NoDerivatives 4.0 International Creative Commons license</code> (CC BY-NC-ND 4.0).</p>
+<p>This includes <strong>TheNamec Mega Bezel Commodore</strong>, <strong>TheNamec Mega Bezel CRT Gaming</strong> and <strong>TheNamec FS-UAE Themes</strong> and was a necessary choice to block the use of my (hard) work in derivative projects with no respect for the attribution clause and without even notifying me.</p>
+<p>Extract from 'CC BY-NC-ND 4.0' Commons Deed <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en</a>:</p>
+<blockquote>
+<p>You are free to:</p>
+<ul>
+<li><strong>Share</strong> — copy and redistribute the material in any medium or format.</li>
+</ul>
+<p>The licensor cannot revoke these freedoms as long as you follow the license terms.</p>
+<p>Under the following terms:</p>
+<ul>
+<li><strong>Attribution</strong> — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>
+<li><strong>NonCommercial</strong> — You may not use the material for commercial purposes.</li>
+<li><strong>NoDerivatives</strong> — If you remix, transform, or build upon the material, you may not distribute the modified material.</li>
+<li><strong>No additional restrictions</strong> — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</li>
+</ul>
+</blockquote>
+<p>For further reading about the 'CC BY-NC-SA 4.0' legal code:
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en">https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en</a></p>
+<h3 id="revision-clause">REVISION CLAUSE</h3>
+<hr>
+<p>The author may at any time revise these Terms and Conditions by updating this documentation. Users are bound by the most current Terms and Conditions every time they visit <strong>official website</strong> <a href="https://retrogamingpacks.blogspot.com/">https://retrogamingpacks.blogspot.com/</a> or <strong>GitHub Repository</strong> <a href="https://github.com/thenamec/megabezel-commodore-pack">https://github.com/thenamec/megabezel-commodore-pack</a>, therefore users should periodically review these Terms and Conditions to which they are bound.</p>
+<h2 id="disclaimer">DISCLAIMER</h2>
+<h3 id="third-party-assets">THIRD-PARTY ASSETS</h3>
+<hr>
+<p>This product includes textures developed by HSM Mega Bezel Reflection Shader.</p>
+<p>This product includes customized shaders from community:</p>
+<ul>
+<li><code>CRT-MASK :: SLOT-MASK COMMODORE</code> is based off 'CRT-A2080-HiResSmartResShader' by Guest.R &amp; Rincewind <a href="https://blog.johnnovak.net/2022/04/15/achieving-period-correct-graphics-in-personal-computer-emulators-part-1-the-amiga/">https://blog.johnnovak.net/2022/04/15/achieving-period-correct-graphics-in-personal-computer-emulators-part-1-the-amiga/</a></li>
+</ul>
+<p>I'd like to thank <em>Unsplash</em> community photographers for providing hi-quality source materials for textures:</p>
+<ul>
+<li>Annie Spratt <a href="https://unsplash.com/@anniespratt">https://unsplash.com/@anniespratt</a></li>
+<li>Bernard Hermant <a href="https://unsplash.com/@bernardhermant">https://unsplash.com/@bernardhermant</a></li>
+<li>Carl Raw <a href="https://unsplash.com/@carltraw">https://unsplash.com/@carltraw</a></li>
+<li>David Jorre <a href="https://unsplash.com/@davidjorre">https://unsplash.com/@davidjorre</a></li>
+<li>Diego Passadori <a href="https://unsplash.com/@dipassadori">https://unsplash.com/@dipassadori</a></li>
+<li>František G. <a href="https://unsplash.com/@fandyus">https://unsplash.com/@fandyus</a></li>
+<li>gryffyn m <a href="https://unsplash.com/@botanicalnature">https://unsplash.com/@botanicalnature</a></li>
+<li>Jason Dent <a href="https://unsplash.com/@jdent">https://unsplash.com/@jdent</a></li>
+<li>jeremy zero <a href="https://unsplash.com/@jeremy0">https://unsplash.com/@jeremy0</a></li>
+<li>Michael Dziedzic <a href="https://unsplash.com/@lazycreekimages">https://unsplash.com/@lazycreekimages</a></li>
+<li>Mitchell Luo <a href="https://unsplash.com/@mitchel3uo">https://unsplash.com/@mitchel3uo</a></li>
+<li>Mockaroon <a href="https://unsplash.com/@mockaroon">https://unsplash.com/@mockaroon</a></li>
+<li>SJ Objío <a href="https://unsplash.com/@sjobjio">https://unsplash.com/@sjobjio</a></li>
+<li>Tina Dawson <a href="https://unsplash.com/@leyameera">https://unsplash.com/@leyameera</a></li>
+</ul>
+<p>Extract from 'Unsplash License' <a href="https://unsplash.com/license">https://unsplash.com/license</a> :</p>
+<blockquote>
+<p>Unsplash photos are made to be used freely. Our license reflects that.</p>
+<ul>
+<li>All photos can be downloaded and used for free</li>
+<li>Commercial and non-commercial purposes</li>
+<li>No permission needed</li>
+</ul>
+</blockquote>
+<h3 id="trademarks-and-logos">TRADEMARKS AND LOGOS</h3>
+<hr>
+<p>All trademarks are included under the concept of 'nominative fair use' for informational, documentary and educational purposes and refer to the trademark owner’s goods and services associated with these marks.</p>
+<p>Commodore brand, including the 'C=', the 'C-flag logo', '64 and rainbow lines logo' and 'VIC20 and VC20 logo alternatives', is a registered trademark owned by Commodore Business Machines LTD.</p>
+<p>Amiga brand, including the 'Amiga 1985 logo', 'Amiga 1996 logo', 'boing ball logo', 'slanted A logo', 'tick logo' and 'Amiga CD32 logo', is a registered trademark owned by Amiga Corporation.</p>
+<p>All other Trademarks and logos or registered Trademarks and logos used or mentioned belong to their respective owners.</p>
+<p>All Trademarks and logos used or mentioned belong to their respective owners.</p>
+<h3 id="limitation-of-liability-clause">LIMITATION OF LIABILITY CLAUSE</h3>
+<hr>
+<p>Under no circumstances will the author be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from your use of or inability to use this software or any websites linked to it.</p>
+<h1 id="acknowledgements">ACKNOWLEDGEMENTS</h1>
+<h2 id="mega-bezel-community">MEGA BEZEL COMMUNITY</h2>
+<p>HyperSpaceMadness <code>Mega Bezel Reflection Shader</code> is an impressive real-time postprocessing framework simulating CRT technology features while mitigating its worst, obsolete defects. The framework integrates tools from Guest.R, CRT-Geom Deluxe, LCD-GRID and has some never-seen-before original features like dynamic procedural bezels, real-time reflections, ambient illumination and the unique GLASS visuals.</p>
+<p>More info on HyperSpaceMadness <code>Mega Bezel Reflection Shader</code> project at <a href="https://megabezel.com/">Official website</a>, <a href="https://github.com/HyperspaceMadness/Mega_Bezel">GitHub Repo</a> and <a href="https://forums.libretro.com/t/25512">Libretro Forums</a>.</p>
+<p>Many artists decided to experiment with Mega Bezel, leading to a creative community with shared ideals and design principles. I'd like to thank my fellows in this pixelated voyage for providing a continuous stream of inspiration, cool ideas and technical knowledge:</p>
+<ul>
+<li><strong>Duimon</strong> made an incredible effort with his <a href="https://forums.libretro.com/t/28146">encyclopedic gaming systems project</a></li>
+<li><strong>Soqueroeu</strong> produces <a href="https://forums.libretro.com/t/34301">console-themed TV Sets</a></li>
+<li><strong>Orionsangel</strong> focuses on <a href="https://forums.libretro.com/t/10604">game-themed arcade cabinets</a></li>
+<li><strong>MajorPainTheCactus</strong>'s Megatron provides <a href="https://forums.libretro.com/t/36109">highly accurate CRT simulations</a></li>
+<li><strong>CyberLab</strong> revived <a href="https://forums.libretro.com/t/35606">Death to Pixels shaders and perfected additional filters</a></li>
+</ul>
+<h2 id="crt-gaming-reddit-community">CRT GAMING REDDIT COMMUNITY</h2>
+<p>Can't recommend <a href="https://www.reddit.com/r/crtgaming/">r/crtgaming subreddit</a> enough to get your feet wet in cathodic tubes applied to retro and modern gaming!</p>
+<p>People from <strong>r/crtgaming</strong> is an precious source of information about CRT tech insights, visual references and detailed photos. They supported development of <strong>TheNamec Mega Bezel CRT Gaming</strong> pack since early days with lots of responsive feedback, suggestions and a stellar device selection to help me find the Holy Grails of CRT Gaming.</p>
+<p>I'd like to kindly thank u/Hudson_bee for providing me high-quality closeups of his JVC DT-V1710.</p>
+<h2 id="personal-thanksgiving">PERSONAL THANKSGIVING</h2>
+<p>I'd like to thank people who supported me in the project:</p>
+<ul>
+<li>My father Rocco, for introducing me in Commodore computers gaming at the age of four</li>
+<li>My girlfriend Sabrina for supporting me in doing something funny, just for fun sake</li>
+<li>HyperSpaceMadness for his impressive shader and near-daily support</li>
+<li>The Mega Bezel Community for setting such excellent design quality standards</li>
+</ul>
+<h1 id="contacts">CONTACTS</h1>
+<p>TheNamec Retrogaming Packs is a fluid project: since the beginning, I tried to add the coolest features that came up to my mind and the requested ones from the retrogaming community.</p>
+<p>Please refer to the project network to share ideas and comments:</p>
+<p>Official Links:</p>
+<ul>
+<li><em>RetrogamingPacks Blog</em> <a href="https://retrogamingpacks.blogspot.com">https://retrogamingpacks.blogspot.com</a></li>
+<li><em>Libretro thread</em> <a href="https://forums.libretro.com/t/31523">https://forums.libretro.com/t/31523</a></li>
+<li><em>Facebook Page</em> <a href="https://www.facebook.com/retrogamingpacks">https://www.facebook.com/retrogamingpacks</a></li>
+<li><em>YouTube Channel</em> <a href="https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw">https://www.youtube.com/channel/UCnnDp1jwiNvSPlzzu2fW6vw</a></li>
+<li><em>E-mail</em> <a href="mailto:thenamec@hotmail.com">thenamec@hotmail.com</a></li>
+</ul>
+<p>Latest releases:</p>
+<ul>
+<li><em>Blog downloads</em> (<a href="https://retrogamingpacks.blogspot.com/p/downloads.html">https://retrogamingpacks.blogspot.com/p/downloads.html</a>)</li>
+<li><em>GitHub Repository</em> <a href="https://github.com/TheNamec/megabezel-commodore-pack/releases">https://github.com/TheNamec/megabezel-commodore-pack/releases</a></li>
+</ul>
+
+        
+        
+    </body>
+    </html>

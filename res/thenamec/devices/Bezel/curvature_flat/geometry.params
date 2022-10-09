@@ -1,0 +1,23 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// GEOMETRY
+//-------------------------------------------------------------
+
+// CURVATURE
+HSM_CURVATURE_MODE = "0.000000"
+
+// FRAME
+HSM_FRM_OUTER_CURVATURE_SCALE = "0.000000"
+
+// REFLECTION (LIGHT BEZEL)
+HSM_REFLECT_GLOBAL_AMOUNT = "60.000000"
+HSM_REFLECT_FADE_AMOUNT = "95.000000"
+
+// CORNER CREASE (GEOMETRY+REFLECTION)
+HSM_REFLECT_CORNER_INNER_SPREAD = "170.000000"
+HSM_REFLECT_CORNER_OUTER_SPREAD = "410.000000"
+HSM_REFLECT_CORNER_ROTATION_OFFSET_TOP = "3.500000"
+HSM_REFLECT_CORNER_ROTATION_OFFSET_BOTTOM = "2.000000"

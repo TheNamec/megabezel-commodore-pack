@@ -1,0 +1,31 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TEXTURE IMAGES
+//-------------------------------------------------------------
+
+// DEVICE IMG | Screen diffuse texture
+DeviceImage = "../assets/device.png"
+
+// DEVICE LED IMG | Screen lightmap texture
+DeviceLEDImage = "../assets/device-led.png"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// DEVICE IMG | Screen diffuse texture
+HSM_DEVICE_EXPLICIT_TEXTURE_ASPECT = "1.051724"
+HSM_DEVICE_SCALE_MODE = "1.000000"
+HSM_DEVICE_SCALE = "128.400000"
+HSM_DEVICE_POS_Y = "-13.000000"
+
+
+// HORIZONTAL SPLIT | Adaptive behaviours
+//-------------------------------------------------------------
+
+// DEVICE/DEVICELED layers adapt to aspect ratio settings
+HSM_DEVICE_SPLIT_PRESERVE_CENTER = "175.000000"
+HSM_DEVICE_SPLIT_REPEAT_WIDTH = "1.000000"

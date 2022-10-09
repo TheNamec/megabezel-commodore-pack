@@ -1,0 +1,12 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: DEVICE :: CRT MASK :: SHADOW-MASK
+// Early technology with red, a green, and a blue phosphor "dots" arranged in a triad
+// Poor brightness and not really good at lower resolutions, introduces artifacts
+// https://en.wikipedia.org/wiki/Shadow_mask
+//-------------------------------------------------------------
+
+#reference "tweaks.params"

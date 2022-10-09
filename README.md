@@ -1,4 +1,4 @@
-![TheNamec Mega Bezel Commodore](https://github.com/TheNamec/megabezel-commodore-pack/blob/main/Res/docs/images/logo_megabezel-commodore.png)
+![TheNamec Mega Bezel Commodore](res/docs/images/logo_megabezel-commodore.png)
 
 THENAMEC MEGA BEZEL : COMMODORE
 ==============================
@@ -17,7 +17,7 @@ Latest releases:
 - *GitHub Repository* <https://github.com/TheNamec/megabezel-commodore-pack/releases>
 
 > Documentation revision  
-> *October 2nd, 2022 - Release Candidate 4*
+> *October 9th, 2022 - Release Candidate 4.1*
 
 -------------------------------------------------------------------------------------
 
@@ -1216,7 +1216,7 @@ DISCLAIMER
 
 This product includes textures developed by HSM Mega Bezel Reflection Shader.
 
-This product includes both original and customized pixel shaders from scene contributors:
+This product includes customized shaders from community:
 - `CRT-MASK :: SLOT-MASK COMMODORE` is based off 'CRT-A2080-HiResSmartResShader' by Guest.R & Rincewind <https://blog.johnnovak.net/2022/04/15/achieving-period-correct-graphics-in-personal-computer-emulators-part-1-the-amiga/>
 
 I'd like to thank *Unsplash* community photographers for providing hi-quality source materials for textures:
@@ -1224,13 +1224,17 @@ I'd like to thank *Unsplash* community photographers for providing hi-quality so
 - Annie Spratt <https://unsplash.com/@anniespratt>
 - Bernard Hermant <https://unsplash.com/@bernardhermant>
 - Carl Raw <https://unsplash.com/@carltraw>
+- David Jorre <https://unsplash.com/@davidjorre>
 - Diego Passadori <https://unsplash.com/@dipassadori>
+- František G. <https://unsplash.com/@fandyus>
 - gryffyn m <https://unsplash.com/@botanicalnature>
+- Jason Dent <https://unsplash.com/@jdent>
 - jeremy zero <https://unsplash.com/@jeremy0>
 - Michael Dziedzic <https://unsplash.com/@lazycreekimages>
 - Mitchell Luo <https://unsplash.com/@mitchel3uo>
 - Mockaroon <https://unsplash.com/@mockaroon>
 - SJ Objío <https://unsplash.com/@sjobjio>
+- Tina Dawson <https://unsplash.com/@leyameera>
   
 Extract from 'Unsplash License' <https://unsplash.com/license> :
 

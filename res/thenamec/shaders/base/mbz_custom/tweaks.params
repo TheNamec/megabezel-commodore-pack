@@ -1,0 +1,14 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TWEAKS
+//-------------------------------------------------------------
+
+// CROP/OVERSCAN RESET
+// Note: Core automatic crop/overscan/centering does a better job
+HSM_CROP_OVERSCAN_TOP = "0.000000"
+HSM_CROP_OVERSCAN_BOTTOM = "0.000000"
+HSM_CROP_OVERSCAN_LEFT = "0.000000"
+HSM_CROP_OVERSCAN_RIGHT = "0.000000"

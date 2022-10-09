@@ -1,0 +1,12 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// GEOMETRY
+//-------------------------------------------------------------
+
+// SCREEN BLACK EDGE
+HSM_TUBE_BLACK_EDGE_CORNER_RADIUS_SCALE = "120.000000"
+HSM_TUBE_BLACK_EDGE_SHARPNESS = "0.000000"
+HSM_TUBE_BLACK_EDGE_THICKNESS = "120.000000"

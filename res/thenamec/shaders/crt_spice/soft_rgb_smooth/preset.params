@@ -1,0 +1,13 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: DEVICE :: CRT :: FLAVOUR :: SOFT COMPONENT SMOOTH
+//
+// Requires SMOOTH-ADV_GDV base shaders
+//-------------------------------------------------------------
+
+#reference "../../crt_cables/component/preset.params" // COMPONENT/RGB/SCART: Best quality connection, sharp and crisp image (GDV+ ONLY)
+#reference "../gtu/sharp/preset.params"
+#reference "tweaks.params"

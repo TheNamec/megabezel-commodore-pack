@@ -1,0 +1,69 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// TEXTURE IMAGES
+//-------------------------------------------------------------
+
+// DEVICE IMG | Screen diffuse texture
+DeviceImage = "../assets/device.png"
+
+// DEVICE LED IMG | Screen lightmap texture
+DeviceLEDImage = "../assets/device-led.png"
+
+// CABINET/GLASS IMG | Glass reflection texture
+CabinetGlassImage = "../assets/cabinet-glass.png"
+
+
+// TEXTURE LAYERS ORDERING
+// Note: quirk to hide frame
+//-------------------------------------------------------------
+//HSM_DEVICE_LAYER_ORDER = "8.000000"
+//HSM_FRM_LAYER_ORDER = "4.000000"
+
+
+// TEXTURE SETTINGS
+//-------------------------------------------------------------
+
+// TUBE STATIC REFLECTION | Ambient/player reflection on tube
+HSM_TUBE_STATIC_REFLECTION_IMAGE_ON = "0.000000" // (0) Off; (1) On;
+HSM_TUBE_STATIC_REFLECTION_IMAGE_OPACITY = "3.500000"
+
+// TUBE DIFFUSE MODE | CRT surface texture
+HSM_TUBE_DIFFUSE_MODE = "0.000000" // (0) Off; (1) Add; (2) Multiply
+HSM_TUBE_DIFFUSE_IMAGE_OPACITY = "100.000000"
+HSM_TUBE_DIFFUSE_IMAGE_BRIGHTNESS = "20.000000"
+HSM_TUBE_DIFFUSE_IMAGE_GAMMA = "1.300000"
+HSM_TUBE_DIFFUSE_IMAGE_AMBIENT_LIGHTING = "80.000000"
+
+// DECAL LED IMG | Screen lightmap texture
+HSM_DEVICELED_MIPMAPPING_BLEND_BIAS = "-1.500000"
+
+// DEVICE IMG | Tube diffuse texture
+HSM_DEVICE_EXPLICIT_TEXTURE_ASPECT = "1.270833"
+HSM_DEVICE_SCALE_MODE = "1.000000"
+HSM_DEVICE_SCALE = "127.000000"
+HSM_DEVICE_POS_Y = "-8.900000"
+HSM_DEVICE_MIPMAPPING_BLEND_BIAS = "-2.000000"
+
+// CABINET/GLASS IMG | Glass reflection texture
+HSM_CAB_GLASS_OPACITY = "100.000000"
+HSM_CAB_GLASS_COLORIZE_ON = "1.000000"
+HSM_CAB_GLASS_HUE = "30.000000"
+HSM_CAB_GLASS_SATURATION = "200.000000"
+HSM_CAB_GLASS_BRIGHTNESS = "200.000000"
+HSM_CAB_GLASS_BLEND_MODE = "0.000000" // (0) Off;  (1) Normal; (2) Add; (3) Multiply
+HSM_CAB_GLASS_MASK_MODE = "3.000000" // (0) All; (1) Screen; (2) Tube; (3) Bezel-; (4) Bezel; (5) Bezel+; (6) Frame; (7) Frame+; (8) Background
+HSM_CAB_GLASS_SCALE_MODE = "4.000000" // (0) Full; (1) Tube; (2) Bezel; (3) Background; (4) Device; (5) Decal
+HSM_CAB_GLASS_POS_Y = "0.000000"
+HSM_CAB_GLASS_APPLY_NIGHTLIGHTING = "1.000000" // Ambient image influences glass
+HSM_CAB_GLASS_MIPMAPPING_BLEND_BIAS = "-0.800000"
+
+
+// HORIZONTAL SPLIT | Adaptive behaviours
+//-------------------------------------------------------------
+
+// DEVICE/DEVICELED/CABINET GLASS layers adapt to aspect ratio settings
+HSM_DEVICE_SPLIT_PRESERVE_CENTER = "66.000000"
+HSM_DEVICE_SPLIT_REPEAT_WIDTH = "1.000000"

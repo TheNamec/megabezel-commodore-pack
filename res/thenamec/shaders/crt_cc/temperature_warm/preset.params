@@ -1,0 +1,11 @@
+// THENAMEC RETROGAMING PACKS FOR LIBRETRO RETROARCH https://retrogamingpacks.blogspot.com | thenamec@hotmail.com
+// SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+// ----------------------------------------------------------------------------------------------------------------
+
+
+// [PRESET] SHADERS :: DEVICE :: CRT COLOR CORRECTION :: TEMPERATURE WARM
+// Realistic CRT colors, shifted towards reds/warm vibes
+// Feels better with NTSC-U and PAL conversions
+//-------------------------------------------------------------
+
+#reference "tweaks.params"
